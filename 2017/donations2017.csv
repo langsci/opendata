@@ -1,11 +1,10 @@
-Donor,amount (EUR)
-A,1000
-B,1000
-C,200
-D,20
-E,20
-F,20
-G,20
-H,20
-
+Donor,amount (EUR),
+A,1000,
+B,1000,
+C,200,
+D,20,
+E,20,
+F,20,
+G,20,
+H,20,
 , , This list is still incomplete
