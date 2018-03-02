@@ -10,9 +10,10 @@ This directory contains the following files:
 
 - `salesCreateSpace2017.csv`: The sales of books via CreateSpace. Quantity and total margins per currency are given. Titles are anonymized for legal reasons, but the code is identical between CreateSpace and BOD.
 
+- `authorfees2017`: Information about the author fees we collected in 2017. Titles are anonymized. The codes do not correspond to the codes used for sales figures.
+
+- `donationss2017`: Information about the donations we received in 2017. Donors are anonymized. The codes do not correspond to the codes used for sales figures or the author fees. This information is still incomplete as of 2018-03-01. 
+
 We have no access statistics for Zenodo, where our books are also hosted. 
 
-In the future, this directory will contain more `csv` files about :
  
-- authors fees
-- donations 
