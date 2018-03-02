@@ -12,7 +12,7 @@ This directory contains the following files:
 
 - `authorfees2017`: Information about the author fees we collected in 2017. Titles are anonymized. The codes do not correspond to the codes used for sales figures.
 
-- `donationss2017`: Information about the donations we received in 2017. Donors are anonymized. The codes do not correspond to the codes used for sales figures or the author fees. This information is still incomplete as of 2018-03-01. 
+- `donations2017`: Information about the donations we received in 2017. Donors are anonymized. The codes do not correspond to the codes used for sales figures or the author fees. This information is still incomplete as of 2018-03-01. 
 
 We have no access statistics for Zenodo, where our books are also hosted. 
 
