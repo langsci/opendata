@@ -7,7 +7,8 @@ This directory contains the following files:
 - `salesCreateSpace2017.csv`: The sales of books via CreateSpace. Quantity and total margin are given. Books are available as hardcover and softcover. Titles are anonymized for legal reasons, but hardcover and softcover have the same code. The code is identical between CreateSpace and BOD.
 
 - `GoogleBooksTrafficReport2017.csv`: Books accessed on GoogleBooks with number of pages viewed. The information about "buys" refers to clicks on the link to the LangSci site, from where the book can be downloaded for free.
-
+ 
+- `OAPENdownloads2017.csv`: Downloads of our titles from the OAPEN platform. Note that the download figures for "A grammar of Pite Saami" are probably an artefact as they are all from Italy, whihch is implausible. Since we have no way to calibrate/correct this, we offer the figures as they are. 
 
 In the future, this directory will contain more `csv` files about :
 
