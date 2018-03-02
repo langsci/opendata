@@ -4,10 +4,10 @@ This directory contains the following files:
 
 - `salesBOD2017.csv`: The sales of books via BoD. Quantity and total margin are given. Books are available as hardcover and softcover. Titles are anonymized for legal reasons, but hardcover and softcover have the same code. 
 
+- `salesCreateSpace2017.csv`: The sales of books via CreateSpace. Quantity and total margin are given. Books are available as hardcover and softcover. Titles are anonymized for legal reasons, but hardcover and softcover have the same code. The code is identical between CreateSpace and BOD.
+
 In the future, this directory will contain more `csv` files about :
 
-- hardcover sales
-- softcover sales
 - GoogleBook views
 - OAPEN views
 - authors fees
