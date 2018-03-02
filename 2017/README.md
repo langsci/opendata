@@ -4,7 +4,7 @@ This directory contains the following files:
 
 - `salesBOD2017.csv`: The sales of books via BoD. Quantity and total margin are given. Books are available as hardcover and softcover. Titles are anonymized for legal reasons, but hardcover and softcover have the same code. 
 
-- `salesCreateSpace2017.csv`: The sales of books via CreateSpace. Quantity and total margin are given. Books are available as hardcover and softcover. Titles are anonymized for legal reasons, but hardcover and softcover have the same code. The code is identical between CreateSpace and BOD.
+- `salesCreateSpace2017.csv`: The sales of books via CreateSpace. Quantity and total margin are given. Titles are anonymized for legal reasons, but the code is identical between CreateSpace and BOD.
 
 - `GoogleBooksTrafficReport2017.csv`: Books accessed on GoogleBooks with number of pages viewed. The information about "buys" refers to clicks on the link to the LangSci site, from where the book can be downloaded for free.
  
