@@ -1,8 +1,11 @@
-\documentclass[output=guidelines]{langscibook}
+\documentclass[output=guidelines,draftmode]{langscibook}
 \title{Business model Language Science Press}
 \author{Sebastian Nordhoff}
 \renewcommand{\lsSeries}{guidelines} 
 \usepackage{langsci-tbls}
+\usepackage{tabularx,multirow}
+\usepackage{langsci-optional}
+
 % \input{langsci-colors.def}
 \newcommand{\background}[1]{ 
   \vspace{5mm}
@@ -165,15 +168,49 @@ In the smaller domain of OA monographs, there are only very few projects across 
 \evaluation{3}
 \othersolutions{4}
  
-\section{2.2. Zielgruppe und Kunden}
+\section{Zielgruppe und Kunden}
 
 \background{1}
-\langscisolution{2}
+\langscisolution{
+For Language Science Press, we can identify four target groups, with different roles. Language Science Press will provide customized services and extras. At the same time, we assume that the groups will also have idealistic motivations and want to instrically support the idea of Open Access. Therefore, material ``benefits'' (e.g. in the form of physical books) are only one part of the ``customers''{}' motivation. 
+
+{\small
+\noindent
+\begin{tabularx}{\textwidth}{l>{\raggedright}Qp{40mm}}
+\lsptoprule
+\textbf{Group} &  \textbf{Customer relation} & \textbf{Services \& extras}\\
+\midrule
+authors &  Optional BPCs & Professional publishing process; OA publication\\
+\midrule
+libraries & purchase of printed copy & High quality printed copies as a complement to free online pdf\\
+\midrule
+\multirow{2}{33mm}{institutions (universities, resesarch centres, funders, learned societies)} & institutional membership& extras and special offers\\
+\tablevspace\cmidrule{2-3}
+& donations & Promotion of the idea of OA\\
+\midrule
+\multirow{3}{33mm}{individuals (researchers, interested citizens, activists)} & purchase of printed copy& High quality printed copies as a complement to free online pdf\\
+\tablevspace\cmidrule{2-3}
+& individual membership & extras and special offers\\
+\tablevspace\cmidrule{2-3}
+& donations & promotion of the idea of OA\\
+\lspbottomrule
+\end{tabularx}
+}
+
+
+Many OA projects list authors as the most important source of revenue. Language Science Press also intends to raise some money from the group of authors since this group profits the most from the increased reach. But the funding landscape is such that authors fees for books are all but non-existent in the funding programs of the relevant funding bodies in Germany and elsewhere. Therefore, any authors fees must be purely optional. Otherwise, there would be the risk that certain authors would be preferred not because of the scientific quality of their books, but because of their willingness to pay.  Platinum OA, as mentioned in the initial grant proposal for the DFG remains a fundamental requirement. There are two options to set this up: either have generally no fees unless an author wants to pay (``pay-what-you-want''), or have general fees with a no-questions-asked-waiver for anybody who feels they cannot afford the fees. Depending on the legal context, one or the other option might prove more promising.
+
+Libraries are mainly relevant as buyers of printed copies. The library budgets should not be overstretched here, hence the printed copies will be provided at a low price. 
+
+As a general principle, funding from a plurality of different institutions (universities, research centres, funders, learned societies, ...) is preferable. If the costs is shared between many funders, chances are that we will see similar projects in the future. This would profit all sides. %TODO extras missing
+
+Scientists, interested laypeople and OA activsits are welcome as indivdual supporters. Some members of this group have already asked how they could support Language Science Press financially, with small but regular contributions. Unrelated to their being affiliated to a research institutions, people can find the idea of OA attractive and are willing to spend some of their money towards this goal. Both memberships as well as one-off donations can thus play a part in the financial success. More important than the financial contribution, however, is the time and energy supportes devote to Language Science Press in writing, reviewing, and proofreading.
+}
 \evaluation{3}
 \othersolutions{4}
 
  
-\section{2.3. Konkurrenz }
+\section{2.3. Competition }
 
 \background{1}
 \langscisolution{2}
@@ -188,16 +225,16 @@ In the smaller domain of OA monographs, there are only very few projects across 
 \othersolutions{4}
  
 
-\section{2.5. Marketing und Vertrieb}
+\section{2.5. Marketing and distribution}
 
 \background{1}
 \langscisolution{2}
 \evaluation{3}
 \othersolutions{4}
 
-\chapter{3. Organisation / Personal}
+\chapter{3. Organisation / Staff}
 
-\section{3.1. Rechtsform}
+\section{3.1. Legal form}
 
 \background{1}
 \langscisolution{2}
@@ -212,7 +249,7 @@ In the smaller domain of OA monographs, there are only very few projects across 
 \evaluation{3}
 \othersolutions{4}
  
-\section{3.3. Kooperationspartner}
+\section{3.3. Partners}
 
 \background{1}
 \langscisolution{2}
@@ -220,7 +257,7 @@ In the smaller domain of OA monographs, there are only very few projects across 
 \othersolutions{4}
  
 
-\section{3.4. Teammitglieder}
+\section{3.4. Team members}
 
 \background{1}
 \langscisolution{2}
@@ -228,9 +265,9 @@ In the smaller domain of OA monographs, there are only very few projects across 
 \othersolutions{4}
  
 
-\chapter{4. Finanzierung}
+\chapter{4. Funding}
 
-\section{4.1. Kostenplanung}
+\section{4.1. Budgeting}
 
 \background{1}
 \langscisolution{2}
@@ -238,7 +275,7 @@ In the smaller domain of OA monographs, there are only very few projects across 
 \othersolutions{4}
   
 
-\section{4.2. Investitionsplan / Kapitalbedarf}
+\section{4.2. Capital budgeting}
 
 \background{1}
 \langscisolution{2}
@@ -246,7 +283,7 @@ In the smaller domain of OA monographs, there are only very few projects across 
 \othersolutions{4}
  
 
-\section{4.3. Preiskalkulation}
+\section{4.3. Pricing}
 
 \background{1}
 \langscisolution{2}
@@ -254,7 +291,7 @@ In the smaller domain of OA monographs, there are only very few projects across 
 \othersolutions{4}
  
 
-\section{4.4. Ertragsvorschau / Rentabilitätsvorschau}
+\section{4.4. Earnings forecast / profitability forecast}
 
 \background{1}
 \langscisolution{2}
@@ -272,35 +309,11 @@ In the smaller domain of OA monographs, there are only very few projects across 
  
 
 \appendix
-\chapter{Anhang 1: Verkauf der Printexemplare}
- 
- 
-
-
-\chapter{Anhang 2: Publikationsgebühren}
-  
-
-
-
-
-
-\chapter{Anhang 3: Institutionelle Mitgliedschaften}
-   
-\chapter{Anhang 4: Fördermitglieder}
-  
-
-
-
-\chapter{Anhang 5: Spenden}
-  
-
-
-
-\chapter{Anhang 6: Ertragsvorschau}
-     
-
-\chapter{Anhang 7: Übersicht Reihen}
-
- 
-
+\chapter{Print sales} 
+\chapter{BPCs}  
+\chapter{Institutional membership} 
+\chapter{Individual membership}  
+\chapter{Donations} 
+\chapter{Earnings forecast}   
+\chapter{Series}
 \end{document}
