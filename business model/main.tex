@@ -1,0 +1,286 @@
+\documentclass[output=guidelines]{langscibook}
+\title{Business model Language Science Press}
+\author{Sebastian Nordhoff}
+\renewcommand{\lsSeries}{guidelines} 
+\usepackage{langsci-tbls}
+% \input{langsci-colors.def}
+\newcommand{\background}[1]{ 
+  \vspace{5mm}
+  \renewcommand{\tblslinecolour}{lsDarkBlue}
+  \tblssy[red]{explore2}{Background}{#1}
+}
+\newcommand{\langscisolution}[1]{
+  \renewcommand{\tblslinecolour}{lsLightBlue}
+  \tblssy{langsci}{LangSci solution}{#1}
+}
+\newcommand{\evaluation}[1]{
+  \renewcommand{\tblslinecolour}{lsLightOrange}
+  \tblssy{receipt}{Evaluation}{#1}
+}
+\newcommand{\othersolutions}[1]{
+  \renewcommand{\tblslinecolour}{lsDarkGreenOne}
+  \tblssy{more}{Other solutions}{#1}
+}
+
+\renewcommand{\tblssy}[4][black!12]{% Use like this \tblsfr[colour]{book|bulb|glass|law}{title}{text}, where [colour] is optional
+  \renewcommand{\langscisymbol}{#2}\renewcommand{\tblsboxcolor}{#1}
+  \begin{mdframed}[style=yellowexercise,frametitle={#3}]
+    #4
+  \end{mdframed}
+}
+
+\begin{document}
+\maketitle
+\tableofcontents
+\mainmatter
+\chapter{Introduction}
+This document details the business model of an open access publisher, using Language Science Press as an example. It covers the
+business case,
+the market analysis, 
+the internal organisation, 
+and financing. 
+For each domain, some general background is given, signalled by {\color{yellow}\includegraphics[height=1em]{langsci/graphics/explore.ps}}.
+Based on this, the solution chosen by Language Science Press is highlighted ({\color{lsLightBlue}\includegraphics[height=1em]{langsci/graphics/tbls-langsci.pdf}}).
+That solution is evauluated ({\color{lsLightOrange}\includegraphics[height=1em]{langsci/graphics/tbls-receipt.pdf}})
+and other possible solutions are discussed ({\color{lsDarkGreenOne}\includegraphics[height=1em]{langsci/graphics/tbls-more.pdf}}). 
+
+The model presented here is the model as it was developed in 2015. At the time of writing (2018), the model has evolved. These changes will be listed in the evaluation sections. 
+
+
+\chapter{Summary} 
+\background{ 
+Your project should have a concise summary, where you give an overview of your goal, motivation, and methods
+}
+\langscisolution{ 
+Language Science Press publishes high quality Open Access monographs and edited volumes in the domain of linguistics. It is directed by Stefan Müller (Freie Universität Berlin) and Martin Haspelmath (Max Planck Institute for the Science of Human History), who are supported by an international advisory board of renowned scholars.
+
+The project was born from the insight that community-based publishing of scientific literature will be more cost-efficient than publishing by commercial publishers. New technologies mean and the collaborative work methods enabled by Internet mean that many of the traditional tasks provided by publishers are no longer needed or can be provided at a fraction of the cost. 
+
+Furthermore, the inherent interest of maximizing profit margins is often at odds with the interest of science. This is first and foremost the case of business models which rely on monetizing access to information via paywalls. These models have to make sure that the information they provide remains a scarce resource. A publishing platform run by scientists themselves, which has as its stated goal the furthering of access to knowledge, rather than the restriction of access to knowledge, represents a valuable asset for society at large. 
+
+Language Science Press has received seed funding by the DFG (2014/06 – 2016/05). Following up on this initial funding, the project is set to continue sustainable operations, accessing various revenue streams (individual membership, institutional membership, print margins, donations). 
+
+The principles of Language Science Press are: 
+\begin{enumerate}
+ \item \textbf{Open Access}: all books are available without a fee, worldwide. Printed copies can be ordered for low prices via print-on-demand service providers. Additionally, all other aspects of the publication process should also be as open as possible (Open Source Software, Open Business Data, optional Open Peer Review)
+ \item \textbf{Quality}: Peer review is mandatory. Language Science Press positions itself as a premium publisher with the corresponding requirements for manuscripts. There is a fair chance that a manuscript will be rejected, and authors should know this. 
+ \item \textbf{Specialization}: All books appear in specialised series, which assess quality of the manuscripts according to the standards of the subdiscipline. There are no manuscripts out-of-series since quality could not be guaranteed in those cases. 
+ \item Decentral organisation: Series editors operate worldwide and in an autonomous fashion. They are responsible for acquiring new manuscripts and assuring their quality. For this, they select an editorial board. Language Science Press starts with 5 series. New communities can form series of their own. They have to submit a detailed proposal, which is then evaluated by the advisory board. 
+ \item \textbf{Community}: The scientific community is directly involved in the publishing process. Next to authoring or reviewing books, community members can also take over roles in proofreading, typesetting, illustrating, marketing via crowdsourcing. 
+ \item Automation. The book production process will be highly automated, making use of templates and well-defined work flows and tool chains as far as possible in order to reduce costs.  
+ \item Lean Publishing: As a new project, Language Science Press has the advantage that it can concentrate on Open Access publishing and does not have to deal with legacy domains such as: warehousing, royalties, paywalling, intellectual property rights management, book stands. 
+\end{enumerate}
+
+The main service provided by Language Science Press is the coordination of the publishing process and establishing a brand for high quality OA books in the book market. Further services include acquisition of authors, author support, typesetting, indexing, design, distribution, dissemination, archiving, enrichment. 
+}
+\evaluation{3}
+\othersolutions{4}
+
+
+\chapter{Business case}
+\section{Starting point}
+\background{
+Detail the situation found at the beginning of the project idea. 
+
+}
+\langscisolution{
+In August 2012, the OALI initiative (Open Access in Linguistics) was set up by Stefan Müller and other linguists working at the Freie Universität Berlin. As a first step, the initiative contacted many reputable linguists from all over the world and invited them to join as supporters, which was met with great overall willingness. Together with Martin Haspelmath from the MPI-SHH, Stefan Müller submitted a grant proposal for te call  ``Open Access Monographs in the Humanities''. 
+The DFG granted the project and provided 575.000€ for the creation of a business model and the setup of the initial platform. 
+The project started in June 2014. The project team consisted of two programmers, one sysadmin, one coordinator and an economist. 
+
+Language Science Press is organised in a decentral way. Editorial boards are reponsible for the individual series, which each cover a specific subdiscipline in the field of linguistics.  They are expected to deliver manuscripts which are in principle ready for typesetting. 
+
+In order to lessen the burden of authors, and in order to assure a faster dissemination of scientific findings, we aim at a speedy publication, meaning a maximum period of 9 months between the initial submission and the publication online and in print. Given that the groundwork was already done before the official project start in 2014, the first volumes could already be published in 2014 itself. 
+
+The grant proposal projected 5 series with 4 books each for 2014 (=20 total books); 7 series with 5 books for 2015 (=35), and 9 series with 6 books in 2016 (=54 books). 
+ 
+As of 2015, Language Science Press is based at the Arbeitsgruppe für Deutsche Grammatik (led by Stefan Müller) at the Institut für Deutsche und Niederländische Philologie. Hosting is done by the Centrum für Digitale Systeme at the Freie Universität. This cooperation has proven successfull and should continue beyond the projected end of the grant
+}
+ 
+
+\section{1.2. Geschäftskonzept und Dienstleistung}
+
+\background{1}
+\langscisolution{
+The most obvious way of recouping the costs of book production is selling the books (``reader pays''). This option is not available for OA publishing, at least not in a straightforward way. The digital versions have to be available for free by definition, and the number of printed copies sold should not be overestimated. 
+
+This implies that we have to separate the roles of ``reader'' and ``funder''. In terms of financing, the question to ask is: who has an advantage from OA publications? Who will derive a benefit if content is available for free online. In business lingo, who are the ``customers'', and what is the ``product'' being offered? 
+
+A short digression is in order here. In order to speak about financing models, one has to agree on a vocabulary. As it happens, there is already a vocabulary in place for discussing the concepts, actors, and processes which arise when setting up shop. This is the vocabulary employed by economists. In their terms, a ``customer'' is someone who derives a ``benefit'' from the existence of a particular ``product'' and is willing to transfer resources to the ``producer'' so that the customer can make use of the product to enjoy the benefit. Many linguists (and other scientists) will object to them being seen as ``customers''. This objection is understandable: the relation a researcher has with a book is very different from the relation the same researcher has with their supermarket or their phone company. This being said, it is necessary, in science and elsewhere, to clearly define the concepts, and to have labels to unambiguously refer to the concepts defined. In the context of this document, these terms  should be taken to be valid within the definitions employed here, and they should not be taken to contain any connotations that ``customer'', ``producer'', ``product'' and ``benefit'' might have in everday life, or in the economic organisation of society at large. 
+
+The books being published by Language Science Press come from authors of countries all over the world, and are read internationally as well. This means that the business model must reflect this international character of the operations. A funding model restricted exclusively to, say, Germany, will be unfair, and it will be hard to convince the residents of only one country to fund operations which profit the whole world. This international setup has to be taken into account not only for financing, but also for distribution and marketing. 
+ 
+When we analyse the benefits OA publishing provides, we find that it is not only the readers who profit. Also the authors derive a benefit (more prestige, faster publication, greater reach). Furthermore, libraries also do benefit via a larger array of books they can provide to their patrons. The state large also benefits (more cost-effective publishing; no dependency on monopolists), as does society at large (better and faster access to scientific findings.) 
+
+Just as it would be unfair to have one country shoulder the operating costs alone, burdening only one group with the costs (e.g. via ``author pays'' models) is questionable as well. So the question is: how can the operational costs be shared among the stakeholders in such a way that everybody contributes, and that no one is charged beyond their capacities? And how can that be done without undermining the basic tenets of Open Access?
+
+Language Science Press has opted for a broad basis for financing its operations. The diversification of revenue streams means not only that each of the various stakeholders participates, but it also reduces the risk of funding gaps as compared to one large funder. If one revenue stream breaks down or does not contribute the expected amount, this can then potentially be compensated by the other streams. 
+
+The analysis of ``clients'' above shows that the ``product'' provided by Language Science Press is complex and can access a variety of ``markets'' with different target groups. 
+ 
+The business model presented here is based on five pillars, which are supported by the different audiences. For every audience, different services and extras are offered. The basic assumption is that each group of stakeholders will have have both egoistic motivations (purchase a book for reading it yourself) as well as altruistic motivations (create societal benefit, ensure free access to the knowledge of humanity, ...).  We acknowledge both kinds of motivation as valid. 
+
+For long-term sustainability, Language Science Press requires support from institutions, which provide funding on a regular basis via memberships of BPCs, but also from individuals. The latter provide less finanical support and more support in kind, but they are important for reach out and dissemination. Only when a broad base of linguists is aware of Language Science Press will the prestige go up and the project can transform into a publisher in the strict sense. 
+ 
+Eine Kurzfassung der einzelnen Strategien für die fünf Finanzierungssäulen ist der Übersicht halber in Anhang 1-5 zu finden. Dort wird im Einzelnen auf die Zielgruppe, das Leistungsangebot (Produkt, Dienstleistung), Marketing und erwartete Einnahmen eingegangen.
+
+As far as strategies go, it is important to note that OA monographs represent a field where few prior knowledge and experience is available. Funding OA via an array of different and voluntary revenue streams is certainly an innovative idea, but it lack empirical underpinning. Particularly in what regards the amount of revenue effectuated, only broad guesses are possible. There are some studies around, but they are few and far between, and more often than not cover other fields of science (e.g. natural sciences) or ``products'' (e.g. articles). Therefore, the concept presented by Language Science Press should be tested for two years. It should then be evaluated, and adjustments according to the outcomes of the evaluation. 
+}
+\evaluation{3}
+\othersolutions{4}
+\section{1.3. Technologie und Branchenkenntnis}
+
+\background{1}
+\langscisolution{2}
+\evaluation{3}
+\othersolutions{4}
+
+
+\chapter{2. Markt}
+
+\section{2.1. Marktsituation}
+
+\background{1}
+\langscisolution{2}
+\evaluation{3}
+\othersolutions{4}
+ 
+\section{2.2. Zielgruppe und Kunden}
+
+\background{1}
+\langscisolution{2}
+\evaluation{3}
+\othersolutions{4}
+
+ 
+\section{2.3. Konkurrenz }
+
+\background{1}
+\langscisolution{2}
+\evaluation{3}
+\othersolutions{4}
+ 
+\section{2.4. Standort}
+
+\background{1}
+\langscisolution{2}
+\evaluation{3}
+\othersolutions{4}
+ 
+
+\section{2.5. Marketing und Vertrieb}
+
+\background{1}
+\langscisolution{2}
+\evaluation{3}
+\othersolutions{4}
+
+\chapter{3. Organisation / Personal}
+
+\section{3.1. Rechtsform}
+
+\background{1}
+\langscisolution{2}
+\evaluation{3}
+\othersolutions{4}
+ 
+
+\section{3.2. Organisation }
+
+\background{1}
+\langscisolution{2}
+\evaluation{3}
+\othersolutions{4}
+ 
+\section{3.3. Kooperationspartner}
+
+\background{1}
+\langscisolution{2}
+\evaluation{3}
+\othersolutions{4}
+ 
+
+\section{3.4. Teammitglieder}
+
+\background{1}
+\langscisolution{2}
+\evaluation{3}
+\othersolutions{4}
+ 
+
+\chapter{4. Finanzierung}
+
+\section{4.1. Kostenplanung}
+
+\background{1}
+\langscisolution{2}
+\evaluation{3}
+\othersolutions{4}
+  
+
+\section{4.2. Investitionsplan / Kapitalbedarf}
+
+\background{1}
+\langscisolution{2}
+\evaluation{3}
+\othersolutions{4}
+ 
+
+\section{4.3. Preiskalkulation}
+
+\background{1}
+\langscisolution{2}
+\evaluation{3}
+\othersolutions{4}
+ 
+
+\section{4.4. Ertragsvorschau / Rentabilitätsvorschau}
+
+\background{1}
+\langscisolution{2}
+\evaluation{3}
+\othersolutions{4}
+ 
+
+\chapter{5. Ausblick}
+
+\background{1}
+\langscisolution{2}
+\evaluation{3}
+\othersolutions{4}
+
+ 
+
+\appendix
+\chapter{Anhang 1: Verkauf der Printexemplare}
+ 
+ 
+
+
+\chapter{Anhang 2: Publikationsgebühren}
+  
+
+
+
+
+
+\chapter{Anhang 3: Institutionelle Mitgliedschaften}
+   
+\chapter{Anhang 4: Fördermitglieder}
+  
+
+
+
+\chapter{Anhang 5: Spenden}
+  
+
+
+
+\chapter{Anhang 6: Ertragsvorschau}
+     
+
+\chapter{Anhang 7: Übersicht Reihen}
+
+ 
+
+\end{document}
