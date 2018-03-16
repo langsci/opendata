@@ -14,7 +14,8 @@ This directory contains the following files:
 
 - `donations2017.csv`: Information about the donations we received in 2017. Donors are anonymized. The codes do not correspond to the codes used for sales figures or the author fees. This information is still incomplete as of 2018-03-01. 
 
-- `owncopies2017.csv`: We buy 5 copies of each book. 1 for ourselves, 1 for the university library, 1 for the Berlin state library, 2 for the German National Library. Additionally, we occasionally buy display copies for book stands.
+- `expenditures2017.csv`: All expenditures. Salaries are what employer has to pay, not what employee receives (Arbeitgeberbrutto). 
+We buy 5 copies of each book. 1 for ourselves, 1 for the university library, 1 for the Berlin state library, 2 for the German National Library. Additionally, we occasionally buy display copies for book stands. This file is incomplete as of March 2018
 
 We have no access statistics for Zenodo, where our books are also hosted. 
 
