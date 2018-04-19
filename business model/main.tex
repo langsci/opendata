@@ -1,10 +1,10 @@
-\documentclass[output=guidelines,nonflat,
+\documentclass[output=guidelines,nonflat,smallfont,
 draftmode
 ]{langsci/langscibook}
 \title{Business model Language Science Press}
 \author{Sebastian Nordhoff}
 \renewcommand{\lsSeries}{guidelines} 
-\usepackage{langsci-tbls}
+\usepackage{./langsci-tbls}
 \usepackage{tabularx,multirow}
 \usepackage{langsci-optional}
 
@@ -12,19 +12,19 @@ draftmode
 \newcommand{\background}[1]{ 
   \vspace{5mm}
   \renewcommand{\tblslinecolour}{lsDarkBlue}
-  \tblssy[red]{explore2}{Background}{#1}
+  \tblssy[red]{explore2}{Background}{\vspace*{-5mm}#1}
 }
 \newcommand{\langscisolution}[1]{
   \renewcommand{\tblslinecolour}{lsLightBlue}
-  \tblssy{langsci}{LangSci solution}{#1}
+  \tblssy{langsci}{LangSci solution}{\vspace*{-5mm}#1}
 }
 \newcommand{\evaluation}[1]{
   \renewcommand{\tblslinecolour}{lsLightOrange}
-  \tblssy{receipt}{Evaluation}{#1}
+  \tblssy{receipt}{Evaluation}{\vspace*{-5mm}#1}
 }
 \newcommand{\othersolutions}[1]{
   \renewcommand{\tblslinecolour}{lsDarkGreenOne}
-  \tblssy{more}{Other solutions}{#1}
+  \tblssy{more}{Other solutions}{\vspace*{-5mm}#1}
 }
 
 \renewcommand{\tblssy}[4][black!12]{% Use like this \tblsfr[colour]{book|bulb|glass|law}{title}{text}, where [colour] is optional
@@ -34,6 +34,8 @@ draftmode
   \end{mdframed}
 }
 
+
+\newcommand{\biberror}[1]{{\color{red}#1}}
 \begin{document}
 \maketitle
 \tableofcontents
@@ -78,7 +80,7 @@ The principles of Language Science Press are:
 
 The main service provided by Language Science Press is the coordination of the publishing process and establishing a brand for high quality OA books in the book market. Further services include acquisition of authors, author support, typesetting, indexing, design, distribution, dissemination, archiving, enrichment. 
 }
-\evaluation{3}
+\evaluation{In hindsight, the principles we now put forward as central are: 1) Openness, 2) Community, 3) No frills.}
 \othersolutions{4}
 
 
@@ -405,18 +407,18 @@ Language Science Press shall have the legal form of ``Betrieb gewerblicher Art (
 This reflects it close association with the scientists as well as the participation in a market where Language Science Press competes with commercial actors. 
 }
 \evaluation{
-The administrative dealings with the unversity in order to enter into contracts with service providers, to send out invoices, and to pay takes proved a nightmare. For instance, it is completely impossible to use a company credit card when being part of a University. Deciding on the tax rate (0\%, 7\%, 19\%) took months of discussion, and it was unlear who would have the final say in these matters. 
+The administrative dealings with the unversity in order to enter into contracts with service providers, to send out invoices, and to pay takes proved a nightmare. For instance, it is completely impossible to use a company credit card when being part of a university. Deciding on the tax rate (0\%, 7\%, 19\%) took months of discussion, and it was unlear who would have the final say in these matters. 
 
 As a result, \textit{LangSci Press gUG (haftungsbeschränkt)} was funded by Müller, Haspelmath and Nordhoff. This is a registered company with charitable goals (furthering of science and education). As such, it enjoys a number of fiscal privileges, but it is barred from  distributing profit to its owners. Nordhoff is the representative of the company and can now easily enter into contracts with service providers, get legal counsel for a fee, or send out invoices as required by the daily business. 
 }
 \othersolutions{
-A foundation is highly regulated under German law and requires an important initial endowment. This capital was not available. 
+A foundation (\textit{Stiftung}) is highly regulated under German law and requires an important initial endowment. This capital was not available. 
 
-An association is a more democratic legal form than a company. Associates have an Annual General Meeting, where they discuss the direction the association should take. This legal form was not flexible enough for our purposes and entails some unneeded administrative overhead. 
+An association (\textit{Verein}) is a more democratic legal form than a company. Associates have an Annual General Meeting, where they discuss the direction the association should take. This legal form was not flexible enough for our purposes and entails some unneeded administrative overhead. 
 
-A private company is not listed in the  commercial register. A private company cannot have its charitable aims legally recognised in Germany, so we did not pursue this option. 
+A private company (\textit{GbR}) is not listed in the  commercial register. A private company cannot have its charitable aims legally recognised in Germany, so we did not pursue this option. 
 
-A public company requires an initial investment of 50,000 EUR. This capital was not available. 
+A public company (\textit{AG}) requires an initial investment of 50,000 EUR. This capital was not available. 
 }
  
 
@@ -469,7 +471,7 @@ One could have retired the Advisory Board after the initial phase.
  
 \section{Partners}
 
-\background{1}
+\background{Most enterprises can not achieve their mission on their own; they require interaction with outside entities, the partners. It is good practice to take stock of which other entities are essential or helpful for the achievement of the mission.}
 \langscisolution{
 The most important partners for Language Science Press are the series editors. Their work is not remunerated. Further cooperations exist with:
 \begin{itemize}
@@ -480,16 +482,22 @@ The most important partners for Language Science Press are the series editors. T
 \end{itemize}
 }
 \evaluation{
-KU
-OL
-PH
+What is completely missing in the description above is the community. We have realised that the greatest LangSci asset is actually our network of supporters, who help us with many tasks, ranging from community proofreading to PR or acquisition of institutional supporters. 
+
+Other partnerships which are not listed above because they only developed in the course of the project are Knowledge Unlatched for dealing with institutions and PaperHive for online annotations and work flow. Another important partner is Overleaf for drafting, editing and revising manuscripts online in a collaborative fashion. All the listed partnerships would be very hard to replace if ever they were to fail.
+
+Since the business model was conceived while LangSci was still based at the Freie University, that university is not specially listed; nevertheless, the Freie Universität remains an important partner for hosting and archiving even after the transition to Humboldt University.
 }
-\othersolutions{4}
+\othersolutions{ 
+Instead of relying on the community, one could have set up a network of freelancers who provide services in copyediting, typesetting or programming for a fee. In order to pay for that, one would have had to find additional sources of revenue. 
+
+We also contacted the Open Library of Humanities about setting up a funding model together, but it turned out that their own operations were already very demanding and they would rather not take in additional processes from outside. 
+}
  
 
 \section{Team members}
 
-\background{1}
+\background{Detail who will be on the payroll. }
 \langscisolution{
 The organisational and legal project lead is taken over by Stefan Müller, in whose institute Language Science Press is based.
 
@@ -507,20 +515,28 @@ A secretary will take care of bookkeeping for donations, membership fees, and ge
 Finally, the series editors are not part of the core team, but they are indispensable for the success of Language Science Press. A good deal of the classic tasks at a publishing house, such as acquisition, author support or marketing is carried out by them. 
 
 }
-\evaluation{3}
-\othersolutions{4}
+\evaluation{The revenue model was radically simplified by relying almost exclusively on institutional memberships. The whole process of promotion, acquisition, invoicing and payment was outsourced to Knowledge Unlatched as a service provider, against a commission. This meant that the positions of the economist and the secretary could be dispensed with, and that some of Nordhoff's time could be shifted from liaising with institutions to book production. 
+
+Nordhoff's position constitutes a single point of failure at this moment. In order to arrive at a more resilient structure, the position of the coordinator will be split in half among two persons, so that there is always a fallback available.
+}
+\othersolutions{
+Instead of outsourcing the library liaison to Knowledge Unlatched, one could have done that in-house. This would have meant that an additional team member would have to be hired and be trained in the relevant legal and fiscal aspects, as well as in the communities of practice of librarians. 
+
+One could also have tried to run the project with professors alone, i.e. without a dedicated coordinator. At about 200-300 emails per book, however, this would quickly surpass the time professors have at their disposal. 
+}
  
 
 \chapter{Funding}
 
 \section{Budgeting}
 
-\background{1}
+\background{Your budget should include personnel and non-personnel costs. Some items will present fixed costs, while others depend on the output}
 \langscisolution{
 The major part of costs consists of costs for staff. The basis for calculating these costs is the German payscale TV-L with an annual preciation of 3\%
 
 The operations of Language Science Press will grow. Every year, new series should join, and the network and the platform should become wider. Due to this quantitative increase, personnel costs will go up; at the same time more revenue will be generated. The following table gives the demands for staff and the costs: 
 
+\todo[inline]{costs missing}
 \noindent
 \begin{tabularx}{\textwidth}{Xrrrr}
 \lsptoprule
@@ -536,52 +552,58 @@ Year 5 &  2,25 FTE              &    0,50 FTE                        &   0,05 FT
 
 Non-personnel costs do not include taxes. 
 
-Next to personnel and non-personnel costs, we also have to include calculatory costs resulting from being based at a university (e.g. office space or IT). This is modelled by taking over the costs from a research of the relevant posts on the Berlin Market. 
+Next to personnel and non-personnel costs, we also have to include calculatory costs resulting from being based at a university (e.g. office space or IT). This is modelled by taking over the costs from a research of the relevant posts on the Berlin market. 
 
 Revenue also excludes taxes. 
 }
-\evaluation{3}
-\othersolutions{4}
+\evaluation{As explained in the preceding section, the team size was reduced considerably, and only 1.0 scientist and a student assistant remain. The professor's position of 0.05 FTE was merely symbolic, as this was a requirement by the university administration when we presented the business model. 
+
+There are additional costs which are not listed in the business model as the services would have been provided in-kind by the university. This would include hosting or legal services. These items were nevertheless established as calculatory costs.\todo[inline]{add figures} However. they were never consolidated in the business model as such. The main reason for this is that the personnel costs present such an important part of the operations total budget that 1000 or 2000 EUR of legal costs do not really make a huge difference. Some estimates are given in \todo[inline]{the appendix}
+}
+\othersolutions{
+One could have (and probably should have) calculated the non-personnel costs in more detail.  In hindsight, however, we see that there were no legal costs in 2017 (besides the costs of registering the company, which are not born by the project). The design costs and IT costs, which were budgeted, were also not needed.  This is probably a sign of rather conservative estimations when we devised the model. 
+}
   
 
 \section{Investment}
 
-\background{1}
+\background{A business model requires you state the initial investment needed to start operations. For producing goods, this can be huge somes, for which financing has to be found. For IT-related projects, the sums are a lot less important these days.}
 \langscisolution{
 Only 6000 EUR are required for three work spaces (desk, chair, computers). 
 }
-\evaluation{3}
-\othersolutions{4}
+\evaluation{Due to the reduction in staff, only two work spaces were required.}
+\othersolutions{
+One could have hired fully-equipped office space on a monthly basis, leading to less initial investment, but higher running costs. 
+}
  
 
-\section{Pricing}
-
-\background{1}
-\langscisolution{see appendix 1--6}
-\evaluation{3}
-\othersolutions{4}
- 
-
-\section{Earnings forecast / profitability forecast}
-
-\background{1}
-\langscisolution{see appendix 6}
-\evaluation{3}
-\othersolutions{4}
- 
+% \section{Pricing}
+% 
+% \background{1}
+% \langscisolution{see appendix 1--6}
+% \evaluation{3}
+% \othersolutions{4}
+%  
+% 
+% \section{Earnings forecast / profitability forecast}
+% 
+% \background{1}
+% \langscisolution{see appendix 6}
+% \evaluation{3}
+% \othersolutions{4}
+%  
 
 \chapter{Outlook}
 
-\background{1}
+\background{The outlook section was mainly intended for the management of the Freie Universität to see the advantages. As such, it is not really part of the business model proper, but it is still nice to give a broader context of the ecology the project evolves in.}
 \langscisolution{
-Language Science Press strengthens the positioning of the Freie Universität as International Network University. It also strengthens the city of Berlin's reputation as an innovative place for doing science. The business model is fully specified and can easily be transferred to and be reused in other disciplines. A logical first step would be other fields of the humanities, e.g. archeology. The Freie Universität kann acquire a first-mover position here and gain visibility far beyond the immediate region. The experiences gained regarding which approaches and methods do indeed work represent a major advantage for Berlin, the Freie Universität, and Language Science Press since there is no similar project elsewhere. 
+Language Science Press strengthens the positioning of the Freie Universität as International Network University. It also strengthens the city of Berlin's reputation as an innovative place for doing science. The business model is fully specified and can easily be transferred to and be reused in other disciplines. A logical first step would be other fields of the humanities, e.g. archeology. The Freie Universität can acquire a first-mover position here and gain visibility far beyond the immediate region. The experiences gained regarding which approaches and methods do indeed work represent a major advantage for Berlin, the Freie Universität, and Language Science Press since there is no similar project elsewhere. 
 }
-\evaluation{3}
-\othersolutions{4}
-
-\todo{Community proofreading}
-\todo{Evaluation}
-\todo{KU}
+\evaluation{Since the project was not realised within the Freie Universität, this section is moot. We are still working on the transferability, which is among other things what this very document is about.}
+\othersolutions{
+Instead of having a strategic outlook, one could also have focussed on financial matters and argue how the operations would generate profit, increase market share, help gain strategic advantages over the competition etc. This was not our intention. 
+}
+ 
 \todo{square with spreadsheet}
 
 \appendix
@@ -603,11 +625,12 @@ Language Science Press strengthens the positioning of the Freie Universität as 
     \end{tabular}
   }
 }
-\evaluation{3}
-\othersolutions{4} 
+\evaluation{In 2017, we published 26 books, not 48. They sold for a total of \biberror{5000} EUR, thus very short of the projected 24.000 EUR. The margin we calculated also did not take into account the free copies we have to provide to various libraries and archives, which cost us \biberror{3000} EUR}
 
-\chapter{BPCs}  
-\background{1}
+\chapter{Book processing charges}  
+\background{ 
+In order to make content freely available to readers, one way is to charge authors so-called \textit{book processing charges} (BPCs). We projected that the BPCs would be 3.500 EUR (the cost price of the book), but that there would be waivers for authors who could not afford them. The amount of BPCs waived would diminish over time. The product of book output, BPC amount, and payment percentage gives a final projected revenue, ranging from 25.200 EUR to 88.200 EUR.
+}
 \langscisolution{
   \fittable{\small
   \begin{tabular}{lrrrr}  
@@ -623,13 +646,14 @@ Year 5  &   72                 &    3.500 €                        &    35 \% 
     \end{tabular}
   }     
 }
-\evaluation{3}
-\othersolutions{4}
+\evaluation{We do not really advertise BPCs. In 2017, we had one author who very much liked our service and paid 1000 EUR, and one project where we charged 1500 EUR for extra support, thus no BPCs proper. This amounts thus to 2/26, or roughly 8\%, with 92\% of all authors paying nothing at all (one could argue that this was the idea in the first place of course). The amount paid was also not 3500 EUR as projected,  but rather 1250 EUR. Altogether, this means that we made about 10\% of the expected revenue from BPCs.}
 
 \chapter{Institutional membership} 
-\background{1}
+\background{
+Rather than charging readers or authors, one could also argue that the provision of a publication platform benefits all researchers, and that that effort should be covered jointly by institutions all over the world, since everybody profits. 
+}
 \langscisolution{
-
+In the business model, we took over the model of \textit{Open Edition}, which has tiered membership prices, based on size of the institution and purchasing power of the country. 
 
 %Open edition
 {\small
@@ -649,6 +673,8 @@ High Income &2.500 €&3,000 €&3,500 €&4,000 €&4,500 €&5,000 €\\
 Low Income < 1,045 USD; Lower Middle Income < 4,125 USD; Upper Middle Income < 12,764 USD; High Income >12,764 USD;
 }
 
+We projected that the  number of supporting institutions would best be predicted by the number of series. Each series would bringe a new institional member. These members would contribute 3.500 EUR on average. As the number of members grows, the amount collected grows as well. 
+
 \noindent
 \begin{tabularx}{\textwidth}{Xrrrr}
 \lsptoprule
@@ -662,12 +688,19 @@ Year 5 &  24               &       1                                    &       
 \lspbottomrule
 \end{tabularx}
 }
-\evaluation{3}
-\othersolutions{4}
+\evaluation{
+It turned out that the series-based estimations did not work out. Instead of growing slowly, we decided to go for 100 institutions from the beginning, at a much lower cost: 1000 EUR instead of 3500 EUR. The formula $100 \times 1000$ is much easier to communicate than the roster with size of institution and purchasing power of the country. The model $100 \times 1000$ means that we can collect 100.000 EUR right away, minus 15\% commission. 
+
+Thus, instead of revenues of 56.000 EUR projected for the first year, we are now at 85.000 EUR. 
+}
 
 \chapter{Individual membership}  
-\background{1}
+\background{
+Since readers and authors both profit, one should give them the opportunity to contribute as well. 
+}
 \langscisolution{
+The projection was that each new publication will triger a number of new supporters. Each supporter has a likelihood to become a paying member, paying a certain sum per year. We can thus calculate the total number of paying members in a given year and multiply this with the estimated average amount to arrive at the total revenue. 
+
 \small
 \begin{tabularx}{\textwidth}{Xrlllllr}
 \lsptoprule 
@@ -681,11 +714,20 @@ Year 5    &    72        &           5                  &                   100 
 \lspbottomrule
 \end{tabularx} 
 }
-\evaluation{3}
-\othersolutions{4}
+\evaluation{
+There is the association Open Science Press Support e.V. with an annual membership fee of 20 EUR. This association is not actively promoted, and no new members have joined since its creation. 
+
+Knowlede Unlatched had plans of having indidivual support pledges at the rate of 100 EUR/yr in addition to institutional pledges. This turned out to be not very attractive to supporters. The LangSci team also did not really want to enter into financial dealings with their supporter base. Finally, 100 EUR/yr is too low a sum for the overhead it generates in administration and acquisition, so this indidividual support pledge was no longer pursued and finally dropped. 7 indidividuals has pledged support. They were informed that they were welcome to make donations instead of their original pledges. This has the added advantage that there is no VAT on donations, and, furthermore, they are tax-deductible. 
+
+The total sum raised by individual memberships is below 1000 EUR, and thus a far cry from the 13.000 EUR envisioned. 
+
+}
+\othersolutions{
+One could have opted for a much more aggressive marketing campaign with flyers, mailings, referral schemes, special offers etc, coupled with a system tracking conversion rates and customer relations managements. This is too much overhead, and it is also not in line with the relations we want to have with our community. 
+}
 
 \chapter{Donations} 
-\background{1}
+\background{Donations are one-off payments. At the end of each pdf, there is a page reminding the authors that they have read the book for free, and that they could make a donation. Based on the number of books and an esimated number of donors with an estimated average amount, one can arrive at an estimated revenue from this channel.}
 \langscisolution{
 \begin{tabularx}{\textwidth}{Xrrrr}
 \lsptoprule 
@@ -699,25 +741,150 @@ Year 5   &   72      &            20      &            10 €     &             
 \lspbottomrule
 \end{tabularx}
 G}
-\evaluation{3}
-\othersolutions{4}
+\evaluation{
+The number of books was 26, not 48, as already mentioned above. No one seemed to take note of the ad at the end of the book, at least we did not receive smaller donations of the sort we had envisaged at all. However, we did receive some larger donations, of more than 100 or 1000 EUR. 
+}
+\othersolutions{One could have been more nagging, with pop-ups on the website asking for donations and maybe even ads inside the book for non-members, similar to a freemium model. This would all have required programming effort, which would probably have been more expensive than the additional revenue which could have been gained from that. }
 
 \chapter{Earnings forecast} 
-\background{1}
-\langscisolution{2}
-\evaluation{3}
-\othersolutions{4}
+\background{This is the complete calculation of all revenue and costs, based on estimates as to the number of series, the number of books, the number of download etc. Also confer the spreadsheet distributed together with this model.}
+\langscisolution{
+\fittable{
+\begin{tabular}{ll rrrrr r}
+\lsptoprule
+ {} &  & \textbf{2016*} & \textbf{2017} & \textbf{2018} & \textbf{2019} & \textbf{2020} & \textbf{forw. proj.}\\
+ \midrule
+\multicolumn{8}{l}{ \textbf{Costs}}\\
+\midrule
+\textbf{1.} & \textbf{Personnel} &  146.070,00 € &  150.452,10 € &  170.062,27 € &  193.172,28 € &  217.515,83 € &  3,00\%\\
+\textbf{2.} & \textbf{Travel} &  10.000,00 € &  10.300,00 € &  10.609,00 € &  10.927,27 € &  11.255,09 € &  3,00\%\\
+\textbf{3.} & \textbf{Design and Marketing} &  3.000,00 € &  3.090,00 € &  3.182,70 € &  3.278,18 € &  3.376,53 € &  3,00\%\\
+\textbf{4.} & \textbf{IT-Infrastructure} &  8.500,00 € &  8.755,00 € &  9.017,65 € &  9.288,18 € &  9.566,82 € &  3,00\%\\
+\textbf{5.} & \textbf{Hosting} &  1.440,00 € &  1.483,20 € &  1.527,70 € &  1.573,53 € &  1.620,73 € &  3,00\%\\
+\textbf{6.} & \textbf{Legal costs} &  7.000,00 € &  500,00 € &  500,00 € &  500,00 € &  500,00 € & ~\\
+\\
+\multicolumn{8}{l}{\textbf{Calculatory costs}}\\
+\midrule
+\textbf{7.} & \textbf{Office rent} &  9.000,00 € &  9.270,00 € &  9.548,10 € &  9.834,54 € &  10.129,58 € &  3,00\%\\
+\textbf{8.} & \textbf{Office (Telco, stationary, postage} &  1.200,00 € &  1.236,00 € &  1.273,08 € &  1.311,27 € &  1.350,61 € &  3,00\%\\
+\textbf{9.} & \textbf{Accounting} &  1.440,00 € &  1.483,20 € &  1.527,70 € &  1.573,53 € &  1.620,73 € &  3,00\%\\
+\textbf{10.} & \textbf{Depreciation} &  1.230,77 € &  1.230,77 € &  1.230,77 € &  1.230,77 € &  1.230,77 € & ~\\
+\textbf{11.} & \textbf{Insurance} &  500,00 € &  515,00 € &  530,45 € &  546,36 € &  562,75 € &  3,00\%\\
+\textbf{12.} & \textbf{Risk  premium  (5\% of revenue)} &  6.400,00 € &  8.045,00 € &  9.840,00 € &  11.785,00 € &  13.880,00 € & ~\\
+\midrule
+\multicolumn{2}{c}{ \textbf{Total costs}} &  \textbf{195.780,77 €} &  \textbf{196.360,27 €} &  \textbf{218.849,41 €} &  \textbf{245.020,91 €} &  \textbf{272.609,45 €} & \textbf{~}\\
+ \midrule
+\multicolumn{5}{l}{ \textbf{Revenue}}\\
+\midrule
+\textbf{1.} & \textbf{Print sales} &  24.000,00 € &  27.000,00 € &  30.000,00 € &  33.000,00 € &  36.000,00 €\\
+\textbf{2.} & \textbf{BPCs} &  25.200,00 € &  37.800,00 € &  52.500,00 € &  69.300,00 € &  88.200,00 €\\
+\textbf{3.} & \textbf{Institutional supporters} &  56.000,00 € &  63.000,00 € &  70.000,00 € &  77.000,00 € &  84.000,00 €\\
+\textbf{4.} & \textbf{Individual supporters} &  13.200,00 € &  22.300,00 € &  32.300,00 € &  43.200,00 € &  55.000,00 €\\
+\textbf{5.} & \textbf{Donations} &  9.600,00 € &  10.800,00 € &  12.000,00 € &  13.200,00 € &  14.400,00 €\\
+\midrule
+\multicolumn{2}{c}{ \textbf{Total revenue}} &  \textbf{128.000,00 €} &  \textbf{160.900,00 €} &  \textbf{196.800,00 €} &  \textbf{235.700,00 €} &  \textbf{277.600,00 €}\\
+\midrule\midrule
+{} & \textbf{Net result} &  \textbf{{}-67.780,77 €} &  \textbf{{}-35.460,27 €} &  \textbf{{}-22.049,41 €} &  \textbf{{}-9.320,91 €} &  \textbf{4.990,55 €}\\
+\lspbottomrule
+\end{tabular}
+}
+
+{\tiny *  {Costs 2016}: The costs do not include the personnel costs still covered under the initial DFG funding (5/12 of yearly costs).
+}
+
+{\scriptsize
+\noindent
+% \fittable{
+\begin{tabularx}{\textwidth}{Qrrrrr}
+\lsptoprule
+{ \textbf{Estimates}} & \textbf{2016} & \textbf{2017} & \textbf{2018} & \textbf{2019} & \textbf{2020}\\
+\midrule 
+series &  \textbf{16} &  \textbf{18} &  \textbf{20} &  \textbf{22} &  \textbf{24}\\
+new books per series&  \textbf{3} &  \textbf{3} &  \textbf{3} &  \textbf{3} &  \textbf{3}\\
+total books &  \textbf{48} &  \textbf{54} &  \textbf{60} &  \textbf{66} &  \textbf{72}\\
+print sales per new book&  50 &  50 &  50 &  50 &  50\\
+print margin&  10,00 € &  10,00 € &  10,00 € &  10,00 € &  10,00 €\\
+BPCs&  3.500,00 € &  3.500,00 € &  3.500,00 € &  3.500,00 € &  3.500,00 €\\
+\% paid BPCs&  15,00\% &  20,00\% &  25,00\% &  30,00\% &  35,00\%\\
+\# institutional members (1/series) &  16 &  18 &  20 &  22 &  24\\
+avg. contribution IM&  3.500,00 € &  3.500,00 € &  3.500,00 € &  3.500,00 € &  3.500,00 €\\
+supporters &  600 &  700 &  800 &  900 &  1000\\
+individual supporters (5 per book, .33 new members per supporter) &  440 &  743 &  1.077 &  1.440 &  1.833\\
+avg. contribution members &  30,00 € &  30,00 € &  30,00 € &  30,00 € &  30,00 €\\
+donors &  960 &  1.080 &  1.200 &  1.320 &  1.440\\
+avg. donation&  10,00 € &  10,00 € &  10,00 € &  10,00 € &  10,00 €\\
+\lspbottomrule
+\end{tabularx}
+}
+
+\noindent
+\fittable{
+\begin{tabular}{lrrrrrrr}
+\lsptoprule
+
+\multicolumn{5}{l}{ \textbf{{Personnel planning 2016} - 2020}}\\
+\midrule
+& & \textbf{2016} & \textbf{2017} & \textbf{2018} & \textbf{2019} & \textbf{2020} & \textbf{forw. proj.}\\
+\midrule 
+\multicolumn{5}{l}{ Coordinator 1 (TV-L 13)}\\
+\midrule
+&  FTE &  100,00\% &  100,00\% &  100,00\% &  100,00\% &  100,00\% & ~\\
+&  Salary &  65.920,00 € &  67.897,60 € &  69.934,53 € &  72.032,56 € &  74.193,54 € &  3,00\%\\
+ &  Total &  65.920,00 € &  67.897,60 € &  69.934,53 € &  72.032,56 € &  74.193,54 € & ~\\
+\\
+\multicolumn{5}{l}{ Coordinator 2 (TV-L 13)}\\
+\midrule
+&  FTE &  50,00\% &  50,00\% &  50,00\% &  75,00\% &  100,00\% & ~\\
+&  Salary &  65.920,00 € &  67.897,60 € &  69.934,53 € &  72.032,56 € &  74.193,54 € &  3,00\%\\
+ &  Total &  32.960,00 € &  33.948,80 € &  34.967,26 € &  54.024,42 € &  74.193,54 € & ~\\
+\\
+\multicolumn{5}{l}{ Finances and fundraising(TV-L 13)}\\
+\midrule
+&  FTE &  50,00\% &  50,00\% &  50,00\% &  50,00\% &  50,00\% & ~\\
+&  Salary &  65.920,00 € &  67.897,60 € &  69.934,53 € &  72.032,56 € &  74.193,54 € &  3,00\%\\
+ &  Total &  32.960,00 € &  33.948,80 € &  34.967,26 € &  36.016,28 € &  37.096,77 € & ~\\
+\\
+\multicolumn{5}{l}{ Clerk (TV-L 9)}\\
+\midrule
+&  FTE &  25,00\% &  25,00\% &  50,00\% &  50,00\% &  50,00\% & ~\\
+&  Salary &  56.920,00 € &  58.627,60 € &  60.386,43 € &  62.198,02 € &  64.063,96 € &  3,00\%\\
+ &  Total &  14.230,00 € &  14.656,90 € &  30.193,21 € &  31.099,01 € &  32.031,98 € & ~\\
+\\
+\multicolumn{5}{l}{ Professor (W3)}\\
+\midrule
+&  FTE &  5,00\% &  5,00\% &  5,00\% &  5,00\% &  5,00\% & ~\\
+&  Salary &  87.467,60 € &  90.091,63 € &  92.794,38 € &  95.578,21 € &  98.445,55 € &  3,00\%\\
+ &  Total &  4.373,38 € &  4.504,58 € &  4.639,72 € &  4.778,91 € &  4.922,28 € & ~\\
+\\
+\multicolumn{5}{l}{ Student assistants (10h/week)}\\
+\midrule
+&  FTE &  50,00\% &  50,00\% &  50,00\% &  50,00\% &  50,00\% & ~\\
+&  Salary &  6.500,00 € &  6.695,00 € &  6.895,85 € &  7.102,73 € &  7.315,81 € &  3,00\%\\
+ &  Total &  3.250,00 € &  3.347,50 € &  3.447,93 € &  3.551,36 € &  3.657,90 € & ~\\
+\midrule
+\multicolumn{2}{l}{Grand total}  &  146.070,00 € &  150.452,10 € &  170.062,27 € &  193.172,28 € &  217.515,83 € & ~\\
+\lspbottomrule
+\end{tabular}
+}
+
+{\footnotesize
+\noindent
+\begin{tabularx}{\textwidth}{Xrrrrr}
+\lsptoprule
+  & \textbf{2016} & \textbf{2017} & \textbf{2018} & \textbf{2019} & \textbf{2020}\\
+Scientist &  2,00 FTE &  2,00 FTE &  2,00 FTE &  2,25 FTE &  2,50 FTE\\
+Clerk &  0,25 FTE &  0,25 FTE &  0,50 FTE &  0,50 FTE &  0,50 FTE\\
+Professor &  0,05 FTE &  0,05 FTE &  0,05 FTE &  0,05 FTE &  0,05 FTE\\
+Assistant &  0,50 FTE &  0,50 FTE &  0,50 FTE &  0,50 FTE &  0,50 FTE\\
+\lspbottomrule
+\end{tabularx} 
+}
+}
+\evaluation{As detailed in the other sections of the appendix, most of the prediction were completely off the mark}
   
-\chapter{Series}
-\background{1}
-\langscisolution{2}
-\evaluation{3}
-\othersolutions{4}
-
-  
-
-
- 
-
-
+% \chapter{Series}
+% \background{This is an overview of the number of series available at the time of creation of the model. Not relevant for business model in the strict sense, hence dropped}
+% \langscisolution{2}
+% \evaluation{3}
+% \othersolutions{4}
 \end{document}
