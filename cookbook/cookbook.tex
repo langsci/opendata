@@ -195,7 +195,7 @@ One of the main advantages of being available on all these channels is that the 
                     
                     
 \section{Technology}
-In order to run a publishing platform, you have to rely on techonology. It is good practice to first take stock of what you want to achieve (the requirements), and then to see which technological solutions can help you. 
+In order to run a publishing platform, you have to rely on techonology. It is good practice to first take stock of what you want to achieve (the requirements), and then to see which technological solutions can help you. Normally only have a subset of the requirements will be must-haves, so the best solution for your particular use case will vary.
 
 \subsection{Requirements for a web platform}
 Coming from the reader's perspective, the most important thing you have to have for an open access book is a place on the Internet where the books can be downloaded. This is a very simple requirement. In principle, a static website or even an FTP server would do. Additional requirements are user authentication and access control. This is obviously not necessary for fully open access books: the very definition of open access precludes access control. Again, coming from a reader's perspective, an open access publisher could easily do without access control, and therefore also without user authentication. 
@@ -217,19 +217,41 @@ Coming back to the requirements, you have to have an ingestion interface where r
 Depending on the practices and tech-savvy of the particular discipline and the resources available, the ingestion can be more or less strict. Some fields are tech-savvy and are used to respecting detailed technical specifications, while others have a more heterogeneous and inconsistent approach to text production. The more formats you accept for ingestion, and the higher the tolerance in deviation from the guidelines, the more effort will be required for the press to conform the manuscripts. On the other hand, shifting the burden completely to the authors might be a deterrant, so you have to strike a good balance. At Language Science Press, my impression is that we have demanded a lot from our authors. They have not always been happy about this, but my impression is that they feel that this is what you have to pay in order to get a high quality open access publication. Following the claims to prestige, we have probably also been stricter with regard to certain typographic subtleties than other publishers. This was surely annoying for the authors, but it also served to signal that we take publishing seriously and that we are not the right outlet for shoddy work. 
 
 
-\subsubsection{Requirements for distribution}
-                    digital
-                        Web site
-                        GoogleBooks
-                        PaperHive
-                    analog
-                        pod
-                            international
-                            quality
-                            speed
-                            ease
-                        Amazon
-                        Book stores
+\subsection{Requirements for distribution}
+At the most basic level, we can distinguish digital distribution and paper distribution. 
+
+\subsubsection{Requirements for digital distribution}
+For digital distribution, pdf is the format of choice. There should be a way for you to produce pdfs.  For books in linguistics, the relative ordering of elements (horizontally and vertically) is often very important. This is why we require pdf. There are other digital formats like HTML or EPUB which might be suitable for other disciplines; for linguistics they are not suitable. You might also give some thought to XML as a specified generic backend format, or Markdown as an easy-to-use backend format with somewaht looser specifications. 
+
+PDF as a format is accepted by all major distribution platforms like DOAB, GoogleBooks or Zenodo. 
+
+\subsubsection{Requirements for analog distribution}
+There are a number of print-on-demand services available. They can be distinguished by 
+
+\begin{itemize}
+ \item geographical regions covered, 
+ \item shipping speed,
+ \item quality,
+ \item ease of use, 
+ \item setup costs, 
+ \item page costs, 
+ \item colour page costs, 
+ \item margin,
+ \item available bindings (soft/hardcover), 
+ \item available sizes (width/length), 
+ \item colour printing, 
+ \item page limits (min/max),
+ \item distribution channels,
+ \item own ISBN permitted.
+\end{itemize}
+
+As of 2018, Amazon CreateSpace has the best worldwide coverage and very fast shipping. The quality of the books is, however, rather low, and it has happened that we have returned more than 40\% of a batch due to faulty quality. Depending on the number of books your press publishes, the time to upload a book for print-on-demand can become a factor, especially when it comes to filling in metadata. This can take up to half  an hour per book. We now use BoD. BoD provides an FTP interface where we can automatically upload our books with the metadata in a specified XML-format. 
+
+BoD lets you choose your width and height freely. For CreateSpace, only about a dozen of predefined sizes exist. Other providers will only accept A5 or A4. 
+
+For print-on-demand, you can either bring your own ISBN, or you have to buy an ISBN from the service provider. Providers vary as to whether your book will be available only via them directly, via Amazon, or via local bookstores and standard distribution channels as well. 
+
+Note that most countries require you provide some free copies to the national libraries. If you print in India for instance, you will have to pay shipping for these copies if your press happens to be elsewhere.
 
 
 \subsubsection{workflow}
@@ -245,6 +267,8 @@ Depending on the practices and tech-savvy of the particular discipline and the r
                     outlet
                         digital
                         pod
+                        
+                        
 \subsubsection{formats}
                     latex
                     docx/odt
@@ -252,6 +276,10 @@ Depending on the practices and tech-savvy of the particular discipline and the r
                     markdown
                     pdf
                     xml
+                    
+                    
+The pdfs should be searchable, should not be encrypted and should be free of Digital Restrictions Management (DRM). Additional features like pdf bookmarks, hyperlinks and a clickable table of contents can be useful. 
+
 \subsubsection{elements}
                     frontmatter
                         title
@@ -304,6 +332,16 @@ Depending on the practices and tech-savvy of the particular discipline and the r
                         ubiquity
                         India
                         free lancers
+                        
+                        
+
+                    digital
+                        Web site
+                        GoogleBooks
+                        PaperHive
+                        GitHub
+                        Zenodo 
+
 \section{software}
 \subsection{in-house}
 \subsubsection{CMS}
