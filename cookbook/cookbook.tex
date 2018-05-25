@@ -190,21 +190,48 @@ These two projects have been suggested to us, but we have not yet understood wha
 \subsection{Readers become authors}
 One of the main advantages of being available on all these channels is that the books get wider exposure, and readers might consider Language Science Press as a venue for their next book to be written. %TODO
 
+\section{Quality control}
+% TODO
+                    
+                    
+\section{Technology}
+In order to run a publishing platform, you have to rely on techonology. It is good practice to first take stock of what you want to achieve (the requirements), and then to see which technological solutions can help you. 
 
-                    
-                    
-\section{technology}
-\subsection{requirements}
-\subsubsection{catalog}
-                    world
-\subsubsection{workflow}
-                    submission
-                    review
-                    publication
-\subsubsection{access control}
-                    closed access
-                    draft versions
-\subsection{book production}
+\subsection{Requirements for a web platform}
+Coming from the reader's perspective, the most important thing you have to have for an open access book is a place on the Internet where the books can be downloaded. This is a very simple requirement. In principle, a static website or even an FTP server would do. Additional requirements are user authentication and access control. This is obviously not necessary for fully open access books: the very definition of open access precludes access control. Again, coming from a reader's perspective, an open access publisher could easily do without access control, and therefore also without user authentication. 
+
+Things are different when we enlargen our scope and take into account the whole book production work flow. Before the final book, we have the initial submission, revised versions, and final drafts. Having some control on who can access these documents (authors, editors, reviewers, but not random people) can be justified. Note, however, that simply sending these documents via email to the intended recipients would already solve that issue.
+
+Finally, some series editors like to have a well-defined interface which models the progress of a manuscript through the stages of submission, review, revision, typesetting, and publication. For this, you need different roles: authors can submit; editors can assign reviewers, read reviews, and advance a manuscript to the next stage; reviewers can only write reviews. Authors or reviewers are barred from actions such as accepting a manuscript or publishing it, and reviewers might only be allowed to see their own review, but not the reviews of others. 
+
+An additional requirement might be reporting. You want to know how many submission you have at what stage at a given point in time, or during a given interval (e.g. a year). In Section \ref{sec:software}, I will discuss different solutions for (subsets of) these requirements. 
+ 
+ 
+\subsection{Requirements for book production}
+As detailed above in Section \ref{sec:CI}, your books should have a common appearance. They should be recognisable as coming from your press. The manuscripts authors submit will often not be very close to the intended final appearance. One of the main tasks of the press is to make sure that the raw manuscripts gets crafted into a worthy member of the prestigious set of books published by your press. 
+
+As discussed above, we distinguish the quality assurance of content from the quality assurance of form. The scientific merit of a manuscript can be established independent of details such as font size or page geometry. But once we know that a manuscript has sufficient quality to be published by our press, we have to make sure that the formal specifications are also respected. This means that at submission stage, Language Science Press accepts any format that allows the evaluation of scientific merit. There is no requirement to reformat the book according to our guidelines for the initial submission. Only when the manuscript gets accepted do we require that our guidelines be respected for the revised version. 
+
+Coming back to the requirements, you have to have an ingestion interface where revised manuscripts can be entered, a transformation pipeline where they will be conformed to your complete specifications, and an outlet interface, where the final document can be made available electronically or as print-on-demand.
+
+Depending on the practices and tech-savvy of the particular discipline and the resources available, the ingestion can be more or less strict. Some fields are tech-savvy and are used to respecting detailed technical specifications, while others have a more heterogeneous and inconsistent approach to text production. The more formats you accept for ingestion, and the higher the tolerance in deviation from the guidelines, the more effort will be required for the press to conform the manuscripts. On the other hand, shifting the burden completely to the authors might be a deterrant, so you have to strike a good balance. At Language Science Press, my impression is that we have demanded a lot from our authors. They have not always been happy about this, but my impression is that they feel that this is what you have to pay in order to get a high quality open access publication. Following the claims to prestige, we have probably also been stricter with regard to certain typographic subtleties than other publishers. This was surely annoying for the authors, but it also served to signal that we take publishing seriously and that we are not the right outlet for shoddy work. 
+
+
+\subsubsection{Requirements for distribution}
+                    digital
+                        Web site
+                        GoogleBooks
+                        PaperHive
+                    analog
+                        pod
+                            international
+                            quality
+                            speed
+                            ease
+                        Amazon
+                        Book stores
+
+
 \subsubsection{workflow}
                     ingestion 
                         specified format
@@ -214,6 +241,7 @@ One of the main advantages of being available on all these channels is that the 
                         makefiles
                         pgfplots
                         tikz
+                        Inkscape
                     outlet
                         digital
                         pod
@@ -264,19 +292,6 @@ One of the main advantages of being available on all these channels is that the 
                         zenodo upload
                     metadata
                     makefiles
-\subsubsection{distribution}
-                    digital
-                        Web site
-                        GoogleBooks
-                        PaperHive
-                    analog
-                        pod
-                            international
-                            quality
-                            speed
-                            ease
-                        Amazon
-                        Book stores
 \subsubsection{archiving}
                     DOAB
                     OAPEN
@@ -500,6 +515,7 @@ stability
 
 failure is impossible
 series concept
+quality control
 \end{document}
 
 
