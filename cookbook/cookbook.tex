@@ -1,5 +1,6 @@
-\documentclass[output=guidelines,guidelines] {langscibook}
+\documentclass[output=guidelines,guidelines,nonflat,modfonts] {langsci/langscibook}
 \renewcommand{\lsSeries}{guidelines}
+\usepackage{langsci-gb4e}
 \title{Cookbook for Open Access books}
 \author{Sebastian Nordhoff\newlineCover Language Science Press}
 \begin{document}
@@ -216,7 +217,62 @@ Coming back to the requirements, you have to have an ingestion interface where r
 
 Depending on the practices and tech-savvy of the particular discipline and the resources available, the ingestion can be more or less strict. Some fields are tech-savvy and are used to respecting detailed technical specifications, while others have a more heterogeneous and inconsistent approach to text production. The more formats you accept for ingestion, and the higher the tolerance in deviation from the guidelines, the more effort will be required for the press to conform the manuscripts. On the other hand, shifting the burden completely to the authors might be a deterrant, so you have to strike a good balance. At Language Science Press, my impression is that we have demanded a lot from our authors. They have not always been happy about this, but my impression is that they feel that this is what you have to pay in order to get a high quality open access publication. Following the claims to prestige, we have probably also been stricter with regard to certain typographic subtleties than other publishers. This was surely annoying for the authors, but it also served to signal that we take publishing seriously and that we are not the right outlet for shoddy work. 
 
+\subsection{Required elements}
+Books have a number of recurring elements. This may sound banal, but it is important to take stock of what is required here in order to be able to see which elements could easily be automated. For instance, the Language Science Press series all have an associated colour. We generate the title page based on the author name and the given title, use the background colour as specified by the series and add the series name on the title page as well. This process is completely automated. There is for instance no way how you could misspell the series name on the title page, or choose a wrong colour for a series, as both these elements depend on the series. 
 
+The list of elements to consider is:
+
+\begin{itemize}
+ \item frontmatter
+ \begin{itemize}
+  \item  title page
+  \item  imprint/colophon/masthead
+  \item  frontispiece with series information
+  \item  inner title page 
+  \item table of contents 
+  \item list of tables 
+  \item list of figures 
+  \item acknowledgements 
+  \item list of abbreviations 
+  \item dedication
+ \end{itemize} 
+ \item backmatter
+ \begin{itemize}
+  \item  references
+  \item  indexes
+  \item  ad
+  \item  back title
+  \item  blank pages
+ \end{itemize} 
+ \item mainmatter
+ \begin{itemize}
+  \item  text
+  \item  headings
+  \item footnotes
+  \item  crossrefs
+  \item bibliographic references
+  \item  tables
+  \item  figures
+  \item  maps
+  \item  charts
+  \item captions
+  \item page headers 
+  \item epigrams
+  \item discipline-specific elements
+  \begin{itemize}
+   \item   linguistic examples
+   \item   proofs
+   \item   theorems
+   \item   trees
+   \item   vowel charts
+  \end{itemize} 
+ \end{itemize} 
+\end{itemize}        
+
+The more items from the list above can be handled in an automated way, the better. For instance, automated cross-references avoid manually updating the references if an item is added or removed. A citation manager allows to keep the text and the list of references at the end in sync etc. 
+                        
+                        
+                        
 \subsection{Requirements for distribution}
 At the most basic level, we can distinguish digital distribution and paper distribution. 
 
@@ -224,6 +280,9 @@ At the most basic level, we can distinguish digital distribution and paper distr
 For digital distribution, pdf is the format of choice. There should be a way for you to produce pdfs.  For books in linguistics, the relative ordering of elements (horizontally and vertically) is often very important. This is why we require pdf. There are other digital formats like HTML or EPUB which might be suitable for other disciplines; for linguistics they are not suitable. You might also give some thought to XML as a specified generic backend format, or Markdown as an easy-to-use backend format with somewaht looser specifications. 
 
 PDF as a format is accepted by all major distribution platforms like DOAB, GoogleBooks or Zenodo. 
+ 
+
+The pdfs should be searchable, should not be encrypted and should be free of Digital Restrictions Management (DRM). Additional features like pdf bookmarks, hyperlinks and a clickable table of contents can be useful. 
 
 \subsubsection{Requirements for analog distribution}
 There are a number of print-on-demand services available. They can be distinguished by 
@@ -247,84 +306,91 @@ There are a number of print-on-demand services available. They can be distinguis
 
 As of 2018, Amazon CreateSpace has the best worldwide coverage and very fast shipping. The quality of the books is, however, rather low, and it has happened that we have returned more than 40\% of a batch due to faulty quality. Depending on the number of books your press publishes, the time to upload a book for print-on-demand can become a factor, especially when it comes to filling in metadata. This can take up to half  an hour per book. We now use BoD. BoD provides an FTP interface where we can automatically upload our books with the metadata in a specified XML-format. 
 
-BoD lets you choose your width and height freely. For CreateSpace, only about a dozen of predefined sizes exist. Other providers will only accept A5 or A4. 
+BoD lets you choose your width and height freely. For CreateSpace, only about a dozen%TODO
+ predefined sizes exist. Other providers will only accept A5 or A4. 
 
-For print-on-demand, you can either bring your own ISBN, or you have to buy an ISBN from the service provider. Providers vary as to whether your book will be available only via them directly, via Amazon, or via local bookstores and standard distribution channels as well. 
+For print-on-demand, you can either bring your own ISBN, or you have to buy an ISBN from the service provider. Providers vary as to whether your book will be available only via them directly, via Amazon, or via local bookstores and standard distribution channels as well. In Germany, for instance, your book has to be listed in the \textit{Verzeichnis lieferbarer Bücher}, which costs a nominal fee per book and year.
 
 Note that most countries require you provide some free copies to the national libraries. If you print in India for instance, you will have to pay shipping for these copies if your press happens to be elsewhere.
 
+\subsection{Requirements for archiving}
+The first requirement for your archive is that the copy be safe. You want to have trust that 100 years down the road, your copy will still be there. The second requirement is that the copy be accessible without too much hassle, ideally over the Internet, without restrictions. These are the central points. Further points are the richness of metadata you can provide, and the ease of uploading to the archive and updating metadata (e.g. further editions).
 
-\subsubsection{workflow}
-                    ingestion 
-                        specified format
-                        random format
-                    generation
-                        latex
-                        makefiles
-                        pgfplots
-                        tikz
-                        Inkscape
-                    outlet
-                        digital
-                        pod
-                        
-                        
-\subsubsection{formats}
-                    latex
-                    docx/odt
-                    indesign
-                    markdown
-                    pdf
-                    xml
-                    
-                    
-The pdfs should be searchable, should not be encrypted and should be free of Digital Restrictions Management (DRM). Additional features like pdf bookmarks, hyperlinks and a clickable table of contents can be useful. 
+\subsection{Automation}
+Taking a mechanistic approach, we can see book production as a process which takes an input manuscript (ingestion), processes it (generation), and produces well-defined output (outlet). 
 
-\subsubsection{elements}
-                    frontmatter
-                        title
-                        frontispiece
-                        series information
-                        Innentitel
-                    backmatter
-                        indexes
-                        references
-                        back title
-                    mainmatter
-                        text
-                        heading
-                        crossrefs
-                        tables
-                        figures
-                        maps
-                        charts
-                        discipline specific elements
-                            linguistic examples
-                            proofs
-                            theorems
-                    semantic markup
-                        separation of meaning and presentation
-\subsubsection{automation}
-                    standardization
-                        templates
-                        skeleton
-                        guidelines
-                    generation
-                        toc
-                        references
-                        crossrefs
-                        indexes
-                    distribution
-                        website upload
-                        pod upload
-                        zenodo upload
-                    metadata
-                    makefiles
-\subsubsection{archiving}
-                    DOAB
-                    OAPEN
-                    Zenodo
-\subsubsection{services}
+%TODO
+\ea
+>-- \fbox{ingestion} -- \fbox{generation} --< \fbox{outlet\vphantom{j}}
+\z
+
+The more constrained your input is, the easier automation becomes. 
+ 
+                    
+\subsubsection{Ingestion}
+It is a good idea to have clear criteria about the formats you accept. Will you only accept camera-ready copies (CRC) and offload the burden of book production completely on the authors? Or will you also accept less finished formats, which will then be conformed and finalised in-house? Or will you accept any kind of format and do the whole production from scratch in-house? The more restrictive, the less work you will have, but your number of submissions will also go down. 
+
+Potential formats which could be accepted at ingestion stage are: txt, docx, odt, tex, pdf, markdown. Graphics could be submitted as png, jpg, svg, idd, or pdf. 
+
+
+At Language Science Press, we stated that we would only accept Latex submissions, which we would then finalise. This is thus not CRC, but very close to it. In general, we only do final typesetting with placement of figures, page breaks, and line breaks. 
+
+For the initial period, we proposed complementary conversion of docx and odt submissions. In the beginning, this held for any document. As we progressed, we created templates which are tailored to our conversion pipeline. We now require that authors use these templates if they want us to convert their manuscript for them. As the number of submission progresses, the press can be become stricter in enforcing the formal requirements. 
+
+
+\subsubsection{Generation}
+This steps describes the production of the various output format based on the input manuscript. Some background might be in order here: while word processors like Microsoft Word or LibreOffice use a WYSIWYG approach (``What you see is what you get''), this is not practical for multiple outlets.
+In those cases, it is better to use a separation of meaning and presentation, i.e. a WYSIWYM approach (``What you see is what you mean''). For instance, chapters in Latex are marked with \verb+\chapter+, but otherwise look like normal text. This information can be accessed for a variety of use cases. Most typically, one will use the section title to put the relevant words in a larger font on a particular  page, but it is also used for the table of contents, the pdf bookmarks, and we also use it to extract a list of chapter titles when announcing a book to the community proofreaders. 
+
+We have a number of routines to create various outputs from the input files. These are bundled together in a \verb+Makefile+. We can use commands like \verb+make book+, \verb+make index+ or \verb+make paperhive+ to automatically run certain well-defined tasks. Among other things, the Makefile contains the following automated routines: 
+
+\begin{itemize}
+ \item \texttt{make pdf}: create the book 
+ \item \texttt{make index}: create the indexes
+ \item \texttt{make complete}: create the book with the indexes 
+ \item \texttt{make proofreading}: add a watermark to all pages 
+ \item \texttt{make clean}: delete all unnecessary files 
+ \item \texttt{make chaptelist}: get a list of all chapters 
+ \item \texttt{make languagecandidates}: get a list of all words which look like language names
+\end{itemize}
+
+Additionally, there are a number of scripts which automate more complicated tasks: 
+
+\begin{itemize}
+ \item \texttt{doc2tex.py} convert a MS Word or LibreOffice document to Latex.
+ \item \texttt{sanitycheck.py} check Latex files for common violations of the guidelines.
+ \item \texttt{normalizebib.py} checks a bibliography for common mistakes. 
+ \item \texttt{autoindex.py} marks up potential index terms 
+ \item \texttt{fixindex.py} repairs the author index for names with diacritics.
+ \item \texttt{chopchapters.sh} create pdf files for the individual chapters from a master file. 
+\end{itemize}
+
+Finally, there are specialised commands for common types of charts and diagrams. Instead of creating them in a graphics program or a spreadsheet, we can directly use the data in the Latex code to generate these elements. This also allows for easy extraction of the values for further computations if required. 
+
+Depending on workload, we also redraw graphics and maps in Inkscape. This is not automated, but there are routines for converting raster graphics to vector graphics. We have experimented with downloading geographical data from OpenStreetMap via Maperitive, export to svg and then edit the output. It has turned out, however, that simply tracing a raster image in Inkscape is normally faster then using the more granular OpenStreetMap data. 
+
+A desideratum would be a central metadata store which would feed the various outlets (website, pdf, GoogleBooks, Zenodo). Currently, metadata are stored in a variety of formats, and a change in the title of a book for instance must be replicated for all these formats. It would be preferable if such a change could only be made once and then automatically propagate to all relevant outlets.
+
+\subsubsection{Outlets}
+Our main outlet is our website. There, we have to upload the pdf and the individual chapters manually. The same is true for GoogleBooks, CreateSpace, and DOAB. A number of other tasks are automated:
+
+\begin{itemize}
+ \item \texttt{make googlebooks}: prepare the content for upload to GoogleBooks 
+ \item \texttt{fetchompdata.py} fetches the metadata for a book from our website for cover creation 
+ \item \texttt{createbookblock.sh} remove cover and add blank pages to create a total number of pages which is a multiple of 4, required for BoD
+ \item \texttt{podcovers.sh} counts the number of pages of the book and creates three covers with the correct measurements for CreateSpace, BoD hardcover and BoD softcover 
+ \item \texttt{bodxml.py} creates the necessary pdf and XML files for upload to BoD and checks their validity
+ \item \texttt{make bodrepo}: store all auxiliary files needed for print on demand via BoD to our private GitHub repository
+ \item \texttt{make paperhive}: create the necessary files for PaperHive, upload them and tell PaperHive that this book is ready 
+ \item \texttt{amazonid.sh} creates referral links for Amazon
+ \item \texttt{zenodo.py} create Zenodo records based on metadata extracted from the source files 
+\end{itemize}
+ 
+In general, we are happy to add additional outlets as long as the incorporation of our content can be automated.  
+ 
+   
+
+\section{services}
                     copy-editing
                     typesetting
                     indexing
@@ -332,15 +398,19 @@ The pdfs should be searchable, should not be encrypted and should be free of Dig
                         ubiquity
                         India
                         free lancers
-                        
-                        
-
+            
                     digital
                         Web site
                         GoogleBooks
                         PaperHive
                         GitHub
                         Zenodo 
+\subsubsection{archiving}
+                    DOAB
+                    OAPEN
+                    Zenodo
+                    UB FU
+                    KU
 
 \section{software}
 \subsection{in-house}
