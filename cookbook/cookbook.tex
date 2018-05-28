@@ -1,6 +1,9 @@
 \documentclass[output=guidelines,guidelines,nonflat,modfonts] {langsci/langscibook}
 \renewcommand{\lsSeries}{guidelines}
 \usepackage{langsci-gb4e}
+\usepackage{url}
+\urlstyle{same}
+\newcommand{\footurl}[1]{\footnote{\url{#1}}}
 \title{Cookbook for Open Access books}
 \author{Sebastian Nordhoff\newlineCover Language Science Press}
 \begin{document}
@@ -195,7 +198,7 @@ One of the main advantages of being available on all these channels is that the 
 % TODO
                     
                     
-\section{Technology}
+\section{Requirements}
 In order to run a publishing platform, you have to rely on techonology. It is good practice to first take stock of what you want to achieve (the requirements), and then to see which technological solutions can help you. Normally only have a subset of the requirements will be must-haves, so the best solution for your particular use case will vary.
 
 \subsection{Requirements for a web platform}
@@ -316,7 +319,7 @@ Note that most countries require you provide some free copies to the national li
 \subsection{Requirements for archiving}
 The first requirement for your archive is that the copy be safe. You want to have trust that 100 years down the road, your copy will still be there. The second requirement is that the copy be accessible without too much hassle, ideally over the Internet, without restrictions. These are the central points. Further points are the richness of metadata you can provide, and the ease of uploading to the archive and updating metadata (e.g. further editions).
 
-\subsection{Automation}
+\section{Automation}
 Taking a mechanistic approach, we can see book production as a process which takes an input manuscript (ingestion), processes it (generation), and produces well-defined output (outlet). 
 
 %TODO
@@ -327,7 +330,7 @@ Taking a mechanistic approach, we can see book production as a process which tak
 The more constrained your input is, the easier automation becomes. 
  
                     
-\subsubsection{Ingestion}
+\subsection{Ingestion}
 It is a good idea to have clear criteria about the formats you accept. Will you only accept camera-ready copies (CRC) and offload the burden of book production completely on the authors? Or will you also accept less finished formats, which will then be conformed and finalised in-house? Or will you accept any kind of format and do the whole production from scratch in-house? The more restrictive, the less work you will have, but your number of submissions will also go down. 
 
 Potential formats which could be accepted at ingestion stage are: txt, docx, odt, tex, pdf, markdown. Graphics could be submitted as png, jpg, svg, idd, or pdf. 
@@ -338,7 +341,7 @@ At Language Science Press, we stated that we would only accept Latex submissions
 For the initial period, we proposed complementary conversion of docx and odt submissions. In the beginning, this held for any document. As we progressed, we created templates which are tailored to our conversion pipeline. We now require that authors use these templates if they want us to convert their manuscript for them. As the number of submission progresses, the press can be become stricter in enforcing the formal requirements. 
 
 
-\subsubsection{Generation}
+\subsection{Generation}
 This steps describes the production of the various output format based on the input manuscript. Some background might be in order here: while word processors like Microsoft Word or LibreOffice use a WYSIWYG approach (``What you see is what you get''), this is not practical for multiple outlets.
 In those cases, it is better to use a separation of meaning and presentation, i.e. a WYSIWYM approach (``What you see is what you mean''). For instance, chapters in Latex are marked with \verb+\chapter+, but otherwise look like normal text. This information can be accessed for a variety of use cases. Most typically, one will use the section title to put the relevant words in a larger font on a particular  page, but it is also used for the table of contents, the pdf bookmarks, and we also use it to extract a list of chapter titles when announcing a book to the community proofreaders. 
 
@@ -363,6 +366,8 @@ Additionally, there are a number of scripts which automate more complicated task
  \item \texttt{autoindex.py} marks up potential index terms 
  \item \texttt{fixindex.py} repairs the author index for names with diacritics.
  \item \texttt{chopchapters.sh} create pdf files for the individual chapters from a master file. 
+ \item linkchecker %TODO
+ \item resolutionchecker %TODO
 \end{itemize}
 
 Finally, there are specialised commands for common types of charts and diagrams. Instead of creating them in a graphics program or a spreadsheet, we can directly use the data in the Latex code to generate these elements. This also allows for easy extraction of the values for further computations if required. 
@@ -371,7 +376,7 @@ Depending on workload, we also redraw graphics and maps in Inkscape. This is not
 
 A desideratum would be a central metadata store which would feed the various outlets (website, pdf, GoogleBooks, Zenodo). Currently, metadata are stored in a variety of formats, and a change in the title of a book for instance must be replicated for all these formats. It would be preferable if such a change could only be made once and then automatically propagate to all relevant outlets.
 
-\subsubsection{Outlets}
+\subsection{Outlets}
 Our main outlet is our website. There, we have to upload the pdf and the individual chapters manually. The same is true for GoogleBooks, CreateSpace, and DOAB. A number of other tasks are automated:
 
 \begin{itemize}
@@ -390,49 +395,59 @@ In general, we are happy to add additional outlets as long as the incorporation 
  
    
 
-\section{services}
-                    copy-editing
-                    typesetting
-                    indexing
-                    service providers
-                        ubiquity
-                        India
-                        free lancers
-            
-                    digital
-                        Web site
-                        GoogleBooks
-                        PaperHive
-                        GitHub
-                        Zenodo 
-\subsubsection{archiving}
+
+\subsection{archiving}
                     DOAB
                     OAPEN
                     Zenodo
                     UB FU
-                    KU
+                    KU %TODO
 
-\section{software}
-\subsection{in-house}
-\subsubsection{CMS}
-                    OMP
-                    GitLab
-                    RUA
-                    janeway
-                    jekyll
-\subsubsection{GUI}
-                    Kile
-                    Texstudio
-                    Inkscape
-                    InDesign
-                    Word
-                    OpenOffice
-\subsection{webservices}
-\subsubsection{GitHub}
-\subsubsection{Overleaf}
-\subsubsection{Paperhive}
-\subsubsection{Zenodo}
-\subsubsection{gitbook}
+\section{Solutions}
+For all the technological tasks at hand, you have three basic options: use a computer at your institution to perform the task (in-house), use a webservice, or use an external service provider, often for a fee. 
+
+\subsection{In-house}
+\subsubsection{Presentation software}
+The software which takes care of the presentation of your books to the outside world will often be hosted by your institution itself. See Section \ref{sec:req:web}. There is a path dependency: once you have settled for a solution, it becomes very costly to change course and choose another solution. You normally have to go down the path you first chose. 
+
+At Language Science Press, we use Open Monograph Press (OMP) by PKP. OMP is free software and available free of charge. It is closely related to Open Journal Systems (OJS), used for articles in journals. OMP offers a workflow with the phases submission, internal review, external review, copy-editing and production. As a matter of fact, the main funtionality we use is the catalogue function. The workflow functions are used by some series, but in general, the interface is not intuitive enough for random users. As explained in Section \ref{sec:req:web}, it might be the case that a detailed model of the phases of the workflow, and a software implementation thereof, is not part of your requirements. In that case, you could go for a simpler solution. If submission and acceptance are completely decoupled from the catalogue, a Content Management System like WordPress might actually be good enough to simply expose your books to the world. 
+
+Competitors to OMP include RUA (unclear status as of 2018)\footurl{TODO} and Janeway\footurl{TODO}. If you go for a simpler solution without workflow management, you can also think about a static presentation, e.g. via WordPress or even Jekyll.\footurl{TODO} 
+
+\subsubsection{Generation software}
+In order to produce the books on our local computers, Language Science Press uses very powerful desktop computers with Xelatex as the main workhorse. This is augmented by a number of scripts and Makefiles. 
+
+As a graphical user interface for editing the tex files, we use Kile; for editing scripts, we use Kate. On operating systems other than Linux, TexStudio would be a good replacement. 
+
+We use Inkscape to create vector graphics. An alternative would be InDesign. We generally do not have the need to edit raster graphics. For most graphics files used in books, you should go for vector graphics. Only photographs should be edited in a raster-based program such as GIMP or Photoshop. Whenever possible, we create graphics in directly in Latex, with pgfplots for charts and tikz for diagrams and trees. 
+
+If you want to avoid Latex, you will probably have to use InDesign for qualitatively convincing typesetting. You could use MS Word or LibreOffice, but the results will not allow you to support your typographical claims to prestige.
+
+
+\subsubsection{Versioning software}
+Version control is a must for large projects such as the production of a book. If you want to run a versioning server yourself, GitLab seems to be the program of choice, although we have opted for a web service (GitHub) at Language Science Press. 
+
+\subsection{Web services}
+Since several years now, we are observing a move away from software running on the user's computer to software running on the computers of a specialised service provider, which is accessed via a web browser. This has the advantage that the users do not have to take care of the correct installation of their software, the dependencies it might have, and the security issues. It has the disadvantage that the users are no longer in control of what is happening. For critical processes, one should consider very carefully whether you want to entrust them to a computer you are not in control of. 
+
+At Language Science Press, we have opted for the following web services: 
+
+\begin{itemize}
+ \item Overleaf. This saves us from having to teach every author how to install Latex on their operating system. 
+ \item Paperhive. This allows us to centralise all comments on a manuscript in one place, rather than sending around dozens of pdfs with commentary. 
+ \item GitHub. A reliable versioning server with much better performance or uptime than we could provide ourselves. 
+ \item Zenodo. A very user-friendly archiving service operated by CERN which is much easier to integrate with than with the archiving services of university libraries.
+ \item GoogleBooks. Allow people to read the books on the Internet. PaperHive seems more suitable for the task of reading online, but if there are people searching for us on GoogleBooks, they should find us. 
+\end{itemize}
+
+Another web service which could be mentioned but which we do not use is GitBook. 
+
+One aspect which should always be considered when opting for a web service is the exit strategy: what will you do if the service shuts down, changes its product, or decides to charge astronomous amounts of money? Is there a way for you to get your data back home? Are there competitors available which you could switch to? For instance, for our Overleaf project, we keep local copies of the books via the git bridge. If ever Overleaf shut down we would still have copies of our own available. 
+
+\subsection{Outsourced}
+Next to doing the work on your own computers or on third parties' computers, you could also simply hire service providers to perform a specified task. This could be typesetting, copy-editing, indexing or graphics. We have occasionally had freelancers help us with conversion, but not on a regular basis. Major publishing houses routinely outsource their typesetting and other publishing services to Asia. At Language Science Press, we regularly receive unsollicited email from South Asian publishing service providers, but we have never been convinced by their offers. 
+            
+            
 \section{accountability}
 \subsection{monitoring}
 \subsubsection{internal}
@@ -624,6 +639,8 @@ stability
 failure is impossible
 series concept
 quality control
+backup
+Datenhoheit
 \end{document}
 
 
