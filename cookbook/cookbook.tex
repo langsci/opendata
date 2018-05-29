@@ -473,10 +473,11 @@ Setting up a community-based publisher is no easy task, and it is a rather novel
 
 \subsubsection{Roles}
 
-Try your best to explicate these relations, even if they are somewhat murky. This is not about creating hierarchies or chains of commands. It is rather about making sure that everybody is on the same page about what they will be doing within the project. For instance, do authors communicate directly with the press directors, or is the communication mediated via the series editors? 
+Try your best to explicate these relations, even if they are somewhat murky. This is not about creating hierarchies or chains of commands. It is rather about making sure that everybody is on the same page about what they will be doing within the project. For instance, do authors communicate directly with the press directors, or is the communication mediated via the series editors? In Figure \ref{fig:organigram} we give the LangSci structure. The main triangle is formed by the coordinator, the press directors and the series editors, who are in constant close contact. The advisory board is consulted on special occasions. Authors and editors are only in contact with their specific series editors and the coordinator. Chapter authors liaise with their volume editor. On the right hand side, there are various stakeholders more peripheral to the book production process. Solid lines symbolise direct connections where Language Science Press can influence; dashed lines stand for indirect, mediated influence.
 
 
 \begin{figure}
+\caption{LangSci organigram.}
 \resizebox{\textwidth}{!}{
 \begin{tikzpicture}[node distance=1cm, auto]  
 % \tikzset{
@@ -509,7 +510,7 @@ Try your best to explicate these relations, even if they are somewhat murky. Thi
 \node (chau2) [below=of editor, text width=1.5cm] {Chapter author};
 \node (chau1) [left=2mm of chau2, text width=1.5cm] {Chapter author};
 \node (chau3) [right=2mm of chau2, text width=1.5cm] {Chapter author};
-\node (pd) [above=of coordinator,xshift=-15mm,circle,draw=black,text width=1.3cm] {~ Press director};
+\node (pd) [above=of coordinator,xshift=-15mm,circle,draw=black,text width=1.4cm] {~ Press directors};
 \node (ab) [left=of pd,cloud,  cloud puffs=15.7, cloud ignores aspect, minimum width=2cm, minimum height=1cm,draw=black] {Advisory board};
 
 \node (readers) [right=1.7cm of coordinator,yshift=15mm,text width=3cm] {readers};
@@ -518,10 +519,10 @@ Try your best to explicate these relations, even if they are somewhat murky. Thi
 \node (libraries) [below=2mm of pod,text width=3cm] {Libraries};
 
 
-\node (ku) [below=of libraries,text width=2cm] {Knowledge Unlatched};
-\node (library1) [below=1mm of ku] {Library};
+\node (ku) [below=of libraries,text width=2cm,xshift=-5mm] {Knowledge Unlatched};
+\node (library1) [below=5mm of ku] {Library};
 \node (library2) [left=1mm of library1] {Library};
-\node (libraryetc) [right=1mm of library1] {...};
+\node (libraryetc) [right=1mm of library1] {Library};
 % \node ( ) [below=of libraries] ( );
 
 \draw (coordinator) -- (author);
@@ -550,12 +551,10 @@ Try your best to explicate these relations, even if they are somewhat murky. Thi
 }
 \end{figure}
 
-\subsubsection{work flows}
-\subsubsection{guidelines}
-\subsubsection{screencasts}
-\subsubsection{upate interval}
+\subsubsection{Workflows}
+The organisational structure is by definition static. The dynamic part is the transformation of the input to the output. The tool chains, pipelines or workflows should be made available as far as possible. The barest version of this would be Makefiles and scripts, where the succession of steps is cast into a succession of instructions to the computer. More explicit would be guidelines, HowTos and screencasts for different steps within the process. Note that software becomes outdated quickly. It is a good idea to have a periodical check of all your documentation material to see whether the information is still current (e.g. every year). 
 
-\section{money}
+\section{Money}
 \subsection{Revenue}
 \subsubsection{refer business model}
 \subsubsection{major}
