@@ -2,6 +2,9 @@
 \renewcommand{\lsSeries}{guidelines}
 \usepackage{langsci-gb4e}
 \usepackage{url}
+
+\usepackage{tikz}
+\usetikzlibrary{arrows,positioning,shapes} 
 \urlstyle{same}
 \newcommand{\footurl}[1]{\footnote{\url{#1}}}
 \title{Cookbook for Open Access books}
@@ -448,32 +451,110 @@ One aspect which should always be considered when opting for a web service is th
 Next to doing the work on your own computers or on third parties' computers, you could also simply hire service providers to perform a specified task. This could be typesetting, copy-editing, indexing or graphics. We have occasionally had freelancers help us with conversion, but not on a regular basis. Major publishing houses routinely outsource their typesetting and other publishing services to Asia. At Language Science Press, we regularly receive unsollicited email from South Asian publishing service providers, but we have never been convinced by their offers. 
             
             
-\section{accountability}
-\subsection{monitoring}
-\subsubsection{internal}
-\subsection{reporting}
-\subsubsection{external}
-\subsection{financial}
-\subsubsection{see business model and spread sheet}
-\subsection{social}
-\subsubsection{transparency}
-                    statistics
-                        downloads
-                        sales
-                        submissions
-                        acceptance/rejection
-                        publications
-                        duration
-                        gender balance
-                        geographical balance
-\subsection{technological}
-\subsubsection{GitHub}
-\subsubsection{blog}
-\subsection{organizational}
+\section{Accountability}
+If you are spending public money, the public should know where that money went. If you are using crowdfunding, people will be even more eager to know what happened with their money. A community-based publisher should try to give back to the community as much as possible. The most obvious return would be books, but other by-products, like software, workflows or business models should also be made available. 
+
+\subsection{Numbers}
+Numbers should never be the driving force behind a project, but it helps to have some quantifiable idea of where you are now and where you would like to be in the future, and to evaluate that idea periodically. We can distinguish internal monitoring from external reporting. Not all things you monitor are worthy to be reported. For instance, if your monitoring reveals that your tweets perform 6\% better on Tuesdays than on Mondays, that is probably within the margin of error anyway and there is no need to spend resources on making that information available in a user-friendly way. This being said, you should think about what kind of reports you want to publish in what intervals. At Language Science Press, we publish dowload figures on a monthly basis, and we provide other data (number of series, number of expressions of interest, number of submission, acceptance rates, followers etc) in January for the past year. Starting with this OpenAire project, we will also report on our finances. See spreadsheet and business model provided together with this cookbook.
+
+Other projects might have different setups and hence will have other priorities in what they give back to the community. This is perfectly OK, but in any case, there should be a clear plan of what to give back when and how. Other topics which might be worthy of reporting are for instance the geographical or gender balance of authors/submitters/editors/series editors.
+
+
+\subsection{Technological}
+All software you produce should be made available for reuse via a common platform. GitHub would be one, but there are others. Choose an open license which allows for free use, modification and redistribution of your code. 
+
+Ideally, all software should be documented, but do make the software available even if the documentation is wanting. Access to badly documented code is better than no access to code. Do not wait for your code to be perfect; that will never happen. If your code is faulty and other people find out and tell you, the better.
+
+Particularly useful or novel pieces of software should be covered on your blog. Invite others to contribute towards the development. More often than not, there will be no response, but it shows your commitment to openness and underscores the innovative aspect of your project. 
+
+
+\subsection{Organisational}
+Setting up a community-based publisher is no easy task, and it is a rather novel concept. On the one hand, there is the repartition of roles: who does what; what are the tasks; who is responsible of which aspect; who relays information to whom. On the other hand, there are processes: what input is being transformed to what output via which pipeline?
+
+\subsubsection{Roles}
+
+Try your best to explicate these relations, even if they are somewhat murky. This is not about creating hierarchies or chains of commands. It is rather about making sure that everybody is on the same page about what they will be doing within the project. For instance, do authors communicate directly with the press directors, or is the communication mediated via the series editors? 
+
+
+\begin{figure}
+\resizebox{\textwidth}{!}{
+\begin{tikzpicture}[node distance=1cm, auto]  
+% \tikzset{
+%     mynode/.style={rectangle,rounded corners,draw=black, top color=white, bottom color=yellow!50,very thick, inner sep=1em, minimum size=3em, text centered},
+%     myarrow/.style={->, >=latex', shorten >=1pt, thick},
+%     mylabel/.style={text width=7em, text centered} 
+% }  
+% \node[mynode] (manufacturer) {MANUFACTURER};  
+% \node[below=3cm of manufacturer] (dummy) {}; 
+% \node[mynode, left=of dummy] (retailer1) {RETAILER 1};  
+% \node[mynode, right=of dummy] (retailer2) {RETAILER 2};
+% \node[mylabel, below left=of manufacturer] (label1) {Participation rate $\theta_1$};  
+% \node[mylabel, below right=of manufacturer] (label2) {Participation rate $\theta_2$};
+% % The text width of 7em forces the text to break into two lines. 
+% 
+% \draw[myarrow] (manufacturer.south) -- ++(-.5,0) -- ++(0,-1) -|  (retailer1.north);	
+% \draw[myarrow] (manufacturer.south) -- ++(.5,0) -- ++(0,-1) -|  (retailer2.north);
+% % There is a slight overlap of the arrows with the (manufacturer) south edge
+% % because creating the offset in another way didn't compile. 
+%  
+% \draw[<->, >=latex', shorten >=2pt, shorten <=2pt, bend right=45, thick, dashed] 
+%     (retailer1.south) to node[auto, swap] {Competition}(retailer2.south); 
+% % The swap command corrects the placement of the text.
+
+\node (coordinator) [circle,draw=black] {Coordinator};
+\node (se) [left=of coordinator,yshift=-4mm,circle, draw=black, text width=1cm]{Series editor};
+\node (editor) [below=of se, rectangle,draw=black,yshift=4mm] {Volume editor};
+\node (author) [right=of editor, xshift=5mm,rectangle,draw=black] {Author};
+
+\node (chau2) [below=of editor, text width=1.5cm] {Chapter author};
+\node (chau1) [left=2mm of chau2, text width=1.5cm] {Chapter author};
+\node (chau3) [right=2mm of chau2, text width=1.5cm] {Chapter author};
+\node (pd) [above=of coordinator,xshift=-15mm,circle,draw=black,text width=1.3cm] {~ Press director};
+\node (ab) [left=of pd,cloud,  cloud puffs=15.7, cloud ignores aspect, minimum width=2cm, minimum height=1cm,draw=black] {Advisory board};
+
+\node (readers) [right=1.7cm of coordinator,yshift=15mm,text width=3cm] {readers};
+\node (proofreaders) [below=2mm of readers,text width=3cm] {proofreaders};
+\node (pod) [below=2mm of proofreaders,text width=3cm] {Print-on-demand};
+\node (libraries) [below=2mm of pod,text width=3cm] {Libraries};
+
+
+\node (ku) [below=of libraries,text width=2cm] {Knowledge Unlatched};
+\node (library1) [below=1mm of ku] {Library};
+\node (library2) [left=1mm of library1] {Library};
+\node (libraryetc) [right=1mm of library1] {...};
+% \node ( ) [below=of libraries] ( );
+
+\draw (coordinator) -- (author);
+\draw (coordinator) -- (editor);
+\draw (coordinator) -- (se);
+\draw (coordinator) -- (pd);
+\draw (coordinator) -- (ku);
+\draw (coordinator) -- (readers);
+\draw (coordinator) -- (proofreaders);
+\draw (coordinator) -- (pod);
+\draw (coordinator) -- (libraries);
+
+\draw (ab) -- (pd);
+\draw (se) -- (pd);
+\draw (se) -- (editor);
+\draw (se) -- (author);
+
+\draw [dashed] (editor) -- (chau1);
+\draw [dashed] (editor) -- (chau2);
+\draw [dashed] (editor) -- (chau3);
+
+\draw [dashed] (ku) -- (library1);
+\draw [dashed] (ku) -- (library2); 
+\draw [dashed] (ku) -- (libraryetc);
+\end{tikzpicture} 
+}
+\end{figure}
+
 \subsubsection{work flows}
 \subsubsection{guidelines}
 \subsubsection{screencasts}
 \subsubsection{upate interval}
+
 \section{money}
 \subsection{Revenue}
 \subsubsection{refer business model}
