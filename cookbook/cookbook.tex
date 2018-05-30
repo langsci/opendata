@@ -473,83 +473,8 @@ Setting up a community-based publisher is no easy task, and it is a rather novel
 
 \subsubsection{Roles}
 
-Try your best to explicate these relations, even if they are somewhat murky. This is not about creating hierarchies or chains of commands. It is rather about making sure that everybody is on the same page about what they will be doing within the project. For instance, do authors communicate directly with the press directors, or is the communication mediated via the series editors? In Figure \ref{fig:organigram} we give the LangSci structure. The main triangle is formed by the coordinator, the press directors and the series editors, who are in constant close contact. The advisory board is consulted on special occasions. Authors and editors are only in contact with their specific series editors and the coordinator. Chapter authors liaise with their volume editor. On the right hand side, there are various stakeholders more peripheral to the book production process. Solid lines symbolise direct connections where Language Science Press can influence; dashed lines stand for indirect, mediated influence.
+Try your best to explicate these relations, even if they are somewhat murky. This is not about creating hierarchies or chains of commands. It is rather about making sure that everybody is on the same page about what they will be doing within the project. For instance, do authors communicate directly with the press directors, or is the communication mediated via the series editors? In Figure \ref{fig:organigram} we give the LangSci structure. 
 
-
-\begin{figure}
-\caption{LangSci organigram.}
-\resizebox{\textwidth}{!}{
-\begin{tikzpicture}[node distance=1cm, auto]  
-% \tikzset{
-%     mynode/.style={rectangle,rounded corners,draw=black, top color=white, bottom color=yellow!50,very thick, inner sep=1em, minimum size=3em, text centered},
-%     myarrow/.style={->, >=latex', shorten >=1pt, thick},
-%     mylabel/.style={text width=7em, text centered} 
-% }  
-% \node[mynode] (manufacturer) {MANUFACTURER};  
-% \node[below=3cm of manufacturer] (dummy) {}; 
-% \node[mynode, left=of dummy] (retailer1) {RETAILER 1};  
-% \node[mynode, right=of dummy] (retailer2) {RETAILER 2};
-% \node[mylabel, below left=of manufacturer] (label1) {Participation rate $\theta_1$};  
-% \node[mylabel, below right=of manufacturer] (label2) {Participation rate $\theta_2$};
-% % The text width of 7em forces the text to break into two lines. 
-% 
-% \draw[myarrow] (manufacturer.south) -- ++(-.5,0) -- ++(0,-1) -|  (retailer1.north);	
-% \draw[myarrow] (manufacturer.south) -- ++(.5,0) -- ++(0,-1) -|  (retailer2.north);
-% % There is a slight overlap of the arrows with the (manufacturer) south edge
-% % because creating the offset in another way didn't compile. 
-%  
-% \draw[<->, >=latex', shorten >=2pt, shorten <=2pt, bend right=45, thick, dashed] 
-%     (retailer1.south) to node[auto, swap] {Competition}(retailer2.south); 
-% % The swap command corrects the placement of the text.
-
-\node (coordinator) [circle,draw=black] {Coordinator};
-\node (se) [left=of coordinator,yshift=-4mm,circle, draw=black, text width=1cm]{Series editor};
-\node (editor) [below=of se, rectangle,draw=black,yshift=4mm] {Volume editor};
-\node (author) [right=of editor, xshift=5mm,rectangle,draw=black] {Author};
-
-\node (chau2) [below=of editor, text width=1.5cm] {Chapter author};
-\node (chau1) [left=2mm of chau2, text width=1.5cm] {Chapter author};
-\node (chau3) [right=2mm of chau2, text width=1.5cm] {Chapter author};
-\node (pd) [above=of coordinator,xshift=-15mm,circle,draw=black,text width=1.4cm] {~ Press directors};
-\node (ab) [left=of pd,cloud,  cloud puffs=15.7, cloud ignores aspect, minimum width=2cm, minimum height=1cm,draw=black] {Advisory board};
-
-\node (readers) [right=1.7cm of coordinator,yshift=15mm,text width=3cm] {readers};
-\node (proofreaders) [below=2mm of readers,text width=3cm] {proofreaders};
-\node (pod) [below=2mm of proofreaders,text width=3cm] {Print-on-demand};
-\node (libraries) [below=2mm of pod,text width=3cm] {Libraries};
-
-
-\node (ku) [below=of libraries,text width=2cm,xshift=-5mm] {Knowledge Unlatched};
-\node (library1) [below=5mm of ku] {Library};
-\node (library2) [left=1mm of library1] {Library};
-\node (libraryetc) [right=1mm of library1] {Library};
-% \node ( ) [below=of libraries] ( );
-
-\draw (coordinator) -- (author);
-\draw (coordinator) -- (editor);
-\draw (coordinator) -- (se);
-\draw (coordinator) -- (pd);
-\draw (coordinator) -- (ku);
-\draw (coordinator) -- (readers);
-\draw (coordinator) -- (proofreaders);
-\draw (coordinator) -- (pod);
-\draw (coordinator) -- (libraries);
-
-\draw (ab) -- (pd);
-\draw (se) -- (pd);
-\draw (se) -- (editor);
-\draw (se) -- (author);
-
-\draw [dashed] (editor) -- (chau1);
-\draw [dashed] (editor) -- (chau2);
-\draw [dashed] (editor) -- (chau3);
-
-\draw [dashed] (ku) -- (library1);
-\draw [dashed] (ku) -- (library2); 
-\draw [dashed] (ku) -- (libraryetc);
-\end{tikzpicture} 
-}
-\end{figure}
 
 \subsubsection{Workflows}
 The organisational structure is by definition static. The dynamic part is the transformation of the input to the output. The tool chains, pipelines or workflows should be made available as far as possible. The barest version of this would be Makefiles and scripts, where the succession of steps is cast into a succession of instructions to the computer. More explicit would be guidelines, HowTos and screencasts for different steps within the process. Note that software becomes outdated quickly. It is a good idea to have a periodical check of all your documentation material to see whether the information is still current (e.g. every year). 
@@ -607,21 +532,150 @@ It is your duty to check whether similar brands exist. You could always try and 
 In the context of brands, it is also important to note that the FAIR Open Access Principles has at \#1 ``The journal has a transparent ownership structure, and is controlled by and responsive to the scholarly community\footurl{https://www.fairopenaccess.org/}'' with the added explanation 
 ``Key points are that the controlling organization, not a commercial publisher, must own the journal title''. In our case, that would not be the journal title of course, but the name of the publishing platform, and registered ownership means a registered brand. 
  
-\subsection{IPR}
-\subsubsection{author contracts}
-\subsubsection{FAIR principles}
-\subsection{pod}
-\subsubsection{non-exclusive}
-\subsection{hosting}
-\subsubsection{legal requirements of your jurisdiction}
-                    betreiber
-                    Ansprechpartner
-                    terms and conditions
-                    privacy
-                        DSGVO
-                        analytics
-                        permission
+\subsection{Intellectual property rights (IPR)}
+\subsubsection{Author contracts}
+Under the current copyright laws, authors own the rights to their creations. Other parties which want to make available an author's work have to get the explicit permission to do so. Traditional publishers often solve this via ``copyright transfer agreements''. All rights pertaining to a work are transfered to the publisher, who can then do with the work as they see fit. Other parties, including the author themselves, are barred from using the work as a consequence, unless they obtain explicit permission from the new rights holder, i.e. the publisher. 
+
+However, such copyright transfer is not strictly necessary. A more granular approach, only granting the rights necessary for the particular service a publisher provides, would also be sufficient. In this case, the author would retain their copyright. This granting of rights can either be specific (publisher X is allowed to do this and that) or global (anybody is allowed to do this and that). The latter approach is the one espoused by Creative Commons. An author who licenses their work under a Creative Commons license grants everybody the right to use the work under the terms speficified by the license (e.g. attribution of the source). This also means that a particular contract between the author and the publisher is no longer required if all services the publisher performs are covered by the Creative Commons license. 
+
+The Fair Open Access principles state as \#2 and \#3:
+
+\begin{enumerate}
+\setcounter{enumi}{1}
+\item Authors of articles in the journal retain copyright.
+\item All articles are published open access and an explicit open access licence is used.
+\end{enumerate}
+
+The author contract used by Language Science Press is very short. It is given in a translated and slightly abridged version in Figure \ref{fig:authorcontract}. This contract is provided for illustration and should not be taken over without consulting a legal expert.
+
+\begin{figure}
+\caption{Language Science Press author contract}
+\label{fig:authorcontract}
+\fbox{
+\ttfamily
+\parbox{.98\textwidth}{
+\footnotesize\raggedright
+\textbf{Author's agreement}
+
+between
+
+\rule{5cm}{1pt}
+
+(in the following "author")
+
+and
+
+Language Science Press 
+
+The goal of Language Science Press is to make results of top level linguistic research available to all readers without cost to these readers. 
+
+All publications on the Language Science Press platform are published under the Creative Commons CC-BY 4.0 Germany licence (or any newer version). The complete text of this license can be found at http://creativecommons.org/licenses/by/4.0/. This licence gives everyone (including the author) the right to copy the work, distribute it and make it available online without a fee and without individual consent by the creator. To this end, the users of the publication are granted non-exclusive, temporally and geographically unrestricted rights of usage under the conditions of this licence (proper attribution of the author). The licence chose allows third parties to use the work, including commercial use, to modify it and to change it (e.g. translate it into another language).
+
+\medskip
+\noindent
+\textbf{§ 1 Object of this agreement}
+
+This agreement covers the work entitled
+
+\rule{5cm}{1pt}
+
+(referred to as "work" in the following)
+
+\medskip\noindent
+\textbf{§ 2 Grant of rights to use}
+
+1. The author grants the non-exclusive, temporally, geographically and content-wise unrestricted right of usage to Language Science Press allowing Language Science Press to replicate the work in all known or hitherto unknown kinds of usage, to distribute and to show it in public, especially to make it available publicly (online). Language Science Press may further transfer or sublicense these rights to third parties, particulary the right to make it available under the chosen CC-licence. 
+
+\medskip\noindent
+\textbf{§ 3 Warranty of necessary rights}
+
+The author guarantees that they are in a position to transfer the copyright concerned, that the usage mentioned above does not infringe third parties' rights and that the work and all its components do not infringe third parties' rights, in particular in what concerns intellectual property rights or personal rights. This includes all materials included in the work concerned (e.g. photographs, graphics). In case Language Science Press is sued for an infringement by the author's work, the author shall fully indemnify Language Science Press from any liability and any costs incurred, including legal costs. 
+
+\medskip\noindent
+\textbf{§ 4 Royalties}
+
+In consideration of Language Science Press being a not-for-proft enterprise, and considering that the work is made available without a fee under the CC-BY licence mentioned above, no royalties will be paid. 
+
+\medskip\noindent
+\textbf{§ 5 Final clauses}
+
+1. Changes or amendments to this text must be done in written.
+2. German law applies.
+3. If any part of this agreement is declared unenforceable or invalid, the remainder will continue to be valid and enforceable.
+ }
+}
+\end{figure}
+
+
+The author contract must give you the permission to host the book on your servers and to have it printed via print-on-demand.
+Print-on-demand service providers ask you to confirm that you have the necessary rights to get a document printed. 
+All print-on-demand service providers are commercial entities. Note that Creative Commons non-commercial licenses will effectively ban you from offering print-on-demand, so they should not be used. 
+
+You grant the rights to reproduce the work in print to the print-on-demand service providers. Read their terms carefully and see if they want exclusive or non-exclusive rights. You are generally not in a position to provide exclusive rights since, under the Creative Commons license, anybody can use the work and you do not have the power to restrict these usages. If the service provider ask for exclusive rights, get in touch with them and explain the situation for Open Access. Chances are good that they will grant you an exemption. 
+
+\subsection{Hosting}
+In order to make the content available on your own website, you have to have the necessary rights as discussed above. The Creative Commons license generally solves this. If you use user authentication, or if you use other means to identify your users personally, you will have to make sure you comply with the necessary privacy legislation in your jurisdiction. Note that Google Analytics and similar tools can be considered as identifying users. The easiest solution is always to simply not collect any user information (privacy by design). The less personal information you collect, the less legal requirements you have to respect. 
+
+There are a number of additional legal requirements which vary per jurisdiction. This concerns the contact details of the person responsible for the site, contact of the person responsible for the technical functioning of the site, and some information relating to taxation and information about privacy laws. The rules evolve quickly in this domain, so you should get qualified advice in this domain. 
+
+
 \section{Governance}
+Your publishing project should have a structure which allows you to ensure that scientific, financial, organisational and ethical aspects are all well handled. The organigram of Language Science Press is given in Figure \ref{fig:organigram}. 
+
+\begin{figure}
+\caption{LangSci organigram. The main triangle is formed by the coordinator, the press directors and the series editors, who are in constant close contact. The advisory board is consulted on special occasions. Authors and editors are only in contact with their specific series editors and the coordinator. Chapter authors liaise with their volume editor. On the right hand side, there are various stakeholders more peripheral to the book production process. Solid lines symbolise direct connections where Language Science Press can influence; dashed lines stand for indirect, mediated influence.}
+\label{fig:organigram}
+\resizebox{\textwidth}{!}{
+\begin{tikzpicture}[node distance=1cm, auto]   
+\node (coordinator) [circle,draw=black] {Coordinator};
+\node (se) [left=of coordinator,yshift=-4mm,circle, draw=black, text width=1cm]{Series editor};
+\node (editor) [below=of se, rectangle,draw=black,yshift=4mm] {Volume editor};
+\node (author) [right=of editor, xshift=5mm,rectangle,draw=black] {Author};
+
+\node (chau2) [below=of editor, text width=1.5cm] {Chapter author};
+\node (chau1) [left=2mm of chau2, text width=1.5cm] {Chapter author};
+\node (chau3) [right=2mm of chau2, text width=1.5cm] {Chapter author};
+\node (pd) [above=of coordinator,xshift=-15mm,circle,draw=black,text width=1.4cm] {~ Press directors};
+\node (ab) [left=of pd,cloud,  cloud puffs=15.7, cloud ignores aspect, minimum width=2cm, minimum height=1cm,draw=black] {Advisory board};
+
+\node (readers) [right=1.7cm of coordinator,yshift=15mm,text width=3cm] {readers};
+\node (proofreaders) [below=2mm of readers,text width=3cm] {proofreaders};
+\node (pod) [below=2mm of proofreaders,text width=3cm] {Print-on-demand};
+\node (libraries) [below=2mm of pod,text width=3cm] {Libraries};
+
+
+\node (ku) [below=of libraries,text width=2cm,xshift=-5mm] {Knowledge Unlatched};
+\node (library1) [below=5mm of ku] {Library};
+\node (library2) [left=1mm of library1] {Library};
+\node (libraryetc) [right=1mm of library1] {Library};
+% \node ( ) [below=of libraries] ( );
+
+\draw (coordinator) -- (author);
+\draw (coordinator) -- (editor);
+\draw (coordinator) -- (se);
+\draw (coordinator) -- (pd);
+\draw (coordinator) -- (ku);
+\draw (coordinator) -- (readers);
+\draw (coordinator) -- (proofreaders);
+\draw (coordinator) -- (pod);
+\draw (coordinator) -- (libraries);
+
+\draw (ab) -- (pd);
+\draw (se) -- (pd);
+\draw (se) -- (editor);
+\draw (se) -- (author);
+
+\draw [dashed] (editor) -- (chau1);
+\draw [dashed] (editor) -- (chau2);
+\draw [dashed] (editor) -- (chau3);
+
+\draw [dashed] (ku) -- (library1);
+\draw [dashed] (ku) -- (library2); 
+\draw [dashed] (ku) -- (libraryetc);
+\end{tikzpicture} 
+}
+\end{figure}
+
 \subsection{internal}
 \subsubsection{advisory board}
 \subsubsection{press directors}
