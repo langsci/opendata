@@ -16,3 +16,8 @@ Revenue is broken down according to the 5 revenue streams established in the bus
 Costs are broken down into fixed/variable and personnel/non-personnel costs. 
 
 The current setup assumes that all employees will fit into one room, and that 3 desks and computers will be needed. This could be adjusted, but it would only have little influence on the overall outcome. 
+
+
+The individual variables are: 
+- `pages per book`: How many pages do your books have on average?
+- `table per book`: How many tables are found in a book on average? 
