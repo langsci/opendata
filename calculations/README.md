@@ -18,5 +18,42 @@ Costs are broken down into fixed/variable and personnel/non-personnel costs.
 The current setup assumes that all employees will fit into one room, and that 3 desks and computers will be needed. This could be adjusted, but it would only have little influence on the overall outcome. 
 
 The individual variables are: 
-- `pages per book`: How many pages do your books have on average?
-- `table per book`: How many tables are found in a book on average? 
+- `Pages per book`: How many pages do your books have on average?
+- `Tables per book`: How many tables are found in a book on average? 
+- `Figures per book`: How many figures are found in a book on average?
+- `DOIs per book`: How many DOIs do you need for a book? This combines DOIs for the book and DOIs for subparts such as chapters
+- `ISBNs per book`: How many ISBNs do you need per book? Digital and paper edition need different ISBNs, as do softcover and hardcover ISBNs. 
+- `own copies per book`: How many copies do you need for yourself, your institution, and your national libraries etc? 
+- `cost price pod setup`: How much does it cost to start a print-on-demand project? 
+- `cost price page`:  How much does your print-on-demand service provider charge per b/w page. 
+- `Percentage community proofreading`: How much of the proofreading is crowd-sourced to the community? 
+- `Percentage outsourced proofreading `: How much proofreading is outsorced? 
+- `percentage inhouse proofreading `:  This follows from the above two items
+- `Percentage community typesetting`: How much of the typesetting is crowdsourced to the community?
+- `percentage outsourced typesetting `: How much of the typesetting is outsourced? 
+- `percentage inhouse typesetting `:  This follows from the above two items
+- `percentage outsourced indexing`: How much of indexing is outsourced? 
+- `percentage inhouse indexing`:  This follows from the item above
+- `Downloads per book`: How many downloads do you expect per book on average? 
+
+- ``: 
+- ``: 
+- ``: 
+- ``: 
+- ``: 
+- ``: 
+- ``: 
+- ``: 
+- ``: 
+- ``: 
+- ``: 
+- ``: 
+- ``: 
+- ``: 
+- ``: 
+- ``: 
+- ``: 
+- ``: 
+- ``: 
+- ``: 
+- ``: v
