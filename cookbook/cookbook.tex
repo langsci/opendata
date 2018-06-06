@@ -175,9 +175,9 @@ Facebook and Twitter accounts are free for everybody to create. Setting up an or
 \subsection{Identifiers}
 All our books have several ISBNs, one for the digital version and one for each of hardcover/softcover. All books have DOIs (Digital Object Identifiers), and we now also provide DOIs for chapters. ISBNs and DOIs for books are displayed on our website and included in the book. DOIs for chapters are only included in the chapters themselves, but not on the website. 
 
-The DOIs allow the documents to be uniquely identified, and they can be used to easily retrieve a well-defined version of a document. They also help establish relations such as ``prior version'', ``later version'' or ``part of''. This is not done a lot yet in linguistics; it is more common in the natural sciences. In any case, having a DOI will assure a document can be integrated in citation graphs etc. 
+The DOIs allow the documents to be uniquely identified, and they can be used to easily retrieve a well-defined version of a document. They also help establish relations such as ``prior version'', ``later version'' or ``part of''. This is not done a lot yet in linguistics; it is more common in the natural sciences. In any case, having a DOI will assure a document can be integrated in citation graphs, etc. 
 
-Our DOIs are provided by Zenodo. Our ISBNs are provided by the library of Freie Universität. Zenodo provides DOIs to anybody free of charge. Most university libraries should be able to get you ISBNs. 
+Our DOIs are provided by Zenodo. Our ISBNs are provided by the library of Freie Universität Berlin. Zenodo provides DOIs to anybody free of charge. Most university libraries should be able to get you ISBNs. 
 
 
 \subsection{Keywords }
@@ -190,9 +190,9 @@ Our books are listed on Amazon and are available via local book stores and the s
 For inquiries, we have so-called conference ambassadors. These are normally editors of one of our series who are present at the conference anyway. Interested authors can get in touch with them if they need information for a particular publishing project. 
                     
 \subsection{Book reviews}
-We do not send unsollicited copies to journals for review. If a journal asks for a copy, we send it to the reviewer, no questions asked. We do not track whether the review is actually completed, and we do not ask for the copies to be returned. The overhead would be too important. 
+We do not send unsollicited copies to journals for review. If a journal asks for a copy, we send it to the reviewer, no questions asked. We do not track whether the review is actually completed, and we do not ask for the copies to be returned. The overhead would be too important.\todo{costly?}
 
-Our books are posted on LinguistList, and thereby automatically included as ``available for review''. A list is also sent to ``Language'', the leading linguistics journal, on a regular basis. 
+Our books are posted on LinguistList, and thereby automatically included as ``available for review''. A list is also sent to \textit{Language}, the leading linguistics journal, on a regular basis. 
 
 We encourage reviewers to use PaperHive for reviews of the electronic documents.
 
@@ -205,16 +205,20 @@ These two projects have been suggested to us, but we have not yet understood wha
 One of the main advantages of being available on all these channels is that the books get wider exposure, and readers might consider Language Science Press as a venue for their next book to be written. %TODO
 
 \section{Quality control}
-In order to give weight to your claims about prestige, you must establish procedures of quality control, enforce them and communicate them clearly. Language Science Press uses a series model. Scientific quality is assured by the series editors, who are specialists in their field. Series are autonomous, as even the most erudite press directors will not have in-depth knowledge of all subfields, ranging from Phonetics over African Linguistics to Computational Linguistics. Scientific quality control is complemented by formal quality control provided by the LangSci office. This regards references, typography, DOIs etc. The viability of series and their setup underlies ``meta quality control'' by the advisory board. Only series proposals which can show that they have enough reputation, competence, clout, and backing from their respective subcommunities will be accepted. The first five volumes of a series undergo review by the press directors to assure that the series is line with the general expectations of quality.
+In order to give weight to your claims about prestige, you must establish procedures of quality control, enforce them and communicate them clearly. Language Science Press uses a series model. Scientific quality is assured by the series editors, who are specialists in their field. Series are autonomous, as even the most erudite press directors will not have in-depth knowledge of all subfields, ranging from Phonetics over African Linguistics to Computational Linguistics. 
+
+Scientific quality control is complemented by formal quality control provided by the Language Science Press office. This regards references, typography, DOIs etc. 
+
+The viability of series and their setup underlies ``meta quality control'' by the advisory board. Only series proposals which can show that they have enough reputation, competence, clout, and backing from their respective subcommunities will be accepted. The first five volumes of a series undergo review by the press directors to assure that the series is line with the general expectations of quality.
                     
                     
 \section{Requirements}
 In order to run a publishing platform, you have to rely on techonology. It is good practice to first take stock of what you want to achieve (the requirements), and then to see which technological solutions can help you. Normally only a subset of the requirements will be must-haves, so the best solution for your particular use case will vary.
 
 \subsection{Requirements for a web platform}
-Coming from the reader's perspective, the most important thing you have to have for an open access book is a place on the Internet where the books can be downloaded. This is a very simple requirement. In principle, a static website or even an FTP server would do. Additional requirements are user authentication and access control. This is obviously not necessary for fully open access books: the very definition of open access precludes access control. Again, coming from a reader's perspective, an open access publisher could easily do without access control, and therefore also without user authentication. 
+Coming from the reader's perspective, the most important thing you have to have\todo{Erase ``You have to have'' for a shorter sentence} for an open access book is a place on the Internet where the books can be downloaded. This is a very simple requirement. In principle, a static website or even an FTP server would do. Additional requirements are user authentication and access control. This is obviously not necessary for fully open access books: the very definition of open access precludes access control. Again, coming from a reader's perspective, an open access publisher could easily do without access control, and therefore also without user authentication. 
 
-Things are different when we enlargen our scope and take into account the whole book production work flow. Before the final book, we have the initial submission, revised versions, and final drafts. Having some control on who can access these documents (authors, editors, reviewers, but not random people) can be justified. Note, however, that simply sending these documents via email to the intended recipients would already solve that issue.
+Things are different when we enlargen our scope\todo{Erase ``we enlargen our scope and''} and take into account the whole book production work flow. Before the final book, we have the initial submission, revised versions, and final drafts. Having some control on who can access these documents (authors, editors, reviewers, but not random people) can be justified. Note, however, that simply sending these documents via email to the intended recipients would already solve that issue.
 
 Finally, some series editors like to have a well-defined interface which models the progress of a manuscript through the stages of submission, review, revision, typesetting, and publication. For this, you need different roles: authors can submit; editors can assign reviewers, read reviews, and advance a manuscript to the next stage; reviewers can only write reviews. Authors or reviewers are barred from actions such as accepting a manuscript or publishing it, and reviewers might only be allowed to see their own review, but not the reviews of others. 
 
@@ -290,12 +294,12 @@ The more items from the list above can be handled in an automated way, the bette
 At the most basic level, we can distinguish digital distribution and paper distribution. 
 
 \subsubsection{Requirements for digital distribution}
-For digital distribution, pdf is the format of choice. There should be a way for you to produce pdfs.  For books in linguistics, the relative ordering of elements (horizontally and vertically) is often very important. This is why we require pdf. There are other digital formats like HTML or EPUB which might be suitable for other disciplines; for linguistics they are not suitable. You might also give some thought to XML as a specified generic backend format, or Markdown as an easy-to-use backend format with somewaht looser specifications. 
+For digital distribution, PDF is the format of choice. There should be a way for you to produce PDFs.  For books in linguistics, the relative ordering of elements (horizontally and vertically) is often very important. This is why we require PDF. There are other digital formats like HTML or EPUB which might be suitable for other disciplines; for linguistics they are not suitable. You might also give some thought to XML as a specified generic backend format, or Markdown as an easy-to-use backend format with somewaht looser specifications. 
 
 PDF as a format is accepted by all major distribution platforms like DOAB, GoogleBooks or Zenodo. 
  
 
-The pdfs should be searchable, should not be encrypted and should be free of Digital Restrictions Management (DRM). Additional features like pdf bookmarks, hyperlinks and a clickable table of contents can be useful. 
+The PDFs should be searchable, should not be encrypted and should be free of Digital Restrictions Management (DRM). Additional features like PDF bookmarks, hyperlinks and a clickable table of contents can be useful. 
 
 \subsubsection{Requirements for analog distribution}
 There are a number of print-on-demand services available. They can be distinguished by 
@@ -319,12 +323,12 @@ There are a number of print-on-demand services available. They can be distinguis
 
 As of 2018, Amazon CreateSpace has the best worldwide coverage and very fast shipping. The quality of the books is, however, rather low, and it has happened that we have returned more than 40\% of a batch due to faulty quality. Depending on the number of books your press publishes, the time to upload a book for print-on-demand can become a factor, especially when it comes to filling in metadata. This can take up to half  an hour per book. We now use BoD. BoD provides an FTP interface where we can automatically upload our books with the metadata in a specified XML-format. 
 
-BoD lets you choose your width and height freely. For CreateSpace, only about a dozen%TODO
+BoD lets you choose your width and height freely. For CreateSpace, only about a dozen %TODO
  predefined sizes exist. Other providers will only accept A5 or A4. 
 
 For print-on-demand, you can either bring your own ISBN, or you have to buy an ISBN from the service provider. Providers vary as to whether your book will be available only via them directly, via Amazon, or via local bookstores and standard distribution channels as well. In Germany, for instance, your book has to be listed in the \textit{Verzeichnis lieferbarer Bücher}, which costs a nominal fee per book and year.
 
-Note that most countries require you provide some free copies to the national libraries. If you print in India for instance, you will have to pay shipping for these copies if your press happens to be elsewhere.
+Note that most countries require you to provide some free copies to their national libraries. If you print in India for instance, you will have to pay shipping for these copies if your press happens to be elsewhere.
 
 \subsection{Requirements for archiving}
 The first requirement for your archive is that the copy be safe. You want to have trust that 100 years down the road, your copy will still be there. The second requirement is that the copy be accessible without too much hassle, ideally over the Internet, without restrictions. These are the central points. Further points are the richness of metadata you can provide, and the ease of uploading to the archive and updating metadata (e.g. further editions).
@@ -346,14 +350,14 @@ It is a good idea to have clear criteria about the formats you accept. Will you 
 Potential formats which could be accepted at ingestion stage are: txt, docx, odt, tex, pdf, markdown. Graphics could be submitted as png, jpg, svg, idd, or pdf. 
 
 
-At Language Science Press, we stated that we would only accept Latex submissions, which we would then finalise. This is thus not CRC, but very close to it. In general, we only do final typesetting with placement of figures, page breaks, and line breaks. 
+At Language Science Press, we stated that we would only accept \LaTeX\xspace submissions, which we would then finalise\todo{ise vs ize}. This is thus not CRC, but very close to it. In general, we only do final typesetting with placement of figures, page breaks, and line breaks. 
 
 For the initial period, we proposed complimentary conversion of docx and odt submissions. In the beginning, this held for any document. As we progressed, we created templates which are tailored to our conversion pipeline. We now require that authors use these templates if they want us to convert their manuscript for them. As the number of submission progresses, the press can be become stricter in enforcing the formal requirements. 
 
 
 \subsection{Generation}
 This steps describes the production of the various output format based on the input manuscript. Some background might be in order here: while word processors like Microsoft Word or LibreOffice use a WYSIWYG approach (``What you see is what you get''), this is not practical for multiple outlets.
-In those cases, it is better to use a separation of meaning and presentation, i.e. a WYSIWYM approach (``What you see is what you mean''). For instance, chapters in Latex are marked with \verb+\chapter+, but otherwise look like normal text. This information can be accessed for a variety of use cases. Most typically, one will use the chapter title to put the relevant words in a larger font on a particular  page, but it is also used for the table of contents, the pdf bookmarks, and we also use it to extract a list of chapter titles when announcing a book to the community proofreaders. 
+In those cases, it is better to use a separation of meaning and presentation, i.e. a WYSIWYM approach (``What you see is what you mean''). For instance, chapters in \LaTeX\xspace are marked with \verb+\chapter+, but otherwise look like normal text. This information can be accessed for a variety of use cases. Most typically, one will use the chapter title to put the relevant words in a larger font on a particular  page, but it is also used for the table of contents, the PDF bookmarks, and we also use it to extract a list of chapter titles when announcing a book to the community proofreaders. 
 
 We have a number of routines to create various outputs from the input files. These are bundled together in a \verb+Makefile+. We can use commands like \verb+make book+, \verb+make index+ or \verb+make paperhive+ to automatically run certain well-defined tasks. Among other things, the Makefile contains the following automated routines: 
 
@@ -370,32 +374,32 @@ We have a number of routines to create various outputs from the input files. The
 Additionally, there are a number of scripts which automate more complicated tasks: 
 
 \begin{itemize}
- \item \texttt{doc2tex.py} convert a MS Word or LibreOffice document to Latex.
- \item \texttt{sanitycheck.py} check Latex files for common violations of the guidelines.
- \item \texttt{normalizebib.py} checks a bibliography for common mistakes. 
+ \item \texttt{doc2tex.py} convert a MS Word or LibreOffice document to \LaTeX\xspace
+ \item \texttt{sanitycheck.py} check \LaTeX\xspace files for common violations of the guidelines
+ \item \texttt{normalizebib.py} checks a bibliography for common mistakes 
  \item \texttt{autoindex.py} marks up potential index terms 
- \item \texttt{fixindex.py} repairs the author index for names with diacritics.
- \item \texttt{chopchapters.sh} create pdf files for the individual chapters from a master file. 
+ \item \texttt{fixindex.py} repairs the author index for names with diacritics
+ \item \texttt{chopchapters.sh} create PDF files for the individual chapters from a master file
  \item \texttt{linkchecker.sh} check all URLs in a document whether they resolve
  \item \texttt{checkppi.sh} check all graphics whether resolution is high enough
- \item \texttt{extractaw.py} extract download figures from server logs and create nice colourful charts per book and for all books. 
+ \item \texttt{extractaw.py} extract download figures from server logs and create nice colourful charts per book and for all books
 \end{itemize}
 
-Finally, there are specialised commands for common types of charts and diagrams. Instead of creating them in a graphics program or a spreadsheet, we can directly use the data in the Latex code to generate these elements. This also allows for easy extraction of the values for further computations if required. 
+Finally, there are specialised commands for common types of charts and diagrams. Instead of creating them in a graphics program or a spreadsheet, we can directly use the data in the \LaTeX\xspace code to generate these elements. This also allows for easy extraction of the values for further computations if required. 
 
 Depending on workload, we also redraw graphics and maps in Inkscape. This is not automated, but there are routines for converting raster graphics to vector graphics. We have experimented with downloading geographical data from OpenStreetMap via Maperitive, export to svg and then edit the output. It has turned out, however, that simply tracing a raster image in Inkscape is normally faster then using the more granular OpenStreetMap data. 
 
-A desideratum would be a central metadata store which would feed the various outlets (website, pdf, GoogleBooks, Zenodo). Currently, metadata are stored in a variety of formats, and a change in the title of a book for instance must be replicated for all these formats, which is error-prone. It would be preferable if such a change could only be made once and then automatically propagate to all relevant outlets.
+A desideratum would be a central metadata store which would feed the various outlets (website, PDF, GoogleBooks, Zenodo). Currently, metadata are stored in a variety of formats, and a change in the title of a book for instance must be replicated for all these formats, which is error-prone. It would be preferable if such a change could only be made once and then automatically propagate to all relevant outlets.
 
 \subsection{Outlets}
-Our main outlet is our website. There, we have to upload the pdf and the individual chapters manually. The same is true for GoogleBooks, CreateSpace, and DOAB. A number of other tasks are automated:
+Our main outlet is our website. There, we have to upload the PDF and the individual chapters manually. The same is true for Google Books, CreateSpace, and DOAB. A number of other tasks are automated:
 
 \begin{itemize}
  \item \texttt{make googlebooks}: prepare the content for upload to GoogleBooks 
  \item \texttt{fetchompdata.py} fetches the metadata for a book from our website for cover creation 
  \item \texttt{createbookblock.sh} remove cover and add blank pages to create a total number of pages which is a multiple of 4, required for BoD
  \item \texttt{podcovers.sh} counts the number of pages of the book and creates three covers with the correct measurements for CreateSpace, BoD hardcover and BoD softcover 
- \item \texttt{bodxml.py} creates the necessary pdf and XML files for upload to BoD and checks their validity
+ \item \texttt{bodxml.py} creates the necessary PDF and XML files for upload to BoD and checks their validity
  \item \texttt{make bodrepo}: store all auxiliary files needed for print on demand via BoD to our private GitHub repository
  \item \texttt{make paperhive}: create the necessary files for PaperHive, upload them and tell PaperHive that this book is ready 
  \item \texttt{amazonid.sh} creates referral links for Amazon
@@ -408,27 +412,27 @@ In general, we are happy to add additional outlets as long as the incorporation 
 
 
 \subsection{Archiving}
-Our books are deposited in the long-term archive of the Freie Universität library. Furthermore, they are archived at Zenodo. They are also deposited with OAPEN, which feeds them into DOAB and also serves as an additional archive. DOIs ensure that the documents can be matched.
+Our books are deposited in the long-term archive of the Freie Universität Berlin library. Furthermore, they are archived at Zenodo. They are also deposited with OAPEN, which feeds them into DOAB and also serves as an additional archive. DOIs ensure that the documents can be matched.
 
-\section{Solutions}
+\section{Solutions}\label{sec:software}
 For all the technological tasks at hand, you have three basic options: use a computer at your institution to perform the task (in-house), use a webservice, or use an external service provider, often for a fee. 
 
 \subsection{In-house}
 \subsubsection{Presentation software}
 The software which takes care of the presentation of your books to the outside world will often be hosted by your institution itself. See Section \ref{sec:req:web}. There is a path dependency: once you have settled for a solution, it becomes very costly to change course and choose another solution. You normally have to go down the path you first chose. 
 
-At Language Science Press, we use Open Monograph Press (OMP) by PKP. OMP is free software and available free of charge. It is closely related to Open Journal Systems (OJS), used for articles in Open Access journals. OMP offers a workflow with the phases submission, internal review, external review, copy-editing and production. As a matter of fact, the main funtionality we use is the catalogue function. The workflow functions are used by some series, but in general, the interface is not intuitive enough for random users. As explained in Section \ref{sec:req:web}, it might be the case that a detailed model of the phases of the workflow, and a software implementation thereof, is not part of your requirements. In that case, you could go for a simpler solution. If submission and acceptance are completely decoupled from the catalogue, a Content Management System like WordPress might actually be good enough to simply expose your books to the world. 
+At Language Science Press, we use Open Monograph Press (OMP) by PKP. OMP is free software and available free of charge. It is closely related to Open Journal Systems (OJS), used for articles in Open Access journals. OMP offers a workflow with the phases ``submission'', ``internal review'', ``external review'', ``copy-editing'' and ``production''. As a matter of fact, the main funtionality we use is the ``catalogue'' function. The workflow functions are used by some series, but in general, the interface is not intuitive enough for random users. As explained in Section \ref{sec:req:web}, it might be the case that a detailed model of the phases of the workflow, and a software implementation thereof, is not part of your requirements. In that case, you could go for a simpler solution. If submission and acceptance are completely decoupled from the catalogue, a Content Management System like WordPress might actually be good enough to simply expose your books to the world. 
 
 Competitors to OMP include RUA (unclear status as of 2018)\footurl{TODO} and Janeway\footurl{TODO}. If you go for a simpler solution without workflow management, you can also think about a static presentation, e.g. via WordPress or even Jekyll.\footurl{TODO} 
 
 \subsubsection{Generation software}
-In order to produce the books on our local computers, Language Science Press uses very powerful desktop computers with Xelatex as the main workhorse. This is augmented by a number of scripts and Makefiles. 
+In order to produce the books on our local computers, Language Science Press uses very powerful desktop computers with \xelatex as the main workhorse. This is augmented by a number of scripts and Makefiles. 
 
-As a graphical user interface for editing the tex files, we use Kile; for editing scripts, we use Kate. On operating systems other than Linux, TexStudio would be a good replacement. 
+As a graphical user interface for editing the TeX files, we use Kile; for editing scripts, we use Kate. On operating systems other than Linux, TeXStudio would be a good replacement. 
 
-We use Inkscape to create vector graphics. An alternative would be InDesign. We generally do not have the need to edit raster graphics. For most graphics files used in books, you should go for vector graphics. Only photographs should be edited in a raster-based program such as GIMP or Photoshop. Whenever possible, we create graphics in directly in Latex, with pgfplots for charts and tikz for diagrams and trees. 
+We use Inkscape to create vector graphics. An alternative would be Adobe Illustrator. We generally do not have the need to edit raster graphics. For most graphics files used in books, you should go for vector graphics. Only photographs should be edited in a raster-based program such as GIMP or Photoshop. Whenever possible, we create graphics in directly in \LaTeX\xspace, with pgfplots for charts and Ti\textit{k}Z for diagrams and trees. 
 
-If you want to avoid Latex, you will probably have to use InDesign for qualitatively convincing typesetting. You could use MS Word or LibreOffice, but the results will not allow you to support your typographical claims to prestige.
+If you want to avoid \LaTeX\xspace, you will probably have to use \todo{or QuarkXPress}InDesign for qualitatively convincing typesetting. You could use MS Word or LibreOffice, but the results will not allow you to support your typographical claims to prestige.
 
 
 \subsubsection{Versioning software}
@@ -440,14 +444,14 @@ For several years now, we are observing a move away from software running on the
 At Language Science Press, we have opted for the following web services: 
 
 \begin{itemize}
- \item Overleaf. This saves us from having to teach every author how to install Latex on their operating system. 
- \item Paperhive. This allows us to centralise all comments on a manuscript in one place, rather than sending around dozens of pdfs with commentary. 
+ \item Overleaf. This saves us from having to teach every author how to install \LaTeX\xspace on their operating system. 
+ \item Paperhive. This allows us to centralise all comments on a manuscript in one place, rather than sending around dozens of PDFs with commentary. 
  \item GitHub. A reliable versioning server with much better performance or uptime than we could provide ourselves. 
  \item Zenodo. A very user-friendly archiving service operated by CERN which is much easier to integrate with than with the archiving services of university libraries.
- \item GoogleBooks. Allow people to read the books on the Internet. PaperHive seems more suitable for the task of reading online, but if there are people searching for us on GoogleBooks, they should find us. 
+ \item Google Books. Allow people to read the books on the Internet. PaperHive seems more suitable for the task of reading online, but if there are people searching for us on GoogleBooks, they should find us. 
 \end{itemize}
 
-Another web service which could be mentioned but which we do not use is GitBook. 
+Another web service which \todo{should?}could be mentioned but which we do not use is GitBook. 
 
 One aspect which should always be considered when opting for a web service is the exit strategy: what will you do if the service shuts down, changes its product, or decides to charge astronomous amounts of money? Is there a way for you to get your data back home? Are there competitors available which you could switch to? For instance, for our Overleaf project, we keep local copies of the books via the git bridge. If ever Overleaf shut down we would still have copies of our own available. 
 
@@ -459,9 +463,9 @@ Next to doing the work on your own computers or on third parties' computers, you
 If you are spending public money, the public should know where that money went. If you are using crowdfunding, people will be even more eager to know what happened with their money. A community-based publisher should try to give back to the community as much as possible. The most obvious return would be books, but other by-products, like software, workflows or business models should also be made available. 
 
 \subsection{Numbers}
-Numbers should never be the driving force behind a project, but it helps to have some quantifiable idea of where you are now and where you would like to be in the future, and to evaluate that idea periodically. We can distinguish internal monitoring from external reporting. Not all things you monitor are worthy to be reported. For instance, if your monitoring reveals that your tweets perform 6\% better on Tuesdays than on Mondays, that is probably within the margin of error anyway and there is no need to spend resources on making that information available in a user-friendly way. This being said, you should think about what kind of reports you want to publish in what intervals. At Language Science Press, we publish dowload figures on a monthly basis, and we provide other data (number of series, number of expressions of interest, number of submissions, acceptance rates, followers etc) in January for the past year. Starting with this OpenAire project, we will also report on our finances. See spreadsheet and business model provided together with this cookbook.
+Numbers should never be the driving force behind a project, but it helps to have some quantifiable idea of where you are now and where you would like to be in the future, and to evaluate that idea periodically. We can distinguish internal monitoring from external reporting. Not all things you monitor are worthy to be reported. For instance, if your monitoring reveals that your tweets perform 6\% better on Tuesdays than on Mondays, that is probably within the margin of error anyway and there is no need to spend resources on making that information available in a user-friendly way. This being said, you should think about what kind of reports you want to publish in what intervals. At Language Science Press, we publish dowload figures on a monthly basis, and we provide other data (number of series, number of expressions of interest, number of submissions, acceptance rates, followers etc) in January for the past year. Starting with this Open\-Aire project, we will also report on our finances. See the spreadsheet and business model provided together with this cookbook.
 
-Other projects might have different setups and hence will have other priorities in what they give back to the community. This is perfectly OK, but in any case, there should be a clear plan of what to give back when and how. Other topics which might be worthy of reporting are for instance the geographical or gender balance of authors/submitters/editors/series editors.
+Other projects might have different setups and hence will have other priorities in what they give back to the community. This is perfectly OK, but in any case, there should be a clear plan of what to give back when and how. Other topics which might be worthy of reporting are, for instance, the geographical or gender balance of authors/submitters/editors/series editors.
 
 
 \subsection{Technological}
@@ -477,7 +481,7 @@ Setting up a community-based publisher is no easy task, and it is a rather novel
 
 \subsubsection{Roles}
 
-Try your best to explicate these relations, even if they are somewhat murky. This is not about creating hierarchies or chains of commands. It is rather about making sure that everybody is on the same page about what they will be doing within the project. For instance, do authors communicate directly with the press directors, or is the communication mediated via the series editors? In Figure \ref{fig:organigram} on page \pageref{fig:organigram}, you find an organigram of the LangSci structure. 
+Try your best to explicate these relations, even if they are somewhat murky. This is not about creating hierarchies or chains of commands. It is rather about making sure that everybody is on the same page about what they will be doing within the project. For instance, do authors communicate directly with the press directors, or is the communication mediated via the series editors? In Figure \ref{fig:organigram} on page \pageref{fig:organigram}, you find an organigram of the Language Science Press structure. 
 
 
 \subsubsection{Workflows}
@@ -628,7 +632,7 @@ There are a number of additional legal requirements which vary per jurisdiction.
 Your publishing project should have a structure which allows you to ensure that scientific, financial, organisational and ethical aspects are all well handled. The organigram of Language Science Press is given in Figure \ref{fig:organigram}. The main roles are the series editors, who take care of scientific aspects; the coordinator, who takes care of financial aspects and day-to-day organisation; and the press directors, who oversee scientific quality and organisational matters. General advice and ethical aspects are the domain of the advisory board. 
 
 \begin{figure}
-\caption{LangSci organigram. The main triangle is formed by the coordinator, the press directors and the series editors, who are in constant close contact. The advisory board is consulted on special occasions. Authors and editors are only in contact with their specific series editors and the coordinator. Chapter authors liaise with their volume editor. On the right hand side, there are various stakeholders more peripheral to the book production process. Solid lines symbolise direct connections where Language Science Press can influence; dashed lines stand for indirect, mediated influence.}
+\caption{Language Science Press organigram. The main triangle is formed by the coordinator, the press directors and the series editors, who are in constant close contact. The advisory board is consulted on special occasions. Authors and editors are only in contact with their specific series editors and the coordinator. Chapter authors liaise with their volume editor. On the right hand side, there are various stakeholders more peripheral to the book production process. Solid lines symbolise direct connections where Language Science Press can influence; dashed lines stand for indirect, mediated influence.}
 \label{fig:organigram}
 \resizebox{\textwidth}{!}{
 \begin{tikzpicture}[node distance=1cm, auto]   
