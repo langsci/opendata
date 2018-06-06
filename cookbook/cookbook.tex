@@ -414,25 +414,25 @@ In general, we are happy to add additional outlets as long as the incorporation 
 \subsection{Archiving}
 Our books are deposited in the long-term archive of the Freie Universität Berlin library. Furthermore, they are archived at Zenodo. They are also deposited with OAPEN, which feeds them into DOAB and also serves as an additional archive. DOIs ensure that the documents can be matched.
 
-\section{Solutions}
+\section{Solutions}\label{sec:software}
 For all the technological tasks at hand, you have three basic options: use a computer at your institution to perform the task (in-house), use a webservice, or use an external service provider, often for a fee. 
 
 \subsection{In-house}
 \subsubsection{Presentation software}
 The software which takes care of the presentation of your books to the outside world will often be hosted by your institution itself. See Section \ref{sec:req:web}. There is a path dependency: once you have settled for a solution, it becomes very costly to change course and choose another solution. You normally have to go down the path you first chose. 
 
-At Language Science Press, we use Open Monograph Press (OMP) by PKP. OMP is free software and available free of charge. It is closely related to Open Journal Systems (OJS), used for articles in Open Access journals. OMP offers a workflow with the phases submission, internal review, external review, copy-editing and production. As a matter of fact, the main funtionality we use is the catalogue function. The workflow functions are used by some series, but in general, the interface is not intuitive enough for random users. As explained in Section \ref{sec:req:web}, it might be the case that a detailed model of the phases of the workflow, and a software implementation thereof, is not part of your requirements. In that case, you could go for a simpler solution. If submission and acceptance are completely decoupled from the catalogue, a Content Management System like WordPress might actually be good enough to simply expose your books to the world. 
+At Language Science Press, we use Open Monograph Press (OMP) by PKP. OMP is free software and available free of charge. It is closely related to Open Journal Systems (OJS), used for articles in Open Access journals. OMP offers a workflow with the phases ``submission'', ``internal review'', ``external review'', ``copy-editing'' and ``production''. As a matter of fact, the main funtionality we use is the ``catalogue'' function. The workflow functions are used by some series, but in general, the interface is not intuitive enough for random users. As explained in Section \ref{sec:req:web}, it might be the case that a detailed model of the phases of the workflow, and a software implementation thereof, is not part of your requirements. In that case, you could go for a simpler solution. If submission and acceptance are completely decoupled from the catalogue, a Content Management System like WordPress might actually be good enough to simply expose your books to the world. 
 
 Competitors to OMP include RUA (unclear status as of 2018)\footurl{TODO} and Janeway\footurl{TODO}. If you go for a simpler solution without workflow management, you can also think about a static presentation, e.g. via WordPress or even Jekyll.\footurl{TODO} 
 
 \subsubsection{Generation software}
 In order to produce the books on our local computers, Language Science Press uses very powerful desktop computers with \xelatex as the main workhorse. This is augmented by a number of scripts and Makefiles. 
 
-As a graphical user interface for editing the tex files, we use Kile; for editing scripts, we use Kate. On operating systems other than Linux, TeXStudio would be a good replacement. 
+As a graphical user interface for editing the TeX files, we use Kile; for editing scripts, we use Kate. On operating systems other than Linux, TeXStudio would be a good replacement. 
 
 We use Inkscape to create vector graphics. An alternative would be Adobe Illustrator. We generally do not have the need to edit raster graphics. For most graphics files used in books, you should go for vector graphics. Only photographs should be edited in a raster-based program such as GIMP or Photoshop. Whenever possible, we create graphics in directly in \LaTeX\xspace, with pgfplots for charts and Ti\textit{k}Z for diagrams and trees. 
 
-If you want to avoid \LaTeX\xspace, you will probably have to use InDesign\todo{or QuarkXPress} for qualitatively convincing typesetting. You could use MS Word or LibreOffice, but the results will not allow you to support your typographical claims to prestige.
+If you want to avoid \LaTeX\xspace, you will probably have to use \todo{or QuarkXPress}InDesign for qualitatively convincing typesetting. You could use MS Word or LibreOffice, but the results will not allow you to support your typographical claims to prestige.
 
 
 \subsubsection{Versioning software}
@@ -445,13 +445,13 @@ At Language Science Press, we have opted for the following web services:
 
 \begin{itemize}
  \item Overleaf. This saves us from having to teach every author how to install \LaTeX\xspace on their operating system. 
- \item Paperhive. This allows us to centralise all comments on a manuscript in one place, rather than sending around dozens of pdfs with commentary. 
+ \item Paperhive. This allows us to centralise all comments on a manuscript in one place, rather than sending around dozens of PDFs with commentary. 
  \item GitHub. A reliable versioning server with much better performance or uptime than we could provide ourselves. 
  \item Zenodo. A very user-friendly archiving service operated by CERN which is much easier to integrate with than with the archiving services of university libraries.
- \item GoogleBooks. Allow people to read the books on the Internet. PaperHive seems more suitable for the task of reading online, but if there are people searching for us on GoogleBooks, they should find us. 
+ \item Google Books. Allow people to read the books on the Internet. PaperHive seems more suitable for the task of reading online, but if there are people searching for us on GoogleBooks, they should find us. 
 \end{itemize}
 
-Another web service which could be mentioned but which we do not use is GitBook. 
+Another web service which \todo{should?}could be mentioned but which we do not use is GitBook. 
 
 One aspect which should always be considered when opting for a web service is the exit strategy: what will you do if the service shuts down, changes its product, or decides to charge astronomous amounts of money? Is there a way for you to get your data back home? Are there competitors available which you could switch to? For instance, for our Overleaf project, we keep local copies of the books via the git bridge. If ever Overleaf shut down we would still have copies of our own available. 
 
@@ -463,9 +463,9 @@ Next to doing the work on your own computers or on third parties' computers, you
 If you are spending public money, the public should know where that money went. If you are using crowdfunding, people will be even more eager to know what happened with their money. A community-based publisher should try to give back to the community as much as possible. The most obvious return would be books, but other by-products, like software, workflows or business models should also be made available. 
 
 \subsection{Numbers}
-Numbers should never be the driving force behind a project, but it helps to have some quantifiable idea of where you are now and where you would like to be in the future, and to evaluate that idea periodically. We can distinguish internal monitoring from external reporting. Not all things you monitor are worthy to be reported. For instance, if your monitoring reveals that your tweets perform 6\% better on Tuesdays than on Mondays, that is probably within the margin of error anyway and there is no need to spend resources on making that information available in a user-friendly way. This being said, you should think about what kind of reports you want to publish in what intervals. At Language Science Press, we publish dowload figures on a monthly basis, and we provide other data (number of series, number of expressions of interest, number of submissions, acceptance rates, followers etc) in January for the past year. Starting with this OpenAire project, we will also report on our finances. See spreadsheet and business model provided together with this cookbook.
+Numbers should never be the driving force behind a project, but it helps to have some quantifiable idea of where you are now and where you would like to be in the future, and to evaluate that idea periodically. We can distinguish internal monitoring from external reporting. Not all things you monitor are worthy to be reported. For instance, if your monitoring reveals that your tweets perform 6\% better on Tuesdays than on Mondays, that is probably within the margin of error anyway and there is no need to spend resources on making that information available in a user-friendly way. This being said, you should think about what kind of reports you want to publish in what intervals. At Language Science Press, we publish dowload figures on a monthly basis, and we provide other data (number of series, number of expressions of interest, number of submissions, acceptance rates, followers etc) in January for the past year. Starting with this Open\-Aire project, we will also report on our finances. See the spreadsheet and business model provided together with this cookbook.
 
-Other projects might have different setups and hence will have other priorities in what they give back to the community. This is perfectly OK, but in any case, there should be a clear plan of what to give back when and how. Other topics which might be worthy of reporting are for instance the geographical or gender balance of authors/submitters/editors/series editors.
+Other projects might have different setups and hence will have other priorities in what they give back to the community. This is perfectly OK, but in any case, there should be a clear plan of what to give back when and how. Other topics which might be worthy of reporting are, for instance, the geographical or gender balance of authors/submitters/editors/series editors.
 
 
 \subsection{Technological}
