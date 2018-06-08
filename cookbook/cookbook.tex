@@ -1,12 +1,13 @@
-\documentclass[guidelines,nonflat,modfonts,output=guidelines] {langsci/langscibook}
+\documentclass[nonflat,modfonts,output=guidelines] {langsci/langscibook}
 \renewcommand{\lsSeries}{guidelines}
 \usepackage{langsci-gb4e}
+\usepackage{langsci-optional}
 \usepackage{url}
-
 \usepackage{tikz}
-\usetikzlibrary{arrows,positioning,shapes} 
+\usetikzlibrary{arrows,positioning,shapes,quotes} 
 \urlstyle{same}
 \newcommand{\footurl}[1]{\footnote{\url{#1}}}
+\bibliography{cookbook}
 \title{Cookbook for Open Access books}
 \author{Sebastian Nordhoff\newlineCover Language Science Press}
 \begin{document}
@@ -19,8 +20,7 @@
 This book details the experiences and lessons learnt when setting up Language Science Press, in the period from 2012--2018. It makes recommendations for how to set up an open access book publisher. These recommendations are drawn from personal experience and have a practicioner's view. As a correlate, theoretical considerations and empirical evidence are backgrounded. This is on purpose. 
 
 Language Science Press is based in Germany. The cookbook tries to be generic and give general principles, only using the particular German context for exemplification. When this is done, this is explicitly indicated, but it might be the case that there are some passages which we failed to identify as peculiar to Germany. If you are based elsewhere and a passage does not make sense to you, you might have found such a passage.
-
-\todo{Check I vs. We in whole book}
+ 
 
 It is one of our goals that many XYZ Science Presses will spring up in the future, in other fields ranging from Archeology to Zoology. Obviously, every scientific field is different and has its own culture and its own communities of practice. It is hoped that this cookbook will help these initiatives in calibrating their setup based on our experiences. 
 
@@ -62,7 +62,7 @@ Normally, you will not be able to adjust your staffing according to the number o
 In the beginning, we had some edited volumes where chapters were written in various versions of Microsoft Word, with no particular template, and no consistent or coherent formatting. We adapted all of those to a uniform style and spent enormous amounts of time on this. As a result, we attracted more submissions, and we are now able to enforce our templates and guidelines, and can afford refusing submissions which do not comply. As the number of books in production goes up, the time we have available for each book goes down, but at the same time, the submissions are in much better shape and require less time overall as well. 
 
 \chapter{Tasks}
-This chapter will detail a number of tasks which a fledgling project has to deal with. For each task, I will give some background and give some recommendations. The tasks to be discussed are:
+This chapter will detail a number of tasks which a fledgling project has to deal with. For each task, we will give some background and give some recommendations. The tasks to be discussed are:
 
 \begin{enumerate}
  \item Creating prestige (Section \ref{sec:prestige})
@@ -90,7 +90,7 @@ This chapter will detail a number of tasks which a fledgling project has to deal
 This task is the most important one. It is the single item which will determine success or failure of your enterprise. 
 Prestige is a virtuous circle: with better prestige, you get better submissions, which lead to better prestige etc. The reverse is also true. You must invest as much as you can in starting as high up on the prestige ladder as you can possibly afford. Try to take over the publishing landscape working from the top of the quality pyramid to the bottom, rather than the other way round.
 
-Obviously, in the beginning, you have zero books. This means that you have nothing to show, and you must signal prestige in another way. We can name six ways: %TODO check whether this corresponds to sectioning below
+Obviously, in the beginning, you have zero books. This means that you have nothing to show, and you must signal prestige in another way. We can name six ways:  
 bold claims, 
 selectivity, 
 big names, 
@@ -120,7 +120,7 @@ Next to the big names (quality), you can also signal prestige by sheer quantity.
 
 
  
-\subsection{CI}
+\subsection{CI}\label{sec:CI}
 CI is a technical term from design and marketing and stands for `Corporate Identity'. This term is used even if the entity under discussion is not a corporation. Your project should have a professional and concerted appearance, online and offline. Hire a professional designer to assist you. Pay for a professional logo. Be strict. Do not allow deviations from the CI, especially in the beginning.
 
 In the case of Language Science Press, the designer advised on the choice of fonts, colours and book layout. All books use the same layout and the same title page. The colours used for the books series are also used on the website and in flyers. The font used is the same for books and flyers etc. This makes it easy to recognise some item as coming from Language Science Press. The uniform appearance across formats suggests stability and seriousness, even if no actual book has been published yet. 
@@ -137,8 +137,7 @@ There is trade-off between quality and speed of publication. In the beginning, y
 
 
 \section{Acquisition}\label{sec:acquisition}
-In order to get the publishing platform rolling, you have to have a certain number of manuscripts in the pipeline. The manuscripts must provide you with work until the second wave submissions come. In the case of Language Science Press, we had 5 %TODO
- initial books. 
+In order to get the publishing platform rolling, you have to have a certain number of manuscripts in the pipeline. The manuscripts must provide you with work until the second wave submissions come. In the case of Language Science Press, we had 7  initial books. 
 
 For acquisition, we have to distinguish researchers by their seniority level. Types of work and motivation are different between younger and more advanced scholars.
 
@@ -147,9 +146,9 @@ Early career researchers are digital natives. They have been sharing things over
 In case the authors worry about their career, you can refer to the OA citation advantage.\footnote{\url{https://sparceurope.org/what-we-do/open-access/sparc-europe-open-access-resources/open-access-citation-advantage-service-oaca/}}
 
 For senior researchers with tenure, it is less important to publish in venues traditionally seen as prestigious. Instead, they can show that they are a leader in the field by moving first and directing their disciplines towards novel and innovative ways of publishing. 
-Series editors should be aware of who in their field has book publications projects. In the case of \textit{Studies in Diversity Linguistics}, we were able to get a manuscripts from a senior scholar which was already finished, but had never been formally published \citep{Dahl2016}. Technically, that manuscript had been available from the document server of Stockholm university for some time. Since its formal publication with Language Science Press, that book has seen more than 3000 downloads. This is probably more than it would have gotten if it had only been available from that document server. For Language Science Press, however, more important than the downloads  was the fact that we could count Östen Dahl as one of the leading Scandinavian linguists among our authors. This complemented the list of otherwise junior authors for our first books and sent out the message that Language Science Press was to be considered as a serious venue for senior researchers as well. 
+Series editors should be aware of who in their field has book publications projects. In the case of \textit{Studies in Diversity Linguistics}, we were able to get a manuscripts from a senior scholar which was already finished, but had never been formally published \citep{Dahl2016}.\footnote{\fullcite{Dahl2016}} Technically, that manuscript had been available from the document server of Stockholm university for some time. Since its formal publication with Language Science Press, that book has seen more than 3000 downloads. This is probably more than it would have gotten if it had only been available from that document server. For Language Science Press, however, more important than the downloads  was the fact that we could count Östen Dahl as one of the leading Scandinavian linguists among our authors. This complemented the list of otherwise junior authors for our first books and sent out the message that Language Science Press was to be considered as a serious venue for senior researchers as well. 
 
-Typical careers in linguistics only give you the time during your PhD to complete a monograph. After that, the research becomes more granular and more focussed, and journal articles and papers in edited volumes take over. Edited volumes are great to build up a relation with more authors. At the same time, edited volumes are really tough and demand about 3-4 times more work than a monograph of the same length. The first edited volume we did was \textit{The Alor-Pantar languages} \citep{Klamer2014}, and it was definitely much more demanding than we had expected. I am pretty certain that the paper authors and the editors questioned the wisdom of their idea of publishing with Language Science Press more than once. However, in the end, they seem happy, and several of them have now become regular authors in edited volumes of ours (Klamer, Kratochvíl, Corbett). It might help that \textit{The Alor-Pantar languages} was  huge success as far as downloads are concerned, with more than 12\,000 downloads at the time of writing. 
+Typical careers in linguistics only give you the time during your PhD to complete a monograph. After that, the research becomes more granular and more focussed, and journal articles and papers in edited volumes take over. Edited volumes are great to build up a relation with more authors. At the same time, edited volumes are really tough and demand about 3-4 times more work than a monograph of the same length. The first edited volume we did was \textit{The Alor-Pantar languages} \citep{Klamer2014},\footnote{\fullcite{Klamer2014}} and it was definitely much more demanding than we had expected. We am pretty certain that the paper authors and the editors questioned the wisdom of their idea of publishing with Language Science Press more than once. However, in the end, they seem happy, and several of them have now become regular authors in edited volumes of ours (Klamer, Kratochvíl, Corbett). It might help that \textit{The Alor-Pantar languages} was  huge success as far as downloads are concerned, with more than 12\,000 downloads at the time of writing. 
 
 Try to get subcommunities of linguistics to adopt your press as ``their'' publisher. For instance, the {Association for Laboratory Phonology} has the \textit{Journal of Laboratory Phonology} for their articles with the Open Library of Humanities, and they have \textit{Studies in Laboratory Phonology} as their series with Language Science Press, which is set to become their regular outlet for books. Similar approaches are being taken in the fields of Second Language Acquisition, Slavic Studies, and African Studies. 
 
@@ -164,7 +163,7 @@ Open access publications have the advantage that the content of the books is imm
 
 
 \subsection{Platforms}
-The traditional reader-pays model of scientific publishing relies on the gatekeeper function. In order for it to work, there must be exactly one way to access the content (the gate), and that gate has to be manned by someone who charges the fees for passage\slash access (the gatekeeper). As a result, traditional publishers have problems with their content being available at other places since this will allow readers to bypass the gate.\footnote{They could also set up additional gates for other platforms, but they would come with overhead and therefore costs as well.} For open access publications, this problem is moot. You can have as many gates as you want, and open them all up. Different readers may have different needs or preferences. We do not know who has which preferences, but we are happy to provide our books at as many places as we can. Currently, our books are available on our site, the e-doc server of Freie Universität Berlin, Google Books, Google Play Store, Directory of Open Access Books, OAPEN, Zenodo, Knowledge Unlatched, GitHub, PaperHive, university library catalogues, Amazon, and local book stores. We have access stats for most of these, but not for all (see the spreadsheets provided). The absence of access information for all platforms from where the books are available is unfortunate, but only a minor nuisance since we still get a pretty good overall picture (to be discussed in more detail in Section~\ref{sec:accountancy} Accountancy below).
+The traditional reader-pays model of scientific publishing relies on the gatekeeper function. In order for it to work, there must be exactly one way to access the content (the gate), and that gate has to be manned by someone who charges the fees for passage\slash access (the gatekeeper). As a result, traditional publishers have problems with their content being available at other places since this will allow readers to bypass the gate.\footnote{They could also set up additional gates for other platforms, but they would come with overhead and therefore costs as well.} For open access publications, this problem is moot. You can have as many gates as you want, and open them all up. Different readers may have different needs or preferences. We do not know who has which preferences, but we are happy to provide our books at as many places as we can. Currently, our books are available on our site, the e-doc server of Freie Universität Berlin, Google Books, Google Play Store, Directory of Open Access Books, OAPEN, Zenodo, Knowledge Unlatched, GitHub, PaperHive, university library catalogues, Amazon, and local book stores. We have access stats for most of these, but not for all (see the spreadsheets provided). The absence of access information for all platforms from where the books are available is unfortunate, but only a minor nuisance since we still get a pretty good overall picture (to be discussed in more detail in Section~\ref{sec:accountability} Accountability below).
 
 Most of the mentioned platforms are available free of charge. OAPEN charges membership fees, and Knowledge Unlatched will only host books which have been funded via their platform. Local book stores in Germany rely on the VLB, which charges yearly fees per book being listed there.
 
@@ -206,7 +205,7 @@ These two projects have been suggested to us, but we have not yet understood wha
 
 
 \subsection{Readers become authors}
-One of the main advantages of being available on all these channels is that the books get wider exposure, and readers might consider Language Science Press as a venue for their next book to be written. %TODO
+One of the main advantages of being available on all these channels is that the books get wider exposure, and readers might consider Language Science Press as a venue for their next book to be written.  
 
 \section{Quality control}\label{sec:qualitycontrol}
 In order to give weight to your claims about prestige, you must establish procedures of quality control, enforce them and communicate them clearly. Language Science Press uses a series model. Scientific quality is assured by the series editors, who are specialists in their field. Series are autonomous, as even the most erudite press directors will not have in-depth knowledge of all subfields, ranging from Phonetics over African Linguistics to Computational Linguistics. 
@@ -219,14 +218,14 @@ The viability of series and their setup underlies ``meta quality control'' by th
 \section{Requirements}\label{sec:requirements}
 In order to run a publishing platform, you have to rely on techonology. It is good practice to first take stock of what you want to achieve (the requirements), and then to see which technological solutions can help you. Normally only a subset of the requirements will be must-haves, so the best solution for your particular use case will vary.
 
-\subsection{Requirements for a web platform}
+\subsection{Requirements for a web platform}\label{sec:req:web}
 Coming from the reader's perspective, the most important thing for an open access book is a place on the Internet where the books can be downloaded. This is a very simple requirement. In principle, a static website or even an FTP server would do. Additional requirements are user authentication and access control. This is obviously not necessary for fully open access books: the very definition of open access precludes access control. Again, coming from a reader's perspective, an open access publisher could easily do without access control, and therefore also without user authentication. 
 
 Things are different when we take into account the whole book production work flow. Before the final book, we have the initial submission, revised versions, and final drafts. Having some control on who can access these documents (authors, editors, reviewers, but not random people) can be justified. Note, however, that simply sending these documents via email to the intended recipients would already solve that issue.
 
 Finally, some series editors like to have a well-defined interface which models the progress of a manuscript through the stages of submission, review, revision, typesetting, and publication. For this, you need different roles: authors can submit; editors can assign reviewers, read reviews, and advance a manuscript to the next stage; reviewers can only write reviews. Authors or reviewers are barred from actions such as accepting a manuscript or publishing it, and reviewers might only be allowed to see their own review, but not the reviews of others. 
 
-An additional requirement might be reporting. You want to know how many submissions you have at what stage at a given point in time, or during a given interval (e.g. a year). In Section \ref{sec:software}, I will discuss different solutions for (subsets of) these requirements. 
+An additional requirement might be reporting. You want to know how many submissions you have at what stage at a given point in time, or during a given interval (e.g. a year). In Section \ref{sec:solutions}, we will discuss different solutions for (subsets of) these requirements. 
  
  
 \subsection{Requirements for book production}
@@ -236,7 +235,7 @@ As discussed above, we distinguish the quality assurance of content from the qua
 
 Coming back to the requirements, you have to have an ingestion interface where revised manuscripts can be entered, a transformation pipeline where they will be conformed to your complete specifications, and an outlet interface, where the final document can be made available electronically or as print-on-demand.
 
-Depending on the practices and tech-savvy of the particular discipline and the resources available, the ingestion can be more or less strict. Some fields are tech-savvy and are used to respecting detailed technical specifications, while others have a more heterogeneous and inconsistent approach to text production. The more formats you accept for ingestion, and the higher the tolerance in deviation from the guidelines, the more effort will be required for the press to conform the manuscripts. On the other hand, shifting the burden completely to the authors might be a deterrant, so you have to strike a good balance. At Language Science Press, my impression is that we have demanded a lot from our authors. They have not always been happy about this, but my impression is that they feel that this is what you have to pay in order to get a high quality open access publication. Following the claims to prestige, we have probably also been stricter with regard to certain typographic subtleties than other publishers. This was surely annoying for the authors, but it also served to signal that we take publishing seriously and that we are not the right outlet for shoddy work. 
+Depending on the practices and tech-savvy of the particular discipline and the resources available, the ingestion can be more or less strict. Some fields are tech-savvy and are used to respecting detailed technical specifications, while others have a more heterogeneous and inconsistent approach to text production. The more formats you accept for ingestion, and the higher the tolerance in deviation from the guidelines, the more effort will be required for the press to conform the manuscripts. On the other hand, shifting the burden completely to the authors might be a deterrant, so you have to strike a good balance. At Language Science Press, our impression is that we have demanded a lot from our authors. They have not always been happy about this, but our impression is that they feel that this is what you have to pay in order to get a high quality open access publication. Following the claims to prestige, we have probably also been stricter with regard to certain typographic subtleties than other publishers. This was surely annoying for the authors, but it also served to signal that we take publishing seriously and that we are not the right outlet for shoddy work. 
 
 \subsection{Required elements}
 Books have a number of recurring elements. This may sound banal, but it is important to take stock of what is required here in order to be able to see which elements could easily be automated. For instance, the Language Science Press series all have an associated colour. We generate the title page based on the author name and the given title, use the background colour as specified by the series and add the series name on the title page as well. This process is completely automated. There is for instance no way how you could misspell the series name on the title page, or choose a wrong colour for a series, as both these elements depend on the series. 
@@ -327,8 +326,20 @@ There are a number of print-on-demand services available. They can be distinguis
 
 As of 2018, Amazon CreateSpace has the best worldwide coverage and very fast shipping. The quality of the books is, however, rather low, and it has happened that we have returned more than 40\% of a batch due to faulty quality. Depending on the number of books your press publishes, the time to upload a book for print-on-demand can become a factor, especially when it comes to filling in metadata. This can take up to half  an hour per book. We now use BoD. BoD provides an FTP interface where we can automatically upload our books with the metadata in a specified XML-format. 
 
-BoD lets you choose your width and height freely. For CreateSpace, only about a dozen %TODO
- predefined sizes exist. Other providers will only accept A5 or A4. 
+BoD lets you choose your width and height freely. For CreateSpace, only a dozen  
+ predefined sizes exist.\footnote{%
+12.7 x 20.32  cm; 
+13.34 x 20.32 cm;
+13.97 x 21.59 cm;
+15.24 x 22.86 cm;
+12.85 x 19.84 cm;
+15.6 x 23.39  cm;
+16.99 x 24.41 cm;
+17.78 x 25.4  cm;
+18.9 x 24.61  cm;
+19.05 x 23.5  cm;
+20.32 x 25.4  cm;
+21.59 x 27.94 cm.} Other providers will only accept A5 or A4. 
 
 For print-on-demand, you can either bring your own ISBN, or you have to buy an ISBN from the service provider. Providers vary as to whether your book will be available only via them directly, via Amazon, or via local bookstores and standard distribution channels as well. In Germany, for instance, your book has to be listed in the \textit{Verzeichnis lieferbarer Bücher}, which costs a nominal fee per book and year.
 
@@ -338,12 +349,32 @@ Note that most countries require you to provide some free copies to their nation
 The first requirement for your archive is that the copy be safe. You want to have trust that 100 years down the road, your copy will still be there. The second requirement is that the copy be accessible without too much hassle, ideally over the Internet, without restrictions. These are the central points. Further points are the richness of metadata you can provide, and the ease of uploading to the archive and updating metadata (e.g. further editions).
 
 \section{Automation}\label{sec:automation}
-Taking a mechanistic approach, we can see book production as a process which takes an input manuscript (ingestion), processes it (generation), and produces well-defined output (outlet). 
-
-%TODO
-\ea
->-- \fbox{ingestion} -- \fbox{generation} --< \fbox{outlet\vphantom{j}}
-\z
+Taking a mechanistic approach, we can see book production as a process which takes an input manuscript (ingestion), conforms it and produces well-defined output (generation), which is the made available at various outlets.
+ 
+\eabox{
+\begin{tikzpicture}
+ \node[rectangle,draw] (ingestion) {ingestion};
+ \node[rectangle,draw] (generation) [right=2cm of ingestion] {generation}; 
+ 
+ \node[] (outlet2)  [right=of generation,text width=3cm] {\footnotesize Zenodo};
+ \node[] (outlet1)  [above=2mm of outlet2,text width=3cm] {\footnotesize own website};
+ \node[] (outlet3)  [below=2mm of outlet2,text width=3cm] {\footnotesize print-on-demand};
+ 
+ \node[] (input2)  [left=of ingestion]  {\footnotesize doc};
+ \node[] (input1)  [above=2mm of input2] {\footnotesize tex};
+ \node[] (input3)  [below=2mm of input2] {\footnotesize odt};
+ 
+ \draw[->] (input1) -- (ingestion) ;
+ \draw[->] (input2) -- (ingestion) ;
+ \draw[->] (input3) -- (ingestion) ;
+ 
+ \draw[] (ingestion) edge ["\scriptsize\itshape conforming"](generation);
+ 
+ \draw[->] (generation) -- (outlet1);
+ \draw[->] (generation) -- (outlet2);
+ \draw[->] (generation) -- (outlet3);
+\end{tikzpicture}
+}
 
 The more constrained your input is, the easier automation becomes. 
  
@@ -418,16 +449,16 @@ In general, we are happy to add additional outlets as long as the incorporation 
 \subsection{Archiving}
 Our books are deposited in the long-term archive of the Freie Universität Berlin library. Furthermore, they are archived at Zenodo. They are also deposited with OAPEN, which feeds them into DOAB and also serves as an additional archive. DOIs ensure that the documents can be matched.
 
-\section{Solutions}\label{sec:software}
+\section{Solutions}\label{sec:solutions}
 For all the technological tasks at hand, you have three basic options: use a computer at your institution to perform the task (in-house), use a webservice, or use an external service provider, often for a fee. 
 
 \subsection{In-house}
 \subsubsection{Presentation software}
 The software which takes care of the presentation of your books to the outside world will often be hosted by your institution itself. See Section \ref{sec:req:web}. There is a path dependency: once you have settled for a solution, it becomes very costly to change course and choose another solution. You normally have to go down the path you first chose. 
 
-At Language Science Press, we use Open Monograph Press (OMP) by PKP. OMP is free software and available free of charge. It is closely related to Open Journal Systems (OJS), used for articles in Open Access journals. OMP offers a workflow with the phases ``submission'', ``internal review'', ``external review'', ``copy-editing'' and ``production''. As a matter of fact, the main funtionality we use is the ``catalogue'' function. The workflow functions are used by some series, but in general, the interface is not intuitive enough for random users. As explained in Section \ref{sec:req:web}, it might be the case that a detailed model of the phases of the workflow, and a software implementation thereof, is not part of your requirements. In that case, you could go for a simpler solution. If submission and acceptance are completely decoupled from the catalogue, a Content Management System like WordPress might actually be good enough to simply expose your books to the world. 
+At Language Science Press, we use Open Monograph Press (OMP) by PKP.\footurl{https://pkp.sfu.ca/omp/} OMP is free software and available free of charge. It is closely related to Open Journal Systems (OJS), used for articles in Open Access journals. OMP offers a workflow with the phases ``submission'', ``internal review'', ``external review'', ``copy-editing'' and ``production''. As a matter of fact, the main funtionality we use is the ``catalogue'' function. The workflow functions are used by some series, but in general, the interface is not intuitive enough for random users. As explained in Section \ref{sec:req:web}, it might be the case that a detailed model of the phases of the workflow, and a software implementation thereof, is not part of your requirements. In that case, you could go for a simpler solution. If submission and acceptance are completely decoupled from the catalogue, a Content Management System like WordPress might actually be good enough to simply expose your books to the world. 
 
-Competitors to OMP include RUA (unclear status as of 2018)\footurl{TODO} and Janeway\footurl{TODO}. If you go for a simpler solution without workflow management, you can also think about a static presentation, e.g. via WordPress or even Jekyll.\footurl{TODO} 
+Competitors to OMP include RUA (unclear status as of 2018)\footurl{https://github.com/ubiquitypress/rua} and Janeway\footurl{https://github.com/BirkbeckCTP/janeway}. If you go for a simpler solution without workflow management, you can also think about a static presentation, e.g. via WordPress\footurl{https://wordpress.org/} or even plain Jekyll.\footurl{https://jekyllrb.com/} 
 
 \subsubsection{Generation software}
 In order to produce the books on our local computers, Language Science Press uses very powerful desktop computers with \xelatex as the main workhorse. This is augmented by a number of scripts and Makefiles. 
@@ -532,7 +563,7 @@ Your company must be registered with the tax office (Finanzamt, IRS, HMRC).
 There are all kinds of thresholds and exemptions, so get in touch with a tax advisor about these matters. 
 
 \subsection{Bank accounts}
-A bank account is a very useful thing to have, and getting one can turn out surprisingly difficult. You want to be able to receive money, to send money to arbitrary accounts worldwide, and you want to have a credit card. Depending on the legal form you choose (see below, Section \ref{sec:legalform }), this can be more or less difficult. 
+A bank account is a very useful thing to have, and getting one can turn out surprisingly difficult. You want to be able to receive money, to send money to arbitrary accounts worldwide, and you want to have a credit card. Depending on the legal form you choose (see below, Section \ref{sec:legalform}), this can be more or less difficult. 
 
 If you stay with your university, you might be denied a credit card. For example, this is the policy for both Freie Universität and Humboldt-Universität in Berlin. This means that you cannot buy flight tickets for instance, and it also means that you cannot use certain web services at all. CreateSpace e.g. requires you to have a credit card. The only solution in those cases is to use a personal credit card and demand reimbursement. This can take a long time depending on the speed of the university administration, and it can easily go into the four or even five-digit range. 
 
@@ -564,7 +595,7 @@ In the context of brands, it is also important to note that the FAIR Open Access
 ``Key points are that the controlling organization, not a commercial publisher, must own the journal title''. In our case, that would not be the journal title of course, but the name of the publishing platform, and registered ownership means a registered brand. 
  
 \subsection{Intellectual property rights (IPR)}
-\subsubsection{Author contracts}\label{sec:authorcontracts}
+\subsubsection{Author contracts}\label{sec:authorcontract}
 Under the current copyright laws, authors own the rights to their creations. Parties which want to make available an author's work have to get the explicit permission to do so. Traditional publishers often solve this via ``copyright transfer agreements''. All rights pertaining to a work are transfered to the publisher, who can then do with the work as they see fit. Other parties, including the author themselves, are barred from using the work as a consequence, unless they obtain explicit permission from the new rights holder, i.e. the publisher. 
 
 However, such copyright transfer is not strictly necessary. A more granular approach, only granting the rights necessary for the particular service a publisher provides, is sufficient as well. In this case, the author would retain their copyright. This granting of rights can either be specific (``publisher X is allowed to do this and that'') or global (``anybody is allowed to do this and that''). The latter approach is the one espoused by Creative Commons.\footurl{https://creativecommons.org/} An author who licenses their work under a Creative Commons license grants everybody the right to use the work under the terms specified by the license (e.g. attribution of the source). This also means that a particular contract between the author and the publisher is no longer required if all services the publisher performs are covered by the Creative Commons license. 
@@ -750,7 +781,7 @@ All inquiries from the community reaching the office (book proposals, questions,
 If you have more than one person in charge of answering to inquiries, you might want to set up a ticketing system like OTRS to make sure nothing gets overlooked. 
 
 \subsection{Newsletters}
-Do inform the community about current events like new publications, new series or awards. Scientists are used to fact-based communications. In our experience, there is no point in glossy newsletters. We have monthly newsletters. If we have nothing to report, we skip a newsletter. We do not try to artificially generate content. Still, it is important that supporters know that things are happening in their community %TODO move up and merge with social media
+Do inform the community about current events like new publications, new series or awards. Scientists are used to fact-based communications. In our experience, there is no point in glossy newsletters. We have monthly newsletters. If we have nothing to report, we skip a newsletter. We do not try to artificially generate content. Still, it is important that supporters know that things are happening in their community.
 
 
 \subsection{Merchandise}
@@ -777,7 +808,7 @@ Your social media presence should be in line with your branding and mirror the o
 
 
 \subsection{Conferences}
-Conferences are a good way to make your project known. On the one hand, there are discpline-specific conferences, where you can showcase your books and get in touch with prospective authors. Very often, your series editors can serve as ``conference ambassadors'' (see Section \ref{sec:ambassadors}). On the other hand, there are general (Open Access) publishing conferences. You will not get any authors or readers from there, but you can require a reputation as an innovative publisher among libriarians, archives, aggregators, service providers, etc. Representation in those venues has to be done by press directors or the coordinator. Finally, there are policy conferences at state, national, or  European level. If you have performed well in the publishing conferences, you might be invited as a stakeholder to these workshops, which are generally by invitation only. 
+Conferences are a good way to make your project known. On the one hand, there are discpline-specific conferences, where you can showcase your books and get in touch with prospective authors. Very often, your series editors can serve as ``conference ambassadors''. On the other hand, there are general (Open Access) publishing conferences. You will not get any authors or readers from there, but you can require a reputation as an innovative publisher among libriarians, archives, aggregators, service providers, etc. Representation in those venues has to be done by press directors or the coordinator. Finally, there are policy conferences at state, national, or  European level. If you have performed well in the publishing conferences, you might be invited as a stakeholder to these workshops, which are generally by invitation only. 
 
 \section{Network}\label{sec:network}
 Obviously, you should get in touch with the national and international bodies representing your discipline and try to get their official endorsement. Also try to reach out to subcommunities you are normally less in touch with. So, if you are in ``Applied X'', reach out to ``theoretical Xers'' and vice versa. Your network should also cover community-based publishers in other fields and other countries, libraries, archiving initiatives and the relevant legislative bodies. Language Science Press has loose contacts to practictioners in the fields of Archeology, Theatre Studies, and Law, for instance. 
@@ -788,15 +819,21 @@ You can also grow your network by teaching about Open Access publishing, for ins
 \section{Competition}\label{sec:competition}
 In our experience, traditional publishing houses are not much more knowledgeable with regard to Open Access publishing than you. They are also trying to find out and are experimenting. There is no reason to hate them or badmouth them. Be nice, and you can learn from each other's experiences. 
 
-\chapter{readings} 
+\chapter{Readings} 
 There are a number of reports dealing with the economics of open access publishing. The following list makes no claims of exhaustivity:
 
+\sloppy
 \begin{itemize}
- \item ithaca 
- \item KE 
- \item KU 
- \item EU
+\item \fullcite{Eve2014}
+\item \fullcite{MaronEtAl2016} 
+\item \fullcite{AdemaStone2017}
+\item \fullcite{FewerdaEtAl2017}
+\item \fullcite{JohsonEtAl2017}
 \end{itemize}
+\fussy
+
+% \printbibliography
+
 
 
 \chapter{Timeline}
@@ -833,6 +870,8 @@ Manuscripts written with a citation manager like BibTeX or Zotero are generally 
 
 Edited volumes are also much more  time consuming than one should expect due to the communication overhead. Double the chapters and time will increase fourfold. Our experience is that up to 12 chapters or so, things go smoothly, and beyond that number, things quickly get unmanageable. Authors are on leave and do not respond, everybody expects everybody else to be late and responds late as well, etc. 
  
+\chapter{Conclusion} 
+% TODO
 \end{document}
 
 
