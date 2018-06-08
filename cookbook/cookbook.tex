@@ -637,7 +637,7 @@ Your publishing project should have a structure which allows you to ensure that 
 \resizebox{\textwidth}{!}{
 \begin{tikzpicture}[node distance=1cm, auto]   
 \node (coordinator) [circle,draw=black] {Coordinator};
-\node (se) [left=of coordinator,circle, draw=black, text width=1cm]{Series editor};
+\node (se) [left=of coordinator, yshift=-4mm,circle, draw=black, text width=1cm]{Series editor};
 \node (editor) [below=12mm of se, rectangle,draw=black] {Volume editor};
 \path let \p1 = (editor), \p2 = (coordinator) 
       in node at (\x2,\y1) (author) [rectangle,draw=black] {Author};
