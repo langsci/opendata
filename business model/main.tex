@@ -1,5 +1,5 @@
-\documentclass[output=guidelines,nonflat,smallfont,
-draftmode
+\documentclass[nonflat,smallfont
+% ,draftmode
 ]{langsci/langscibook}
 \title{Business model Language Science Press}
 \author{Sebastian Nordhoff}
@@ -7,6 +7,31 @@ draftmode
 \usepackage{./langsci-tbls}
 \usepackage{tabularx,multirow}
 \usepackage{langsci-optional}
+
+
+\renewcommand{\lsSeriesHistory}{~}
+\renewcommand{\lsAdvertisement}{}
+\renewcommand{\lsImpressumCitationText}{
+  \onlyAuthor
+  \renewcommand{\newlineCover}{}
+  \renewcommand{\newlineSpine}{}
+  Sebastian Nordhoff. %
+  {\lsYear}. %
+  \textit{Language Science Press business model}. % 
+  Berlin: Language Science Press.
+}
+\BackBody{This book describes the business model of Language Science Press as devised in 2015. It gives some theoretical background and the text of the actual model itself. Each section of the model is then evaluated based on the knowledge of 2018, and possible alternatives which could have been adopted are discussed. An appendix with projected figures and actual figures for costs and revenue completes the book.
+
+This book is complemented by the Open Access cookbook, open business data, and a spreadsheet for drafting and calculating own business models.
+}
+
+
+\title{Language Science Press business model}
+\author{Sebastian Nordhoff\newlineCover Language Science Press}
+% \renewcommand{\lsISBNdigital}{ }
+\renewcommand{\lsISBNsoftcover}{978-1721068708}
+\BookDOI{10.5281/zenodo.1286972}
+\begin{document}
 
 % \input{langsci-colors.def}
 \newcommand{\background}[1]{ 

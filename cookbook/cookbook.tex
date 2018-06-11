@@ -1,15 +1,38 @@
-\documentclass[nonflat,modfonts,output=guidelines] {langsci/langscibook}
+\documentclass[nonflat,modfonts,output=book] {langsci/langscibook}
 \renewcommand{\lsSeries}{guidelines}
 \usepackage{langsci-gb4e}
-\usepackage{langsci-optional}
+\usepackage{langsci/styles/langsci-optional}
 \usepackage{url}
 \usepackage{tikz}
 \usetikzlibrary{arrows,positioning,shapes,quotes} 
 \urlstyle{same}
 \newcommand{\footurl}[1]{\footnote{\url{#1}}}
 \bibliography{cookbook}
+
+\renewcommand{\lsSeriesHistory}{}
+\renewcommand{\lsAdvertisement}{}
+\renewcommand{\lsImpressumCitationText}{
+  \onlyAuthor
+  \renewcommand{\newlineCover}{}
+  \renewcommand{\newlineSpine}{}
+  Sebastian Nordhoff. %
+  {\lsYear}. %
+  \textit{Cookbook for Open Access books}. % 
+  Berlin: Language Science Press.
+}
+\BackBody{This book describes the experiences of setting up a community-based publisher, Language Science Press.
+It discusses the main principles of community-based publishing and gives a very granular breakdown of the different tasks. 
+The discussion of the different tasks is complemented by readings, time lines, and a list of time sinks. 
+
+This book is complemented by the business model, open business data, and a spreadsheet for drafting and calculating own business models.
+}
+
+
 \title{Cookbook for Open Access books}
 \author{Sebastian Nordhoff\newlineCover Language Science Press}
+\renewcommand{\lsISBNdigital}{978-3-96110-089-7}
+\renewcommand{\lsISBNsoftcover}{978-1721065851}
+\BookDOI{10.5281/zenodo.1286925}
 \begin{document}
 \maketitle
 \frontmatter 
@@ -200,7 +223,7 @@ Our books are posted on LinguistList, and thereby automatically included as ``av
 We encourage reviewers to use PaperHive for reviews of the electronic documents.
 
                       
-\subsubsection{JSTOR and Project Muse}                      
+\subsection{JSTOR and Project Muse}                      
 These two projects have been suggested to us, but we have not yet understood what the advantage would be for native open acces books.
 
 
@@ -848,15 +871,18 @@ The following is a rough timeline which has the official launch as reference poi
  \item [--1.5y] Research funding opportunities for the setup phase 
  \item[--1.5y] Get in touch with designers, typographers, legal experts, IT people.
  \item[--1y] Form 5 initial series with editors, editorial boards, and description of aims and scope.
+ \item[--1y] Set up your work flow.
  \item[--1y] Invite first manuscripts from among your network.  These are invited manuscripts, so they will not be rejected. Still, reviews should be commissioned in order to identify potential weaknesses
  \item[--1y] Submit grant proposal 
  \item[--6m] Receive grant approval (hopefully)
  \item[--6m] Look out for staff to fill your grant positions
  \item[--6m] Revision of first titles starts
  \item[--3m] Typesetting of first title starts
+ \item[--3m] identify potential revenue streams
  \item[--1d] First book is typeset
  \item[0] launch at some larger event, e.g. annual meeting of relevant learned society. 
  \item[0] publish first book at the launch. It is sufficient that the book be available somehow afterwards. 
+ \item[+3m] get external help for working out your funding model
  \item[+1y] publish the majority of your invited volumes. 
  \item[+1y] bang your own drum. Try to acquire more expressions of interest for books and series. Publicize the interest you receive. 
  \item After the first year, paths will diverge. Take an open and agile approach and follow impulses from the community. You are on uncharted terrain anyway, so it is easy for you to change course if this means that you get some more dedicated people on board. Community-based publishers should be run by the community, so try to involve them as much as you can.
@@ -871,7 +897,11 @@ Manuscripts written with a citation manager like BibTeX or Zotero are generally 
 Edited volumes are also much more  time consuming than one should expect due to the communication overhead. Double the chapters and time will increase fourfold. Our experience is that up to 12 chapters or so, things go smoothly, and beyond that number, things quickly get unmanageable. Authors are on leave and do not respond, everybody expects everybody else to be late and responds late as well, etc. 
  
 \chapter{Conclusion} 
-% TODO
+This book has presented a \textit{tour d'horizon} of our experiences in setting up a community-based publisher, Language Science Press. We have tried to cover all the different domains we touched and the things we learned in order for other people to be able to copy our setup. 
+There might be remaining implicit assumptions, things which were obvious to us, but which cannot be taken for granted. If you find some of those, please let us know and we will update the document. The same is true if  you would like to share some experiences from other fields, where the culture might be different and where the recipes from linguistics cannot be applied. 
+
+This document is probably most useful when accompanied by the business model, the business data and the spreadsheet to calculate your own project, which are all distributed together with this book. 
+
 \end{document}
 
 
