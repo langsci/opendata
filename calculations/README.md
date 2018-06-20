@@ -122,7 +122,7 @@ You cannot edit these figures as they represent intermediate steps of the calcul
 
 ---
 
-- `Representation': How many paid hours does the professor spend on representation of the project? 
+- `Representation`: How many paid hours does the professor spend on representation of the project? 
 
 ### Variable costs
 - `External typesetting`: What is the cost of having one page typeset by an external service provider?
