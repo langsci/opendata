@@ -1,6 +1,4 @@
-This folder contains the spreadsheet `5y-setup.ods`.
-
-**This spreadsheet is not finalised yet**
+This folder contains the spreadsheet `5y-setup.ods`. 
 
 The spreadsheet assumes that the publishing platform will be rolled out over 5 years. 
 
