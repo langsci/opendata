@@ -12,10 +12,10 @@ This directory contains the following files:
 
 - `authorfees2017.csv`: Information about the author fees we collected in 2017. Titles are anonymized. The codes do not correspond to the codes used for sales figures.
 
-- `donations2017.csv`: Information about the donations we received in 2017. Donors are anonymized. The codes do not correspond to the codes used for sales figures or the author fees. This information is still incomplete as of 2018-03-01. 
+- `donations2017.csv`: Information about the donations we received in 2017. Donors are anonymized. The codes do not correspond to the codes used for sales figures or the author fees.  
 
 - `expenditures2017.csv`: All expenditures. Salaries are what employer has to pay, not what employee receives (Arbeitgeberbrutto). 
-We buy 5 copies of each book. 1 for ourselves, 1 for the university library, 1 for the Berlin state library, 2 for the German National Library. Additionally, we occasionally buy display copies for book stands. This file is incomplete as of March 2018
+We buy 5 copies of each book. 1 for ourselves, 1 for the university library, 1 for the Berlin state library, 2 for the German National Library. Additionally, we occasionally buy display copies for book stands. The telco costs are for one SIM card needed to open a bank account.
 
 We have no access statistics for Zenodo, where our books are also hosted. 
 
