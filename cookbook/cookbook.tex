@@ -1,6 +1,8 @@
-\documentclass[nonflat,modfonts,output=book] {langsci/langscibook}
-\renewcommand{\lsSeries}{guidelines}
-\usepackage{langsci-gb4e}
+\documentclass[nonflat,smallfont
+% ,draftmode
+]{langsci/langscibook} 
+\renewcommand{\lsSeries}{guidelines} 
+\usepackage{langsci/styles/langsci-gb4e}
 \usepackage{langsci/styles/langsci-optional}
 \usepackage{url}
 \usepackage{tikz}
@@ -9,7 +11,7 @@
 \newcommand{\footurl}[1]{\footnote{\url{#1}}}
 \bibliography{cookbook}
 
-\renewcommand{\lsSeriesHistory}{}
+\renewcommand{\lsSeriesHistory}{~}
 \renewcommand{\lsAdvertisement}{}
 \renewcommand{\lsImpressumCitationText}{
   \onlyAuthor
@@ -27,7 +29,7 @@ The discussion of the different tasks is complemented by readings, time lines, a
 This book is complemented by the business model (DOI: \url{https://doi.org/10.5281/zenodo.1286972}), open business data, and a spreadsheet for drafting and calculating own business models.
 }
 
-\renewcommand{\lsID}{opendata}
+\renewcommand{\lsID}{cookbook}
 \title{Cookbook for Open Access books}
 \author{Sebastian Nordhoff\newlineCover Language Science Press}
 \proofreader{Felix Kopecky, Jeroen van de Weijer}
@@ -35,8 +37,7 @@ This book is complemented by the business model (DOI: \url{https://doi.org/10.52
 \renewcommand{\lsISBNsoftcover}{978-1721065851}
 \BookDOI{10.5281/zenodo.1286925}
 \begin{document}
-\maketitle
-\frontmatter 
+\maketitle 
 \tableofcontents 
 \mainmatter
 \chapter{Introduction}
@@ -51,6 +52,8 @@ It is one of our goals that many XYZ Science Presses will spring up in the futur
 Some of the recommendations given here might sound reasonably trivial, others might sound opinionated. But we have chosen to be explicit, at the risk of sounding banal in order to give as complete a picture about the things we have learned in the course of this project.
 
 Finally, the people who set up are all linguists by training and had no prior acquaintance with business models and the like. This was all new for us, and it will be new to most other academics as well. We were in the lucky position to have half a position for a business economist funded by the DFG, and we would like to share what we have learnt from her. 
+
+This book is available for collarborative reading at \url{https://paperhive.org/documents/remote?type=langsci&id=cookbook}. You can directly annotate the text there, raise questions, make comments or share your personal experiences. 
 
 \section{Scope}
 Language Science Press publishes open access books in linguistics. We do not have insights into closed access books or journal articles, although some of our findings can probably be transferred. 
@@ -91,7 +94,7 @@ A number of conclusions follow from these premises:
  \item You must make sure that the starting books get maximal exposure in all relevant venues in order to produce follow-up submissions. For the first three generations, you want exponential growth. After that, linear growth will do. 
 \end{enumerate}
 
-Normally, you will not be able to adjust your staffing according to the number of books. This means that in the beginning, there will be too much staff, i.e. relatively fewer books per person to work on than later on. Use this leeway to create beautiful hand-crafted books and as pleasant as an experience for the authors as possible. Once the ball gets rolling and you attract more submissions, you will have to scale down that level of dedication, but at that point in time, you will hopefully be in a position to be selective with regard to the submissions you accept. 
+Normally, you will not be able to adjust your staffing according to the number of books. This means that in the beginning, there will be too much staff, i.e. relatively fewer books per person to work on than later on. Use this leeway to create beautiful hand-crafted books and as pleasant as an experience for the authors as possible.\footnote{We also founded the series \textit{Classics in Linguistics} to cover this period. This series reedits influential works for which copyright is either expired or still held by the authors.} Once the ball gets rolling and you attract more submissions, you will have to scale down that level of dedication, but at that point in time, you will hopefully be in a position to be selective with regard to the submissions you accept. 
 
 In the beginning, we had some edited volumes where chapters were written in various versions of Microsoft Word, with no particular template, and no consistent or coherent formatting. We adapted all of those to a uniform style and spent enormous amounts of time on this. As a result, we attracted more submissions, and we are now able to enforce our templates and guidelines, and can afford refusing submissions which do not comply. As the number of books in production goes up, the time we have available for each book goes down, but at the same time, the submissions are in much better shape and require less time overall as well. 
 

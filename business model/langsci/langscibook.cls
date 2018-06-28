@@ -1155,8 +1155,8 @@
 
 \vfill
 
-This title can be downloaded at:\\
-\url{\lsURL}
+% This title can be downloaded at:\\
+% \url{\lsURL}
 
 © \lsYear, \iflsCollection the authors\else\@author\fi
 
