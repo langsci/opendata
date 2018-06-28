@@ -435,7 +435,7 @@ We provide templates in *tex, *docx, *odt and on Overleaf. The idea is that auth
 This steps describes the production of the various output format based on the input manuscript. Some background might be in order here: while word processors like Microsoft Word or LibreOffice use a WYSIWYG approach (``What you see is what you get''), this is not practical for multiple outlets.
 In those cases, it is better to use a separation of meaning and presentation, i.e. a WYSIWYM approach (``What you see is what you mean''). For instance, chapters in \LaTeX\xspace are marked with \verb+\chapter+, but otherwise look like normal text. This information can be accessed for a variety of use cases. Most typically, one will use the chapter title to put the relevant words in a larger font on a particular  page, but it is also used for the table of contents, the PDF bookmarks, and we also use it to extract a list of chapter titles when announcing a book to the community proofreaders. 
 
-We have a number of routines to create various outputs from the input files. These are bundled together in a \verb+Makefile+. We can use commands like \verb+make book+, \verb+make index+ or \verb+make paperhive+ to automatically run certain well-defined tasks. Among other things, the Makefile contains the following automated routines: 
+We have a number of routines\footnote{Available from \url{https://github.com/langsci/pypi} and \url{https://github.com/langsci/latex-skeletons/tree/master/skeleton}} to create various outputs from the input files. These are bundled together in a \verb+Makefile+. We can use commands like \verb+make book+, \verb+make index+ or \verb+make paperhive+ to automatically run certain well-defined tasks. Among other things, the Makefile contains the following automated routines: 
 
 \begin{itemize}
  \item \texttt{make pdf}: create the book 
@@ -902,6 +902,7 @@ The following is a rough timeline which has the official launch as reference poi
  \item[--1y] Invite first manuscripts from among your network.  These are invited manu\-scripts, so they will not be rejected. Still, reviews should be commissioned in order to identify potential weaknesses.
  \item[--1y] Submit grant proposal 
  \item[--6m] Receive grant approval (hopefully)
+ \item [--6m] reviews for the first books should start coming in
  \item[--6m] Define the initial software stack
  \item[--6m] Look out for staff to fill your grant positions
  \item[--6m] Revision of first titles starts
