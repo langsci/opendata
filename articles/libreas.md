@@ -5,14 +5,25 @@ Dabei kommt das Projekt zu folgendem Schluss:
 
 > we’ve determined that a standard 312-page book that sells 450 copies at a price point of $40 incurs a loss to the Press of almost $14,000. 
 
-In anderen Worten: bei Erlösen von 18.000 USD beträgt der Verlust immer noch 14.000 USD. In der Produktion kostet der Titel also 32.000 USD (28.000 EUR). Das kann man nun in Arbeitszeit umrechnen. Bei TVÖD E-11 ergeben sich ungefähr 6 Monate Vollbeschäftigung. Diese Zahlen versetzen Uneingeweihte regelmäßig in Erstaunen. Was könnte man in einem halben Jahr nicht sonst noch alles anstellen! Das OAMI-Projekt ist in dieser Hinsicht aber keine Einzelfall. Maron et al. fanden bei Universitätsverlagen Gestehungskosten zwischen 15.000 und 129.000 USD pro Titel. <!-- TODO -->
+In anderen Worten: bei Erlösen von 18.000 USD beträgt der Verlust immer noch 14.000 USD. In der Produktion kostet der Titel also 32.000 USD (28.000 EUR). Das kann man nun in Arbeitszeit umrechnen. Bei TVÖD E-11 ergeben sich ungefähr 6 Monate Vollbeschäftigung. Diese Zahlen versetzen Uneingeweihte regelmäßig in Erstaunen. Was könnte man in einem halben Jahr nicht sonst noch alles anstellen! Das OAMI-Projekt ist in dieser Hinsicht aber keine Einzelfall. Maron et al. fanden bei Universitätsverlagen Gestehungskosten zwischen 15.000 und 129.000 USD pro Titel. <!-- DOI:10.1017/CBO9781316161012
+• Nancy L. Maron et al. 2016. The costs of publishing monographs: Toward a
+transparent methodology DOI:10.18665/sr.276785
+ -->
 
-Bei kommerziellen Verlagen sieht es ähnlich aus. Der Brill-Verlag nimmt z.B. 18.500 EUR für einen unter CC-BY zu veröffentlichenden Titel. <!-- todo -->
+Bei kommerziellen Verlagen sieht es ähnlich aus. Der Brill-Verlag nimmt z.B. 18.500 EUR für einen unter CC-BY zu veröffentlichenden Titel. <!-- https://brill.com/page/OpenAccessforAuthors/open-access-for-authors -->
 
 Intuitiv wird nicht sofort klar, was diese hohen Kosten bedingt. Kosten von ca. 100 EUR pro Seite würden ja in erster Näherung eine durchaus eingehende Beschäftigung mit dem Drucksatz, der Auswahl des Papiers oder auch des Versandes erlauben. Wie genau sich diese Kosten zusammensetzen, erfährt man jedoch nicht. 
-Selbst wenn es einige Überblicksstudien gibt (<!-- todo -->), so weisen diese doch stets nur die aggregierten Kosten aus. Der Stand 2018 ist, dass die Kostenstruktur von wissenschaftlichen Büchern für die Allgemeinheit ein Buch mit sieben Siegeln ist. 
+Selbst wenn es einige Überblicksstudien gibt (<!-- 
+Nancy L. Maron et al. 2016. The costs of publishing monographs: Toward a
+transparent methodology DOI:10.18665/sr.276785
 
-Im Zuge der Bewegung von New Scholarly Presses, bzw. Academic-Led Presses (Adema et al <!-- todo -->) soll die Hoheit über den Publikationsprozess von den Verlagen wieder zurück in den akademischen Bereich verlagert werden. Die Probleme im kommerziellen Verlagsbereich sind offensichtlich (Preisgestaltung, Zugänglichkeit). Andererseits stellt sich die Frage, welche Institution strukturell alle Veröffentlichungen mit einem fünfstelligen Betrag bezuschussen möchte. Wenn die Buchproduktion in der Tat in den heimatlichen akademischen Hafen geholt werden soll, muss klar sein, wer dafür mit wieviel in den Ring steigt. Oder aber, es muss, alternativ, klar werden, wie die Kostenstruktur nun eigentlich wirklich ist, und ob man wirklich all diesen Aufwand betreiben muss, um ein Buch von 300 Seiten ordentlich zu produzieren und zu vertreiben. Mit anderen Worten, die Verlage müssten sich, man verzeihe mir das Wortspiel an dieser Stelle, in die Bücher schauen lassen. Dann könnte man feststellen, wieviel nun eigentlich wirklich der Satz kostet, wieviel der Vertrieb, wieviel die Akquise, und ob all diese Ausgaben sinnvoll erscheinen.
+Eelco Ferwerda et al. 2017. A landscape study on open access and mono-
+graphs: policies, funding and publishing in eight European countries. Knowledge Exchange DOI:https://doi.org/10.5281/zenodo.815932
+
+ -->), so weisen diese doch stets nur die aggregierten Kosten aus. Der Stand 2018 ist, dass die Kostenstruktur von wissenschaftlichen Büchern für die Allgemeinheit ein Buch mit sieben Siegeln ist. 
+
+Im Zuge der Bewegung von New Scholarly Presses, bzw. Academic-Led Presses (Adema et al <!--  Janneke Adema & Graham Stone. 2017. Changing publishing ecologies: A landscape study of new university presses and academic-led publishing http://repository.jisc.ac.uk/6666/1/Changing-publishing-ecologies-report.pdf.
+ -->) soll die Hoheit über den Publikationsprozess von den Verlagen wieder zurück in den akademischen Bereich verlagert werden. Die Probleme im kommerziellen Verlagsbereich sind offensichtlich (Preisgestaltung, Zugänglichkeit). Andererseits stellt sich die Frage, welche Institution strukturell alle Veröffentlichungen mit einem fünfstelligen Betrag bezuschussen möchte. Wenn die Buchproduktion in der Tat in den heimatlichen akademischen Hafen geholt werden soll, muss klar sein, wer dafür mit wieviel in den Ring steigt. Oder aber, es muss, alternativ, klar werden, wie die Kostenstruktur nun eigentlich wirklich ist, und ob man wirklich all diesen Aufwand betreiben muss, um ein Buch von 300 Seiten ordentlich zu produzieren und zu vertreiben. Mit anderen Worten, die Verlage müssten sich, man verzeihe mir das Wortspiel an dieser Stelle, in die Bücher schauen lassen. Dann könnte man feststellen, wieviel nun eigentlich wirklich der Satz kostet, wieviel der Vertrieb, wieviel die Akquise, und ob all diese Ausgaben sinnvoll erscheinen.
 
 # Was zu tun ist
 ## Inventarisierung der Tätigkeiten 
@@ -44,6 +55,7 @@ Dabei beschränkt er sich aber auf eine sehr grobe Einteilung in
 *overhead* (1.471 USD). 
 In dieser geringen Granularität hilft das natürlich nicht recht weiter. Was beinhaltet denn nun *title setup* genau, und zu welchen Anteilen? Bei Language Science Press werden immerhin 17 verschiedene Tätigkeitsfelder prozentual ausgewiesen, von denen die Autorenbetreuung mit 40% den Löwenanteil ausmacht. 
 
+<!-- hier diese Grafik einbauen -->
 https://userblogs.fu-berlin.de/langsci-press/files/2015/07/Kuchen.png
 
 ## Inventarisierung der Einnahmequellen
