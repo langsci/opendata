@@ -29,9 +29,8 @@ provide a breakdown of the per-article costs of publishing.
 Der wesentliche Vorteil von nicht gewinnorientierten Verlagen liegt darin, dass sie freigiebig ihr Wissen teilen können. Das bezieht sich einerseits auf Methoden, aber andererseits auch auf Zahlenmaterial. Traditionelle Verlage haben jahrzehnte- bis jahrhundertelange Erfahrung in der Buchproduktion. Um dagegen bestehen zu können,  müssen nicht gewinnorientierte Verlage ihr Wissen und ihre Erfahrungen teilen. 
 
 
-Language Science Press hat  
-2015 (https://userblogs.fu-berlin.de/langsci-press/2015/09/29/whats-the-cost-of-an-open-access-book/) 
-einen Blogpost veröffentlicht, die eine erste Näherung ermöglicht. Es wurden zwei verschiedene Modelle zur Kalkulation der Kosten vorgestellt: im Top-Down-Ansatz nimmt man einfach alle angefallenen Kosten eines Jahres und teilt sie durch die Anzahl der Bücher. Im Bottom-Up-Ansatz erstellt man eine umfangreiche Liste aller mit der Buchpublikation verbundenen Aufgaben und schätzt die zur Erfüllung jeweils notwendige Zeit. 
+Language Science Press hat 2015 (https://userblogs.fu-berlin.de/langsci-press/2015/09/29/whats-the-cost-of-an-open-access-book/) 
+einen Blogpost veröffentlicht, der eine erste Näherung ermöglicht. Es wurden zwei verschiedene Modelle zur Kalkulation der Kosten vorgestellt: im Top-Down-Ansatz nimmt man einfach alle angefallenen Kosten eines Jahres und teilt sie durch die Anzahl der Bücher. Im Bottom-Up-Ansatz erstellt man eine umfangreiche Liste aller mit der Buchpublikation verbundenen Aufgaben und schätzt die zur Erfüllung jeweils notwendige Zeit. 
 
 Der Top-Down-Ansatz ergab für das Jahr 2015 bei Einrechunng aller Kosten ca. 30.000 EUR/Titel. Darin waren die Kosten für den Aufbau von Language Science Press inbegriffen, im wesentlichen Programmierkosten zur Anpassung der Software Open Monograph Press. Die Projektion für den laufenden Betrieb (ohne weiteren Programmieraufwand) unter der Top-Down-Analyse waren 7.500 EUR. 
 
@@ -88,7 +87,7 @@ Im Jahr 2015 entwickelte eine Betriebswirtschaftlerin ein Geschäftsmodell für 
 Das Modell hat den Vorteil, dass es auf einer qualitativen Grundlagen die erwarteten Werte in Bezug auf Kosten und Einnahmen quantifiziert. Rückblickend kann man sagen, dass die Erwartungen weit von der Realität entfernt waren. Beispielsweise stehen im Geschäftsmodell Spendeneinnahmen von 
 9.600 EUR, 
 realisiert wurden jedoch nur 
-2500 EUR. 
+2.500 EUR. 
 Aber gerade durch die quantifizierten Vorhersagen ergeben sich hier interessante Erkenntnisse. Die einzelnen Abschnitte des Geschäftsmodells werden mit den tatsächlich realisierten Kosten/Einnahmen verglichen und mögliche Alternativen werden aufgezeigt. 
 
 ## Geschäftszahlen aus dem Jahr 2017
@@ -132,7 +131,7 @@ Im Jahr 2017 veröffentlichte Language Science Press 26 Titel. Auf Basis der vor
 Als abschließende Erkenntnis sei noch angemerkt, dass fast alle verlagsseitigen Kosten bei der Aufbereitung des Manuskripts für den Druck anfallen: 
 
 - Die Forschungsleistung kostet den Verlag nichts 
-- Die Erstellung der eingereichten Version kosten den Verlag nichts 
+- Die Erstellung der eingereichten Version kostet den Verlag nichts 
 - Die Begutachtung wird von den Reihen organisiert und kostet den Verlag nichts 
 - Die Überarbeitung des Manuskripts durch die Autorin kostet den Verlag nichts 
 - **Die Aufbereitung des Manuskripts in Zusammenarbeit mit der Autorin verursacht wesentliche Kosten**
@@ -152,7 +151,7 @@ Mit TTOA gibt es diese Bestrebungen bereits für den Zeitschriftenbereich auf Ve
 
 Wir im vorigen Abschnitt dargelegt, entstehen eigentlich nur bei der Aufbereitung des Manuskripts wesentliche Kosten im Verlag. Wenn Verlage nun also auf kalkulatorische Kosten von bis zu 129.000 USD kommen, haben sie also entweder eine sehr aufwendige Aufbereitung, oder aber sie geben Geld in anderen Bereichen aus, wo das aus meiner Sicht nicht angezeigt ist, beispielsweise Lagerhaltung oder Vertrieb über einen eigenen Webshop. Auch hier kann Transparenz helfen. Die Entscheidung, dass die Kostenstruktur veröffentlicht wird, sollte recht automatisch zu einem Überdenken der einzelnen Posten führen. 
 
-Warum kostet ein wissenschaftliches Buch nun 28.000 EUR? Ich weiß es nicht und es erschließt sich mir nicht. Ich weiß aber, dass alle OA-Verlage davon profitieren werden, wenn sie ihre Kostenstrukturen im Rahmen von *Offenen Büchern* teilten. Mit dem Projekt *Full Disclosure* ist hier ein Anfang gemacht. Es ist nicht davon auszugehen, dass Language Science Press mit seinem Modell im ersten Anlauf den Stein der Weisen gefunden hat, daher bitte ich um rege Kritik des Ansatzes und um die Veröffentlichungen weiterer Zahlen auf dass sich ein empirischer Vergleich anstellen lasse!
+Warum kostet ein wissenschaftliches Buch nun 28.000 EUR? Ich weiß es nicht und es erschließt sich mir nicht. Ich weiß aber, dass alle OA-Verlage davon profitieren werden, wenn sie ihre Kostenstrukturen im Rahmen von *Offenen Büchern* teilten. Mit dem Projekt *Full Disclosure* ist hier ein Anfang gemacht. Es ist nicht davon auszugehen, dass Language Science Press mit seinem Modell im ersten Anlauf den Stein der Weisen gefunden hat, daher bitte ich um rege Kritik des Ansatzes und um die Veröffentlichungen weiterer Zahlen, auf dass sich ein empirischer Vergleich anstellen lasse.
 
  
 # Dokumente  
