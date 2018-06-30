@@ -12,4 +12,4 @@ The annotated **Business model** is found in the folder `business model/`
 
 The **Do-it-yourself spreadsheet** is found in the folder `calculations/`
 
-**Publications** resulting from this project are found in the folders `articles` and `blogposts`
+**Publications** resulting from this project are found in the folders `articles/` and `blogposts/`
