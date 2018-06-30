@@ -1,8 +1,5 @@
-<!--Ich würde die Motivation, das Vorgehen, und die wesentlichen Resultate
-dieses Projektes gerne in Libreas vorstellen,-->
-
 # Warum kostet ein wissenschaftliches Buch 28.000€ ?
-Am 13. Juni 2018 veröffentlichte John Sherer von der *Open Access Monography Initiative* einen Blogpost, der sich der Zukunft der wissenschaftlichen Monographien und deren Finanzierung in der Geschichtswissenschaft widmet. Unterstützt von der Andrew W. Mellon Foundation untersucht das Projekt, welche Strategien Bibliotheken nutzen können, um langfristig die Finanzierung von Buchpublikationen sicherstellen zu können. 
+Am 13. Juni 2018 veröffentlichte John Sherer von der *Open Access Monography Initiative* einen Blogpost, der sich der Zukunft der wissenschaftlichen Monographien und deren Finanzierung in der Geschichtswissenschaft widmet (http://www.longleafservices.org/blog/oa-monographs/). Unterstützt von der Andrew W. Mellon Foundation untersucht das Projekt, welche Strategien Bibliotheken nutzen können, um langfristig die Finanzierung von Buchpublikationen sicherstellen zu können. 
 
 Dabei kommt das Projekt zu folgendem Schluss: 
 
@@ -25,8 +22,8 @@ Was bedeutete bedeutet *Offene Buchhaltung* in diesem Kontext? Als "nullter" Sch
 Ausgehend von einer derartigen Liste (die auch durchaus eine geringere Länge haben kann) können dann die damit assoziierten Kosten ermittelt werden. 
 Im Zeitschriftenbereich gibt es jetzt mit TTOA eine entsprechende Initative: https://www.fairopenaccess.org/wp-content/uploads/2018/05/Public-statement-TTOA-consortium-30may18-def.pdf
 
-> A	fully	transparent	publication	fee	(PF)	is	key	in	our	approach:	participating	publishers	have	agreed	to	
-provide	a	breakdown	of	the	per-article	costs	of	publishing.	 
+> A fully transparent publication fee (PF) is key in our approach: participating publishers have agreed to 
+provide a breakdown of the per-article costs of publishing.
 
 ## Veröffentlichung der Kosten
 Der wesentliche Vorteil von nicht gewinnorientierten Verlagen liegt darin, dass sie freigiebig ihr Wissen teilen können. Das bezieht sich einerseits auf Methoden, aber andererseits auch auf Zahlenmaterial. Traditionelle Verlage haben jahrzehnte- bis jahrhundertelange Erfahrung in der Buchproduktion. Um dagegen bestehen zu können,  müssen nicht gewinnorientierte Verlage ihr Wissen und ihre Erfahrungen teilen. 
@@ -34,13 +31,13 @@ Der wesentliche Vorteil von nicht gewinnorientierten Verlagen liegt darin, dass 
 
 Language Science Press hat  
 2015 (https://userblogs.fu-berlin.de/langsci-press/2015/09/29/whats-the-cost-of-an-open-access-book/) 
-einen Blogpost veröffentlicht, die eine erste Näherung ermöglicht. In dem Post von 2015 wurden zwei verschiedene Modelle zur Kalkulation der Kosten vorgestellt: im Top-Down-Ansatz nimmt man einfach alle angefallenen Kosten eines Jahres und teilt sie durch die Anzahl der Bücher. Im Bottom-Up-Ansatz erstellt man eine umfangreiche Liste aller mit der Buchpublikation verbundenen Aufgaben und schätzt die zur Erfüllung jeweils notwendige Zeit. 
+einen Blogpost veröffentlicht, die eine erste Näherung ermöglicht. Es wurden zwei verschiedene Modelle zur Kalkulation der Kosten vorgestellt: im Top-Down-Ansatz nimmt man einfach alle angefallenen Kosten eines Jahres und teilt sie durch die Anzahl der Bücher. Im Bottom-Up-Ansatz erstellt man eine umfangreiche Liste aller mit der Buchpublikation verbundenen Aufgaben und schätzt die zur Erfüllung jeweils notwendige Zeit. 
 
 Der Top-Down-Ansatz ergab für das Jahr 2015 bei Einrechunng aller Kosten ca. 30.000 EUR/Titel. Darin waren die Kosten für den Aufbau von Language Science Press inbegriffen, im wesentlichen Programmierkosten zur Anpassung der Software Open Monograph Press. Die Projektion für den laufenden Betrieb (ohne weiteren Programmieraufwand) unter der Top-Down-Analyse waren 7.500 EUR. 
 
 Im Bottom-Up Ansatz ergaben sich damals geringere Kosten, ca. 3.500 EUR/Titel. Der Unterschied zwischen Top-Down und Bottom-Up kann darauf zurückgeführt werden, dass im Jahr 2015 die Einreichungsdichte noch nicht sehr hoch war und nicht kontinuierlich zu bearbeitende Titel "vorrätig" waren. Die freie Zeit wurde zur Dokumentation und für verschiedene Verfeinerungen genutzt, die aber für die eigentliche Buchproduktion streng genommen nicht notwendig waren. Dazu gehören z.B. das Nachzeichnen von geographischen Karten im Vektorformat, um ein schöneres Druckbild zu erhalten. 
 
-Im Buchbereich hat Rupert Gatti ebenfalls 2015 für *Open Book Publishers* einige Zahlen veröffentlicht https://blogs.openbookpublishers.com/introducing-data-to-the-open-access-debate-obps-business-model-part-three/. Die kalkulatorischen Kosten eines Titels sind dort 10512 USD. Dies ist mit den projizierten Kosten von Language Science Press für den laufenden Betrieb vergleichbar. Gatti gibt auch eine Aufschlüsselung der Kosten an. 
+Im Buchbereich hat Rupert Gatti ebenfalls 2015 für *Open Book Publishers* einige Zahlen veröffentlicht https://blogs.openbookpublishers.com/introducing-data-to-the-open-access-debate-obps-business-model-part-three/. Die kalkulatorischen Kosten eines Titels sind dort 10.512 USD. Dies ist mit den projizierten Kosten von Language Science Press für den laufenden Betrieb vergleichbar. Gatti gibt auch eine Aufschlüsselung der Kosten an. 
 Dabei beschränkt er sich aber auf eine sehr grobe Einteilung in 
 *title setup* (6.369 USD), 
 *cost of sales* (1.657 USD)
@@ -69,7 +66,7 @@ Ungefähr 40% entfallen also auf den Verkauf, während fast der gleiche Wert auf
  
  
 ## Zusammenfassung offene Buchhaltung 
-Um für die allgemeine Öffentlichkeit Transparenz der Kosten der Monographieproduktion herzustellen, müssen also Kosten sowie Einnahmen erstmal gelistet werden, dann beziffert, und schließlich zur Nachnutzung veröffentlicht werden. Die Auflistung der verschiedenen Kosten/Einkommensarten läuft im allgemeinen gut, bei der Bezifferung und Aufschlüsselung sieht es schon anders aus. Verschiedene Universitätsverlage weisen zum Beispiel diese noch nicht einmal intern aus. Die Veröffentlichung derartiger Zahlen schlussendlich ist eindeutig noch ein Desideratum, und nur vereinzelt finden sich etwas genauere Aufschlüsselungen, wie z.B. von OBP. 
+Um für die allgemeine Öffentlichkeit Transparenz der Kosten der Monographieproduktion herzustellen, müssen also Kosten sowie Einnahmen erstmal gelistet werden, dann beziffert, und schließlich zur Nachnutzung veröffentlicht werden (idealerweise als CC0). Die Auflistung der verschiedenen Kosten/Einkommensarten läuft im allgemeinen gut, bei der Bezifferung und Aufschlüsselung sieht es schon anders aus. Verschiedene Universitätsverlage weisen zum Beispiel diese noch nicht einmal intern aus. Die Veröffentlichung derartiger Zahlen schlussendlich ist eindeutig noch ein Desideratum, und nur vereinzelt finden sich etwas genauere Aufschlüsselungen, wie z.B. von OBP. 
 
 (Offensichtliche Analogien ergeben sich hier zu dem OpenAPC-Projekt im Zeitschriftenbereich: https://treemaps.intact-project.org/) 
 
@@ -77,7 +74,7 @@ Um für die allgemeine Öffentlichkeit Transparenz der Kosten der Monographiepro
 # Das Projekt *Full Disclosure* 
 
 Das OpenAire-Programm der EU hat im letzten Jahr einen Call zu *Alternative Funding Mechanism for non-author fee based Open Access Publishing* veröffentlicht. In dessen Rahmen wurde das Projekt "Full disclosure: replicable strategies for
-book publications supplemented with empirical data" mit 18.500 EUR gefördert. Ziel ist hier, das Geschäft von Language Science Press genau zu beschreiben, um so einen Nachnutzung/Replizierung zu ermöglichen. Dies umfasst sowohl die qualitative Perspektive, wie z.B. Arbeitsabläufe, wie auch die quantitative Perspektive: Geschäftszahlen. 
+book publications supplemented with empirical data" von Language Science Press mit 18.500 EUR gefördert. Ziel ist hier, das Geschäft von Language Science Press genau zu beschreiben, um so einen Nachnutzung/Replizierung zu ermöglichen. Dies umfasst sowohl die qualitative Perspektive, wie z.B. Arbeitsabläufe, wie auch die quantitative Perspektive: Geschäftszahlen. 
 
 Folgende Dokumente liegen nun vor: 
 1. Das Geschäfstmodell von 2015 mit einer Evaluation aus dem Jahr 2018 
@@ -89,9 +86,9 @@ Folgende Dokumente liegen nun vor:
 Im Jahr 2015 entwickelte eine Betriebswirtschaftlerin ein Geschäftsmodell für die Verstetigung von Language Science Press über 5 Jahre, das zur Vorlage an die Leitung der Freien Universität Berlin bestimmt war. Dieses Geschäftsmodell folgt einer üblichen Blaupause mit Analyse des Produkts, der Kunden, des Wertversprechens, der Einnahmearten. Weiterhin werden Aufwände in Zeit und Geld, Personalbedarf und Kostendeckungsbeiträge verschiedener Einnahmearten projiziert. 
 
 Das Modell hat den Vorteil, dass es auf einer qualitativen Grundlagen die erwarteten Werte in Bezug auf Kosten und Einnahmen quantifiziert. Rückblickend kann man sagen, dass die Erwartungen weit von der Realität entfernt waren. Beispielsweise stehen im Geschäftsmodell Spendeneinnahmen von 
-X, 
+9.600 EUR, 
 realisiert wurden jedoch nur 
-Y. <!--TODO-->
+2500 EUR. 
 Aber gerade durch die quantifizierten Vorhersagen ergeben sich hier interessante Erkenntnisse. Die einzelnen Abschnitte des Geschäftsmodells werden mit den tatsächlich realisierten Kosten/Einnahmen verglichen und mögliche Alternativen werden aufgezeigt. 
 
 ## Geschäftszahlen aus dem Jahr 2017
@@ -102,12 +99,10 @@ Die folgenden Zahlen stehen als csv-Dateien zum Download zur Verfügung:
 - Mitgliedschaftseinnahmen
 - Ausgaben (Personal, Reisen, Rechtsbeistand, ...) 
 
-Die Personalausgaben sind allerdings nicht den einzelnen Tätigkeitsfeldern zugeordnet, da eine entsprechende Zeiterfassung nicht vorgenommen wurde, und auch nicht wünschenswert ist. 
-
-Insgesamt ergeben sich Ausgaben von knapp unter 100.000 EUR für das Jahr 2017. Dem stehen 26 veröffentlichte Bücher gegenüber. Die kalkulatorischen Kosten pro Buch betragen also ca. 3.500 EUR.  
+Die Personalausgaben sind allerdings nicht den einzelnen Tätigkeitsfeldern zugeordnet, da eine entsprechende granulare Zeiterfassung nicht vorgenommen wurde.
 
 ## Tabellenkalkulation
-Um die Personalausgaben besser Tätigkeiten zuordnen zu können, wird die interne Tabellenkalkulation mit 100 Variablen veröffentlicht. Die Variablen beginnen mit der projizierten Anzahl Veröffentlichungen pro Jahr und gehen dann über die erwarteten Printverkäufe, die Anzahl Spender, den durchschnittlichen Spendenbetrag zu dem zeitlichen Aufwand, der verschiedenen Aufgaben zugemessen wird: Autorenbetreuung, Korrektorat, Textsatz, Koordination mit Dienstleistern, Dokumentation, Lobbying, etc. Die einzelnen Aufgaben sind jeweils einer Beschäftigtengruppe zugeordnet (Professur, Postdoc, Sekretariat, Hilfskraft). Aus dem tariflichen Gehalt können so die Personalkosten ermittelt werden, die dann auf die veröffentlichten Bücher umgelegt werden. So ergibt sich ein kalkulatorischer Preis pro Buch. Ebenfalls können Korrektorat und Satz outgesourct werden. Dadurch verringert sich der interne Personaleinsatz, aber die externen Kosten pro Buch erhöhen sich. Die Tabellenkalkulation läuft über 5 Jahre. Die Annahme ist, dass kein Projekt länger als 5 Jahre defizitär betrieben werden wird.
+Um die Personalausgaben besser Tätigkeiten zuordnen zu können, wird die interne Tabellenkalkulation mit 100 Variablen veröffentlicht. Die Variablen beginnen mit der projizierten Anzahl Veröffentlichungen pro Jahr und gehen dann über die erwarteten Printverkäufe, die Anzahl Spender und den durchschnittlichen Spendenbetrag zu dem zeitlichen Aufwand, der verschiedenen Aufgaben zugemessen wird: Autorenbetreuung, Korrektorat, Textsatz, Koordination mit Dienstleistern, Dokumentation, Lobbying, etc. Die einzelnen Aufgaben sind jeweils einer Beschäftigtengruppe zugeordnet (Professur, Postdoc, Sekretariat, Hilfskraft). Aus dem tariflichen Gehalt können so die Personalkosten ermittelt werden, die dann auf die veröffentlichten Bücher umgelegt werden. So ergibt sich ein kalkulatorischer Preis pro Buch. Ebenfalls können Korrektorat und Satz outgesourct werden. Dadurch verringert sich der interne Personaleinsatz, aber die externen Kosten pro Buch erhöhen sich. Die Tabellenkalkulation läuft über 5 Jahre. Die Annahme ist, dass kein Projekt länger als 5 Jahre defizitär betrieben werden wird.
 
 ## Kochbuch
 Das Kochbuch beinhaltet Grundlagen der community-basierten Buchproduktion, Tips & Tricks, Fallstricke sowie Lessons Learned und ist als qualitative Ergänzung der Kalkulationen gedacht. 
@@ -121,57 +116,51 @@ Quelle     | Soll    | Ist   |
 |:---------|--------:|------:|
 Printmarge | 24.000€ | 5.977€|
 BPCs       | 48.000€ | 2.500€|
-Institutionelle Mitgliedschaften | 56.000€ |(85.000€)|
+Institutionelle Mitgliedschaften | 56.000€ |0€ (85.000€²⁰¹⁸)|
 Spenden    | 9.600€  | 2.500€|
 Mitgliedsbeiträge | 13.200€ | 120€|
 Kontext: veröffentlichte Titel | 48 | 26
 
-Man erkennt mühelos, dass das ursprüngliche Modell überhaupt in 4/5 der Fälle überhaupt nicht tragfähig war. Bis auf die Institutionellen Mitgliedschaften bringt keine Einnahmeart die erwarteten Beträge. <!--TODO-->
+Man erkennt mühelos, dass das ursprüngliche Modell überhaupt in 4/5 der Fälle überhaupt nicht tragfähig war. Die 85.000€ durch Institutionelle Mitgliedschaten fallen ebenfalls erst im Jahr 2018 an, übertreffen aber die kalkulierten Einnahmen und stellen für sich allein mehr als siebenmal soviel wie alle anderen Einnahmearten zusammen. 
+
+Verglichen mit den Zahlen von OBP aus 2015, die 40% Kostendeckungsbeitrag durch Printverkäufe zeigten, ergibt sich hier also ein vollkommen anderes Bild: Die Printmarge kann keinen wesentlichen Beitrag leisten. Die eindeutige Schlussfolgerung aus diesen Zahlen ist, dass eine Finanzierung über Institutionelle Mitgliedschaften/Konsortialmodelle am vielversprechendsten ist. Man kann darüberhinaus durchaus die Frage stellen, ob man auf die anderen Einkommensarten nicht komplett verzichten kann, um das Modell noch weiter zu vereinfachen. Diese Erkenntnis ist intern bei Language Science Press schon länger verbreitet, durch die Veröffentlichung der Zahlen können jetzt aber auch andere Projekte davon profitieren. Die Soll-Ist-Analyse ist allerdings nur möglich, weil das Soll vorher bereits beziffert wurde.
+
+Auf der Ausgabenseite finden sich 76.054 EUR an Personalkosten. Verglichen damit sind alle anderen Ausgabenarten nebensächlich. Eine Erhöhung/Senkung der Personalkosten hat also einen wesentlichen Einfluss auf die Kosten pro Titel. Eine minutengenaue Aufschlüsselung der Tätigkeiten der Angestellten liegt nicht vor, wie schon oben erwähnt entfällt aber der Löwenanteil auf die Autorenbetreuung. Jede Vereinfachung in diesem Bereich schlägt sich also signifikant nieder. Dazu gehören deutlichere Dokumentation (Handreichungen, Screencasts), bessere Templates, Tools zur Unterstützung der Autoren bei der richtliniengetreuen Erstellung von Manuskripten. Ein nicht zu unterschlagender Aspekt ist, dass der Koordinator von Language Science Press die wesentlichen Bereiche Autorenbetreuung, Textsatz und Serveradministration aus einer Hand abdecken kann und daher keine Koordinationskosten oder Reibungsverluste zwischen Teammitgliedern anfallen.
+
+Im Jahr 2017 veröffentlichte Language Science Press 26 Titel. Auf Basis der vorliegenden Zahlen ergeben sich aufs Neue kalkulatorische Kosten pro Titel zwischen 3000 und 4000 EUR. Ab 2018 wird Raummiete als Kostenposten dazukommen, so dass die Zahl sich den 4000 nähern wird. 
+ 
+Als abschließende Erkenntnis sei noch angemerkt, dass fast alle verlagsseitigen Kosten bei der Aufbereitung des Manuskripts für den Druck anfallen: 
+
+- Die Forschungsleistung kostet den Verlag nichts 
+- Die Erstellung der eingereichten Version kosten den Verlag nichts 
+- Die Begutachtung wird von den Reihen organisiert und kostet den Verlag nichts 
+- Die Überarbeitung des Manuskripts durch die Autorin kostet den Verlag nichts 
+- **Die Aufbereitung des Manuskripts in Zusammenarbeit mit der Autorin verursacht wesentliche Kosten**
+- Die digitale Distribution kostet pro Buch minimal (Aufwand 1-2 Stunden) 
+- Druck und Vertrieb kosten den Verlag in Zeiten von print-on-demand quasi nichts (Aufwand <1 Stunde)
+- Lagerhaltung entfällt
+- Archivierung bei Zenodo kostet den Verlag nichts 
 
 
+# Warum kostet ein wissenschaftliches Buch denn nun 28.000 EUR? 
+Die Eingangsfrage dieses Artikels war "Warum kostet ein wissenschaftliches Buch 28.000 EUR?" Um diese Frage zu beantworten, müssen wir wissen, was eigentlich genau produziert wird, welche Tätigkeiten damit verbunden sind, und mit wieviel diese Tätigkeiten zu Buche schlagen. Die Frage, warum ein Buch nun 28.000 EUR kostet, kann vermutlich nur John Sherer beantworten, ich hoffe aber, dass ich in diesem Artikel darlegen konnte, warum Language Science Press auf kalkulatorische Kosten von 3.500 EUR pro Buch kommt.
 
-Go for Konsortial 
+Durch die Veröffentlichung des Geschäftsmodells, der Kalkulationsmethode und der Zahlen können andere Projekte jetzt feststellen, was sie gleich/anders machen, und wie sie daher auf höhere/niedrigere Kosten kommen. Hierbei ist das Ziel allerdings nicht Pfennigfuchserei, sondern ein realistischer Einblick in die Unterschiede zwischen Disziplinen. Meine Vermutung wäre, dass zum Beispiel in der Philosophie die Texte i.a. typographisch weniger anspruchsvoll sind als in der Sprachwissenschaft und daher der Aufwand pro Buch auch geringer sein sollte. Auf der anderen Seite würde ich bei der Kunstgeschichte von höheren Kosten pro Band ausgehen. Um diese Vermutung zu belegen, brauchen wir aber ebenfalls vergleichbare Zahlen aus diesen Disziplinen. 
 
-Kostendeckungsbeitrag
+Mit TTOA gibt es diese Bestrebungen bereits für den Zeitschriftenbereich auf Verlagsseite (interessanterweise bei Kosten von 1400 EUR pro Artikel), mit dem OpenAPC-Projekt als Widerpart bei den Bibliotheken. Ziel ist, ähnliches auch für die Buchproduktion zu etablieren. Ubiquity Press oder Open Book Publishers weisen bereits gewisse Zahlen aus. Für einen Open-Access-Verlag sollte es selbstverständlich sein, neben den Büchern und der verwendeten Software auch die Geschäftsprozesse und Workflows zur Nachnutzung freizugeben, ergänzt um die tatsächlichen Geschäftszahlen. Jean-Sébastien Caux hat hierfür in Abgrenzung zu "Gold OA" und APC-freiem "Platinum OA" den Begriff "Palladium OA" geprägt. Ein Palladium-OA-Verlag wird von ihm definiert als 
+> **Palladium [Pd]** publisher runs a purely not-for-profit public enterprise: none of its activities generate any profit, and all financial statements are publicly disclosed (https://jscaux.org/blog/post/2017/09/20/noble-metals-noble-cause/)
 
-3-4k
-30 Bücher 
-Personalunion
-Personalkosten, Personalkosten, Personalkosten
+Wir im vorigen Abschnitt dargelegt, entstehen eigentlich nur bei der Aufbereitung des Manuskripts wesentliche Kosten im Verlag. Wenn Verlage nun also auf kalkulatorische Kosten von bis zu 129.000 USD kommen, haben sie also entweder eine sehr aufwendige Aufbereitung, oder aber sie geben Geld in anderen Bereichen aus, wo das aus meiner Sicht nicht angezeigt ist, beispielsweise Lagerhaltung oder Vertrieb über einen eigenen Webshop. Auch hier kann Transparenz helfen. Die Entscheidung, dass die Kostenstruktur veröffentlicht wird, sollte recht automatisch zu einem Überdenken der einzelnen Posten führen. 
 
-Templates, Richtlinien, Screencasts, HowTo, Support
+Warum kostet ein wissenschaftliches Buch nun 28.000 EUR? Ich weiß es nicht und es erschließt sich mir nicht. Ich weiß aber, dass alle OA-Verlage davon profitieren werden, wenn sie ihre Kostenstrukturen im Rahmen von *Offenen Büchern* teilten. Mit dem Projekt *Full Disclosure* ist hier ein Anfang gemacht. Es ist nicht davon auszugehen, dass Language Science Press mit seinem Modell im ersten Anlauf den Stein der Weisen gefunden hat, daher bitte ich um rege Kritik des Ansatzes und um die Veröffentlichungen weiterer Zahlen auf dass sich ein empirischer Vergleich anstellen lasse!
 
-Begutachtung kostet nichts
-Vertrieb kostet quasi nichts
+ 
+# Dokumente  
+Das Geschäfstmodell von Language Science Press steht auf PaperHive zum "Collaborative Reading" bereit: https://paperhive.org/documents/items/fDiLi_1bkqDQ
 
+Das Kochbuch findet sich auf https://paperhive.org/documents/items/RoiQzwhr4uRT
 
-# Warum kostet ein wissenschaftliches Buch 28.000 EUR (reprise)? 
-Ja, warum eigentlich? 
-
-Mehr Vergleich. 
-Manuskripterstellung identisch
-Begutachtung identisch
-Vetrieb identisch
-
-Akquise? Lektorat? Satz? Design? Repräsentation? Aber für 30.000€?
-
-Ubiquity
-dG
-Brill
-Ithaca
-
-
-
-# Exkurs: Jenseits des Rechnungswesens
-Cookbook
-
-Neben den Daten auch Strukturen und Prozesse. Diese sind im Cookbook abgebildet
-
-bm
-https://paperhive.org/documents/items/fDiLi_1bkqDQ
-
-cb
-https://paperhive.org/documents/items/RoiQzwhr4uRT
+Die Geschäftszahlen finden sich auf https://github.com/langsci/opendata
 
 
 
