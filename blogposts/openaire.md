@@ -19,7 +19,7 @@ Community-driven publishers have the advantage that they are really on the pulse
 
 Language Science Press uses the so called "library-partnership model" as the main revenue stream, which is becoming more and more popular as an alternative to paywalls or APCs. For instance, the [Open Library of Humanities](https://www.openlibhums.org/plugins/supporters/) or [SciPost](https://scipost.org/partners/) also use that model. The document describing the business model puts this in a wider context of other possible funding streams. We believe that this model is more promising than models based on author fees or on print margins. From the empirical data released, we can see that the total revenue generated from print margins was only 5,977 EUR in 2017 for Language Science Press. For more theoretical consideration as to why author fees are actually a very bad idea, especially so for the book market, see our contribution to the [Radical Open Access conference](https://hcommons.org/deposits/item/hc:19821/).
 
-It is our hope that the documents provided will be useful as tools, manuals, yardsticks and gauges for other community-based publishers in other disciplines. The business model and the cookbook are available for collaborative reading and comment on PaperHive:
+It is our hope that the documents provided will be useful as tools, manuals, yardsticks and gauges for other community-based publishers in other disciplines. The business model and the cookbook are available for collaborative reading and commenting on PaperHive:
 - [Business model](https://paperhive.org/documents/items/fDiLi_1bkqDQ)
 - [Cookbook](https://paperhive.org/documents/items/RoiQzwhr4uRT)
 
