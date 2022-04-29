@@ -1,3 +1,3 @@
-ID	DOI	creators_are_editors	year	in_language	about_language	license	superseded_by	exceeds_downloads	series	series_number	creator	title
+ID	DOI	ed	year	in_language	about_language	license	superseded_by	exceeds_downloads	series	series_number	creator	title
 298	10.5281/zenodo.926408 	0	2021	en	gyel1242	CC-BY		0	Comprehensive Grammar Library 	2	Nadine Grimm   	A grammar of Gyeli 
-141	10.5281/zenodo.4737370 	0	2017	en	nyak1261	CC-BY	297	5000	Contemporary African Linguistics 	3	Bastian Persohn   	The Verb in Nyakyusa: A focus on tense, aspect, and modality 
+141	10.5281/zenodo.4737370 	0	b#	en	nyak1261	CC-BY	297	5000	Contemporary African Linguistics 	3	Bastian Persohn   	The Verb in Nyakyusa: A focus on tense, aspect, and modality 
