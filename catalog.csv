@@ -215,4 +215,4 @@ ID	DOI	edited	metalanguage	objectlanguage	license	superseded	pages	series	series
 371	10.5281/zenodo.7031898	author	deu		CC-BY  4.0	False		Translation and Multilingual Natural Language Processing	20	Marzouk, Shaimaa	Sprachkontrolle im Spiegel der Maschinellen Übersetzung: Untersuchung zur Wechselwirkung ausgewählter Regeln der Kontrollierten Sprache mit verschiedenen Ansätzen der Maschinellen Übersetzung	2022
 373	10.5281/zenodo.7560553	editor	eng		CC-BY  4.0	False		Niger-Congo Comparative Studies	4	Bostoen, Koen & de Schryver, Gilles-Maurice & Guérois, Rozenn & Pacchiarotti, Sara 	On reconstructing Proto-Bantu grammar	2022
 374	10.5281/zenodo.7602514	author	eng		CC-BY  4.0	False		Open Germanic Linguistics	4	Cysouw, Michael	Encyclopaedia of German diatheses	2023
-380	10.5281/zenodo.7376662	author	eng		CC-BY  4.0	False		Textbooks in Language Sciences	1	Müller, Stefan	Grammatical theory: From transformational grammar to constraint-based approaches	2023
+380	10.5281/zenodo.7376662	author	eng		CC-BY  4.0	True		Textbooks in Language Sciences	1	Müller, Stefan	Grammatical theory: From transformational grammar to constraint-based approaches	2023
