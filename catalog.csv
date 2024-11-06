@@ -4,7 +4,7 @@ ID	DOI	edited	metalanguage	objectlanguage	license	superseded	pages	series	series
 18	10.17169/FUDOCS_document_000000019858	author	eng		CC-BY  4.0	False		Studies in Diversity Linguistics	1	Handschuh, Corinna	A typology of marked-S languages	2014
 19	10.17169/langsci.b19.294	author	eng		CC-BY  4.0	False		Studies in Diversity Linguistics	2	Rießler, Michael	Adjective attribution	2016
 20	10.17169/langsci.b20.102	author	eng		CC-BY  4.0	False		Empirically Oriented Theoretical Morphology and Syntax	1	Lichte, Timm	Syntax und Valenz: Zur Modellierung kohärenter und elliptischer Strukturen mit Baumadjunktionsgrammatiken	2015
-22	10.17169/FUDOCS_document_000000020993	author	eng		CC-BY  4.0	True		Studies in Diversity Linguistics	3	Klamer, Marian	The Alor-Pantar languages: History and typology	2015
+22	10.17169/FUDOCS_document_000000020993	editor	eng		CC-BY  4.0	True		Studies in Diversity Linguistics	3	Klamer, Marian 	The Alor-Pantar languages: History and typology	2015
 25	10.17169/langsci.b25.167	author	eng		CC-BY  4.0	True		Textbooks in Language Sciences	1	Müller, Stefan	Grammatical theory: From transformational grammar to constraint-based approaches	2018
 27	10.5281/zenodo.573753	author	fra		CC-BY  4.0	False		Empirically Oriented Theoretical Morphology and Syntax	2	Bîlbîie, Gabriela	Grammaire des constructions elliptiques: Une étude comparative des phrases sans verbe en roumain et en français	2017
 46	10.17169/FUDOCS_document_000000022241	author	eng		CC-BY  4.0	True		Textbooks in Language Sciences	2	Schäfer, Roland	Einführung in die grammatische Beschreibung des Deutschen	2015
@@ -26,11 +26,11 @@ ID	DOI	edited	metalanguage	objectlanguage	license	superseded	pages	series	series
 82	10.17169/langsci.b82.85	author	eng	phal1254	CC-BY  4.0	False		Studies in Diversity Linguistics	8	Liljegren, Henrik	A grammar of Palula	2016
 83	10.5281/zenodo.376355	author	eng		CC-BY  4.0	False		Studies in Diversity Linguistics	9	Shimelman, Aviva	A grammar of Yauyos Quechua	2017
 85	10.5281/zenodo.2546450	author	eng	fern1234	CC-BY  4.0	False		Studies in Diversity Linguistics	23	Yakpo, Kofi	A grammar of Pichi	2019
-88		author	eng		CC-BY  4.0	False		Classics in Linguistics	1	Lehmann, Christian	Thoughts on grammaticalization	2015
+88	10.5281/zenodo.7520796	author	eng		CC-BY  4.0	False		Classics in Linguistics	1	Lehmann, Christian	Thoughts on grammaticalization	2015
 89	10.17169/langsci.b89.100	author	eng		CC-BY  4.0	False		Classics in Linguistics	2	Schütze, Carson T.	The empirical base of linguistics: Grammaticality judgments and linguistic methodology	2016
 91	10.17169/langsci.b91.109	author	eng		CC-BY  4.0	False		Classics in Linguistics	3	Bickerton, Derek	Roots of language	2016
 94	10.17169/langsci.b94.118	editor	eng		CC-BY  4.0	False		Studies in Diversity Linguistics	10	Rudin, Catherine & Gordon, Bryan James 	Advances in the study of Siouan languages and linguistics	2016
-96	10.5281/zenodo.573773	author	eng		CC-BY  4.0	False		Studies in Diversity Linguistics	14	Enfield, N. J.	Dependencies in language: On the causal ontology of linguistic systems	2017
+96	10.5281/zenodo.573773	editor	eng		CC-BY  4.0	False		Studies in Diversity Linguistics	14	Enfield, N. J. 	Dependencies in language: On the causal ontology of linguistic systems	2017
 97	10.17169/langsci.b97.143	author	eng		CC-BY  4.0	False		Classics in Linguistics	4	von der Gabelentz, Georg & McElvenny, James & Ringmacher, Manfred	Die Sprachwissenschaft: Ihre Aufgaben, Methoden und bisherigen Ergebnisse	2016
 98	10.5281/zenodo.344792	author	eng	ikkk1242	CC-BY  4.0	False		African Language Grammars and Dictionaries	1	Schrock, Terrill	The Ik language: Dictionary and grammar sketch	2017
 101	10.17169/langsci.b101.186	author	deu		CC-BY  4.0	True		Textbooks in Language Sciences	2	Schäfer, Roland	Einführung in die grammatische Beschreibung des Deutschen: Zweite, überarbeitete Auflage	2016
@@ -44,7 +44,7 @@ ID	DOI	edited	metalanguage	objectlanguage	license	superseded	pages	series	series
 115	10.5281/zenodo.1115573	editor	eng		CC-BY  4.0	False		Open Generative Syntax	2	Sheehan, Michelle & Bailey, Laura R. 	Order and structure in syntax II: Subjecthood and argument structure	2017
 116	10.17169/langsci.b116.259	author	deu		CC-BY  4.0	False		Language Variation	2	Schäfer, Lea	Sprachliche Imitation: Jiddisch in der deutschsprachigen Literatur (18.-20. Jahrhundert)	2017
 118	10.5281/zenodo.824016	author	eng	molo1266	CC-BY  4.0	False		African Language Grammars and Dictionaries	3	Friesen, Dianne	A grammar of Moloko	2017
-120	10.5281/zenodo.1219141	editor	eng		CC-BY  4.0	False		Contemporary African Linguistics	3	Kandybowicz, Jason & Major, Travis & Torrence, Harold 	African linguistics on the prairie: Selected papers from the 45th Annual Conference on African Linguistics	2018
+120	10.5281/zenodo.1219141	editor	eng		CC-BY  4.0	False		Contemporary African Linguistics	3	Kandybowicz, Jason & Major, Travis & Torrence, Harold & Duncan, Philip T. 	African linguistics on the prairie: Selected papers from the 45th Annual Conference on African Linguistics	2018
 121	10.17169/langsci.b121.280	editor	eng		CC-BY  4.0	False		Contemporary African Linguistics	1	Payne, Doris L. & Pacchiarotti, Sara & Bosire, Mokaya 	Diversity in African languages: Selected papers from the 46th Annual Conference on African Linguistics	2017
 123	10.5281/zenodo.1182527	author	eng		CC-BY  4.0	False		Studies in Diversity Linguistics	15	Gutman, Ariel	Attributive constructions in North-Eastern Neo-Aramaic	2018
 124	10.5281/zenodo.235525	author	eng	rapa1244	CC-BY  4.0	False		Studies in Diversity Linguistics	12	Kieviet, Paulus	A grammar of Rapa Nui	2017
@@ -64,7 +64,7 @@ ID	DOI	edited	metalanguage	objectlanguage	license	superseded	pages	series	series
 154	10.5281/zenodo.1188764	author	eng		CC-BY  4.0	False		Studies in Laboratory Phonology	4	Mücke, Doris	Dynamische Modellierung von Artikulation und prosodischer Struktur: Eine Einführung in die Artikulatorische Phonologie	2017
 155	10.5281/zenodo.1346245	author	deu		CC-BY  4.0	False		Studies in Laboratory Phonology	5	Bergmann, Pia	Morphologisch komplexe Wörter: Prosodische Struktur und phonetische Realisierung	2018
 156	10.5281/zenodo.885113	editor	eng		CC-BY  4.0	False		Morphological Investigations	1	Trips, Carola & Kornfilt, Jaklin 	Further investigations into the nature of phrasal compounding	2017
-157	10.5281/zenodo.437098	author	eng		CC-BY  4.0	False		Studies in Diversity Linguistics	3	Klamer, Marian	The Alor-Pantar languages: History and typology. Second edition.	2017
+157	10.5281/zenodo.437098	editor	eng		CC-BY  4.0	False		Studies in Diversity Linguistics	3	Klamer, Marian 	The Alor-Pantar languages: History and typology. Second edition.	2017
 159	10.5281/zenodo.1117686	editor	eng		CC-BY  4.0	False		Open Generative Syntax	1	Bailey, Laura R. & Sheehan, Michelle 	Order and structure in syntax I: Word order and syntactic structure	2017
 160	10.5281/zenodo.889261	editor	por		CC-BY  4.0	False		Textbooks in Language Sciences	3	Freitas, Maria João & Santos, Ana Lúcia 	A aquisição de língua materna e não materna: Questões gerais e dados do Português	2017
 163	10.5281/zenodo.1441351	author	eng		CC-BY  4.0	False		Conceptual Foundations of Language Science	2	Müller, Stefan	A lexicalist account of argument structure: Template-based phrasal LFG approaches and a lexical HPSG alternative	2018
@@ -76,7 +76,7 @@ ID	DOI	edited	metalanguage	objectlanguage	license	superseded	pages	series	series
 175	10.5281/zenodo.1244028	author	eng		CC-BY  4.0	False		Topics at the Grammar-Discourse Interface	2	Müller, Sonja	Distribution und Interpretation von Modalpartikel-Kombinationen	2017
 176	10.5281/zenodo.1296780	author	eng		CC-BY  4.0	False		Translation and Multilingual Natural Language Processing	10	Moran, Steven & Cysouw, Michael	The Unicode cookbook for linguists: Managing writing systems using orthography profiles	2018
 177	10.5281/zenodo.3950146	author	cmn		CC-BY  4.0	False		Textbooks in Language Sciences	8	Müller, Stefan	语法理论: 从转换语法到基于约束的理论	2020
-178	10.5281/zenodo.4291753	author	eng		CC-BY  4.0	False		Topics at the Grammar-Discourse Interface	8	Nakagawa, Natsuko	Information structure in spoken Japanese: Particles, word order, and intonation	2017
+178	10.5281/zenodo.4291753	author	eng		CC-BY  4.0	False		Topics at the Grammar-Discourse Interface	8	Nakagawa, Natsuko	Information structure in spoken Japanese: Particles, word order, and intonation	2020
 179		author	eng		CC-BY  4.0	False		Studies in Caribbean Languages	3	Sherriah, André	A tale of two dialect regions: Sranan's 17th-century English input	2018
 180	10.5281/zenodo.1300630	editor	eng		CC-BY  4.0	False		EuroSLA Studies	1	Pérez Vidal, Carmen & López-Serrano, Sonia & Ament, Jennifer & Thomas-Wilhelm, Dakota J. 	Learning context effects: Study abroad, formal instruction and international immersion classrooms	2017
 181	10.5281/zenodo.1048173	editor	eng		CC-BY  4.0	False		Translation and Multilingual Natural Language Processing	8	Svoboda, Tomáš & Biel, Łucja & Łoboda, Krzysztof 	Quality aspects in institutional translation	2017
@@ -86,7 +86,7 @@ ID	DOI	edited	metalanguage	objectlanguage	license	superseded	pages	series	series
 186	10.5281/zenodo.3191825	author	eng		CC-BY  4.0	False		Empirically Oriented Theoretical Morphology and Syntax	5	Guzmán Naranjo, Matías	Analogical classification in formal grammar	2018
 187	10.5281/zenodo.1180721	author	eng		CC-BY  4.0	False		Translation and Multilingual Natural Language Processing	9	Fox, Wendy	Can integrated titles improve the viewing experience?: Investigating the impact of subtitling on the reception and enjoyment of film using eye tracking and questionnaire data	2018
 189	10.5281/zenodo.2546440	editor	eng		CC-BY  4.0	False		Open Slavic Linguistics	1	Lenertová, Denisa & Meyer, Roland & Šimík, Radek & Szucsich, Luka 	Advances in formal Slavic linguistics 2016	2018
-190	10.5281/zenodo.1314306	author	eng		CC-BY  4.0	False		Niger-Congo Comparative Studies	1	Watters, John R.	East Benue-Congo: Nouns, pronouns, and verbs	2017
+190	10.5281/zenodo.1314306	editor	eng		CC-BY  4.0	False		Niger-Congo Comparative Studies	1	Watters, John R. 	East Benue-Congo: Nouns, pronouns, and verbs	2017
 191	10.5281/zenodo.1311704	author	eng		CC-BY  4.0	False		Niger-Congo Comparative Studies	2	Pozdniakov, Konstantin	The numeral system of Proto-Niger-Congo: A step-by-step reconstruction	2018
 192	10.5281/zenodo.3365789	editor	eng		CC-BY  4.0	False		Contemporary African Linguistics	4	Clem, Emily & Jenks, Peter & Sande, Hannah 	Theory and description in African Linguistics: Selected papers from the 47th Annual Conference on African Linguistics	2018
 193	10.5281/zenodo.1211896	author	eng		CC-BY  4.0	False		Open Generative Syntax	3	Bacskai-Atkari, Julia	Deletion phenomena in comparative constructions: English comparatives in a cross-linguistic perspective	2018
@@ -100,19 +100,19 @@ ID	DOI	edited	metalanguage	objectlanguage	license	superseded	pages	series	series
 202	10.5281/zenodo.2579017	editor	eng		CC-BY  4.0	False		Phraseology and Multiword Expressions	3	Parmentier, Yannick & Waszczuk, Jakub 	Representation and parsing of multiword expressions: Current trends	2019
 203	10.5281/zenodo.1306618	author	eng		CC-BY  4.0	False		Studies in Caribbean Languages	1	Irvine-Sobers, G. Alison	The acrolect in Jamaica: The architecture of phonological variation	2018
 204	10.5281/zenodo.1469527	editor	eng		CC-BY  4.0	False		Phraseology and Multiword Expressions	2	Markantonatou, Stella & Ramisch, Carlos & Savary, Agata & Vincze, Veronika 	Multiword expressions at length and in depth: Extended papers from the MWE 2017 workshop	2018
-209	10.5281/zenodo.1493281	author	eng		CC-BY  4.0	False		Translation and Multilingual Natural Language Processing	11	Fantinuoli, Claudio	Interpreting and technology	2018
+209	10.5281/zenodo.1493281	editor	eng		CC-BY  4.0	False		Translation and Multilingual Natural Language Processing	11	Fantinuoli, Claudio 	Interpreting and technology	2018
 210	10.5281/zenodo.1451308	author	eng		CC-BY  4.0	False		Language Variation	3	Juskan, Marten	Sound change, priming, salience: Producing and perceiving variation in Liverpool English	2018
 212	10.5281/zenodo.1477799	author	eng	wara1294	CC-BY  4.0	False		Studies in Diversity Linguistics	22	Döhler, Christian	A grammar of Komnzo	2018
 213	10.5281/zenodo.3546018	author	eng		CC-BY  4.0	False		Studies in Diversity Linguistics	28	Unterladstetter, Volker	Multi-verb constructions in Eastern Indonesia	2019
-214	10.5281/zenodo.2654375	author	eng		CC-BY  4.0	False		History and Philosophy of the Language Sciences	1	McElvenny, James	Form and formalism in linguistics	2019
+214	10.5281/zenodo.2654375	editor	eng		CC-BY  4.0	False		History and Philosophy of the Language Sciences	1	McElvenny, James 	Form and formalism in linguistics	2019
 215	10.5281/zenodo.2640704	editor	eng		CC-BY  4.0	False		Open Generative Syntax	4	Franco, Ludovico & Marchis Moreno, Mihaela & Reeve, Matthew 	Agreement, case and locality in the nominal and verbal domains	2019
-216	10.5281/zenodo.2563698	author	eng		CC-BY  4.0	False		Studies in Diversity Linguistics	24	Guérin, Valérie	Bridging constructions	2018
+216	10.5281/zenodo.2563698	editor	eng		CC-BY  4.0	False		Studies in Diversity Linguistics	24	Guérin, Valérie 	Bridging constructions	2018
 219	10.5281/zenodo.2538324	author	eng		CC-BY  4.0	False		Topics at the Grammar-Discourse Interface	3	Bueno Holle, Juan José	Information structure in Isthmus Zapotec narrative and conversation	2019
 220	10.5281/zenodo.2583788	editor	eng		CC-BY  4.0	False		Conceptual Foundations of Language Science	3	Schmidtke-Bode, Karsten & Levshina, Natalia & Michaelis, Susanne Maria & Seržant, Ilja 	Explanation in typology: Diachronic sources, functional motivations and the nature of the evidence	2018
 221	10.5281/zenodo.3232849	author	eng		CC-BY  4.0	False		Studies in Laboratory Phonology	8	Ben Hedia, Sonia	Gemination and degemination in English affixation: Investigating the interplay between morphology, phonology and phonetics	2019
 223	10.5281/zenodo.3446224	editor	eng		CC-BY  4.0	False		Studies in Diversity Linguistics	26	Di Garbo, Francesca & Olsson, Bruno & Wälchli, Bernhard 	Grammatical gender and linguistic complexity I: General issues and specific studies	2019
 224	10.5281/zenodo.1421660	author	eng		CC-BY  4.0	False		Textbooks in Language Sciences	2	Schäfer, Roland	Einführung in die grammatische Beschreibung des Deutschen: Dritte, überarbeitete und erweiterte Auflage	2018
-225	10.5281/zenodo.3374730	editor	eng	mege1234	CC-BY  4.0	False		Languages of the Caucasus	1	Daniel, Michael & Dobrushina, Nina & Ganenkov, Dmitry 	The Mehweb language: Essays on phonology, morphology and syntax	2018
+225	10.5281/zenodo.3374730	editor	eng	mege1234	CC-BY  4.0	False		Languages of the Caucasus	1	Daniel, Michael & Dobrushina, Nina & Ganenkov, Dmitry 	The Mehweb language: Essays on phonology, morphology and syntax	2019
 226	10.5281/zenodo.3520612	editor	eng		CC-BY  4.0	False		Contemporary African Linguistics	5	Lotven, Samson & Bongiovanni, Silvina & Weirich, Phillip & Botne, Robert & Obeng, Samuel Gyasi 	African linguistics across the disciplines: Selected papers from the 48th Annual Conference on African Linguistics	2018
 227	10.5281/zenodo.3265959	editor	eng		CC-BY  4.0	False		Studies in Diversity Linguistics	25	Aguilar-Guevara, Ana & Pozas Loyo, Julia & Vázquez-Rojas Maldonado, Violeta 	Definiteness across languages	2019
 228	10.5281/zenodo.3700413	author	eng	amar1273	CC-BY  4.0	False		Studies in Diversity Linguistics	29	Edwards, Owen	Metathesis and unmetathesis in Amarasi	2020
@@ -130,7 +130,7 @@ ID	DOI	edited	metalanguage	objectlanguage	license	superseded	pages	series	series
 248	10.5281/zenodo.3243924	author	eng		CC-BY  4.0	False		Topics at the Grammar-Discourse Interface	4	Parikh, Prashant	Communication and content	2019
 249	10.5281/zenodo.3268721	author	eng		CC-BY  4.0	False		Studies in Laboratory Phonology	9	Easterday, Shelece	Highly complex syllable structure: A typological and diachronic study	2019
 250	10.5281/zenodo.3339225	author	eng	sanz1248	CC-BY  4.0	False		Languages of the Caucasus	2	Forker, Diana	A grammar of Sanzhi Dargwa	2019
-251	10.5281/zenodo.3264909	author	eng		CC-BY  4.0	False		Conceptual Foundations of Language Science	4	Morley, Rebecca L.	Sound structure and sound change: A modeling approach	2019
+251	10.5281/zenodo.3264909	author	eng		CC-BY  4.0	True		Conceptual Foundations of Language Science	4	Morley, Rebecca L.	Sound structure and sound change: A modeling approach	2019
 252	10.5281/zenodo.3929261	editor	eng		CC-BY  4.0	False		Topics at the Grammar-Discourse Interface	7	Gergel, Remus & Watkins, Jonathan 	Quantification and scales in change	2019
 253	10.5281/zenodo.3478142	author	eng		CC-BY  4.0	False		History and Philosophy of the Language Sciences	2	Van Rooy, Raf	Greece’s labyrinth of language: A study in the early modern discovery of dialect diversity	2020
 254	10.5281/zenodo.3528036	editor	eng		CC-BY  4.0	False		Open Generative Syntax	6	Smith, Peter W. & Mursell, Johannes & Hartmann, Katharina 	Agree to Agree: Agreement in the Minimalist Programme	2020
@@ -160,26 +160,26 @@ ID	DOI	edited	metalanguage	objectlanguage	license	superseded	pages	series	series
 284	10.5281/zenodo.7861660	editor	eng		CC-BY  4.0	False		Research on Comparative Grammar	3	Janic, Katarzyna & Puddu, Nicoletta & Haspelmath, Martin 	Reflexive constructions in the world's languages	2023
 286	10.5281/zenodo.4269397	editor	eng		CC-BY  4.0	False		History and Philosophy of the Language Sciences	3	Aussant, Émilie & Fortis, Jean-Michel 	Historical journey in a linguistic archipelago: Descriptive concepts and case studies	2020
 287	10.5281/zenodo.3992307	author	eng	nyak1261	CC-BY  4.0	True		Textbooks in Language Sciences	1	Müller, Stefan	Grammatical theory: From transformational grammar to constraint-based approaches. Fourth revised and extended edition	2020
-288	10.5281/zenodo.4544686	author	eng		CC-BY  4.0	False		Translation and Multilingual Natural Language Processing	15	Tra&Co  Group, ᠎	Translation, interpreting, cognition: The way out of the box	2021
+288	10.5281/zenodo.4544686	editor	eng		CC-BY  4.0	False		Translation and Multilingual Natural Language Processing	15	Tra&Co  Group, ᠎ 	Translation, interpreting, cognition: The way out of the box	2021
 289	10.5281/zenodo.5589446	author	eng		CC-BY  4.0	False		Contact and Multilingualism	3	Hakimov, Nikolay	Explaining Russian-German code-mixing: A usage-based approach	2021
 290	10.5281/zenodo.4449726	editor	eng		CC-BY  4.0	False		Contact and Multilingualism	2	Pinto, Jorge & Alexandre, Nélia 	Multilingualism and third language acquisition: Learning and teaching trends	2021
-291		editor	eng		CC-BY  4.0	False		Topics in Phonological Diversity		Tallman, Adam J. R. & Auderset, Sandra & Uchihara, Hiroto 	Constituency and convergence in the Americas	Forthcoming
-292		editor	eng		CC-BY  4.0	False		Studies in Diversity Linguistics		Enke, Dankmar W. & Hyman, Larry M. & Nichols, Johanna & Seiler, Guido & Weber, Thilo 	Language change for the worse	Forthcoming
+291	10.5281/zenodo.10559861	editor	eng		CC-BY  4.0	False		Topics in Phonological Diversity	1	Tallman, Adam J. R. & Auderset, Sandra & Uchihara, Hiroto 	Constituency and convergence in the Americas	2024
+292	10.5281/zenodo.5116353	editor	eng		CC-BY  4.0	False		Studies in Diversity Linguistics	33	Enke, Dankmar W. & Hyman, Larry M. & Nichols, Johanna & Seiler, Guido & Weber, Thilo & Hölzl, Andreas 	Language change for the worse	2024
 293	10.5281/zenodo.5578772	editor	eng		CC-BY  4.0	False		Contemporary African Linguistics	7	Akinlabi, Akinbiyi & Bickmore, Lee & Cahill, Michael & Diercks, Michael & Downing, Laura J & Essegbey, James & Franich, Katie & McPherson, Laura 	Celebrating 50 years of ACAL: Selected papers from the 50th Annual Conference on African Linguistics	2021
 295	10.5281/zenodo.4548232	author	eng	japh1234	CC-BY  4.0	False		Comprehensive Grammar Library	1	Jacques, Guillaume	A grammar of Japhug	2021
-296	10.5281/zenodo.4450014	author	eng		CC-BY  4.0	False		Translation and Multilingual Natural Language Processing	14	Bisiada, Mario	Empirical studies in translation and discourse	2021
+296	10.5281/zenodo.4450014	editor	eng		CC-BY  4.0	False		Translation and Multilingual Natural Language Processing	14	Bisiada, Mario 	Empirical studies in translation and discourse	2021
 297	10.5281/zenodo.4287412	author	eng		CC-BY  4.0	False		Contemporary African Linguistics	2	Persohn, Bastian	The  Verb in Nyakyusa: A focus on tense, aspect, and modality (Second edition)	2020
 298	10.5281/zenodo.4737370	author	eng	gyel1242	CC-BY  4.0	False		Comprehensive Grammar Library	2	Grimm, Nadine	A grammar of Gyeli	2021
 299	10.5281/zenodo.4456792	author	eng		CC-BY  4.0	False		Current Issues in Bilingualism	1	Shim, Ji Young	OV and VO variation in code-switching	2021
 302	10.5281/zenodo.6602539	editor	eng		CC-BY  4.0	False		Contact and Multilingualism	5	Migge, Bettina & Gooden, Shelome 	Social and structural aspects of language contact and change	2022
 303	10.5281/zenodo.5040241	editor	eng		CC-BY  4.0	False		Language Variation	6	Tahmasebi, Nina & Borin, Lars & Jatowt, Adam & Xu, Yang & Hengchen, Simon 	Computational approaches to semantic change	2021
 304	10.5281/zenodo.4727623	editor	eng		CC-BY  4.0	False		Phraseology and Multiword Expressions	5	Trklja, Aleksandar & Grabowski, Łukasz 	Formulaic language: Theories and methods	2021
-305	10.5281/zenodo.4954364	author	eng		CC-BY  4.0	False		Language Variation	5	Zimmer, Christian	German(ic) in language contact: Grammatical and sociolinguistic dynamics	2021
+305	10.5281/zenodo.4954364	editor	eng		CC-BY  4.0	False		Language Variation	5	Zimmer, Christian 	German(ic) in language contact: Grammatical and sociolinguistic dynamics	2021
 306	10.5281/zenodo.6358613	editor	eng		CC-BY  4.0	False		Contemporary African Linguistics	6	Sibanda, Galen & Ngonyani, Deo & Choti, Jonathan & Biersteker, Ann 	Descriptive and theoretical approaches to African linguistics: Selected papers from the 49th Annual Conference on African Linguistics	2022
 307	10.5281/zenodo.6306474	editor	eng		CC-BY  4.0	False		Research on Comparative Grammar	2	Veselinova, Ljuba & Hamari, Arja 	The Negative Existential Cycle	2022
 308	10.5281/zenodo.5137647	author	eng	surs1245	CC-BY  4.0	False		Comprehensive Grammar Library	3	Maurer-Cecchini, Philippe	A grammar of Tuatschin: A Sursilvan Romansh dialect	2021
 311	10.5281/zenodo.5142265	editor	eng		CC-BY  4.0	False		History and Philosophy of the Language Sciences	4	McElvenny, James & Ploder, Andrea 	Holisms of communication: The early history of audio-visual sequence analysis	2021
-312		author	eng		CC-BY  4.0	False		Empirically Oriented Theoretical Morphology and Syntax		Dalrymple, Mary	The Handbook of Lexical Functional Grammar	Forthcoming
+312	10.5281/zenodo.10037797	editor	eng		CC-BY  4.0	False		Empirically Oriented Theoretical Morphology and Syntax	13	Dalrymple, Mary 	Handbook of Lexical Functional Grammar	2023
 313	10.5281/zenodo.5378471	editor	eng		CC-BY  4.0	False		EuroSLA Studies	5	Berthele, Raphael & Udry, Isabelle 	Individual differences in early instructed language learning: The role of language aptitude, cognition, and motivation	2021
 315	10.5281/zenodo.5948872	author	eng		CC-BY  4.0	False		Research on Comparative Grammar	1	Bahrt, Nicklas N.	Voice syncretism	2021
 316	10.5281/zenodo.5082006	editor	eng		CC-BY  4.0	False		Open Slavic Linguistics	5	Dočekal, Mojmír & Wągiel, Marcin 	Formal approaches to number in Slavic and beyond	2021
@@ -194,22 +194,22 @@ ID	DOI	edited	metalanguage	objectlanguage	license	superseded	pages	series	series
 326	10.5281/zenodo.5548947	author	eng	ruul1235	CC-BY  4.0	False		African Language Grammars and Dictionaries	5	Namyalo, Saudah & Witzlack-Makarevich, Alena & Kiriggwajjo, Anatole & Atuhairwe, Amos & Molochieva, Zarina & Mukama, Ruth Gimbo  & Zellers, Margaret	A dictionary and grammatical sketch of Ruruuli-Lunyala	2021
 327	10.5281/zenodo.5509618	author	eng		CC-BY  4.0	False		History and Philosophy of the Language Sciences	5	Anderson, Stephen R. 	Phonology in the Twentieth Century : Second edition, revised and expanded	2021
 329	10.5281/zenodo.5482405	editor	eng	swed1254	CC-BY  4.0	False		Open Germanic Linguistics	2	Larsson, Ida & Petzell, Erik M. 	Morphosyntactic change in Late Modern Swedish	2021
-330		author	eng		CC-BY  4.0	False		History and Philosophy of the Language Sciences		Stockigt, Clara	Australian Pama­-Nyungan languages: Lineages of early description	Forthcoming
+330	10.5281/10.5281/zenodo.13880534	author	eng		CC-BY  4.0	False		History and Philosophy of the Language Sciences	8	Stockigt, Clara	Australian Pama­-Nyungan languages: Lineages of early description	2024
 331	10.5281/zenodo.7185567	author	eng		CC-BY  4.0	False		Open Germanic Linguistics	3	Hall, Tracy Alan	Velar fronting in German dialects:  A study in synchronic and diachronic phonology	2022
 332	10.5281/zenodo.7442323	editor	eng		CC-BY  4.0	False		Contact and Multilingualism	6	Coler, Matt & Nevins, Andrew 	Contemporary research in minoritized and diaspora languages of Europe	2022
 333	10.5281/zenodo.6535786	editor	eng		CC-BY  4.0	False		Current Issues in Bilingualism	2	Rodríguez González, Eva & Rivera, Rosita L.  	Language assessment in multilingual settings: Innovative practices across formal and informal environments	2022
 334	10.5281/zenodo.6546419	editor	eng		CC-BY  4.0	False		Conceptual Foundations of Language Science	8	Lund, Kristine & Basso Fossali , Pierluigi & Mazur, Audrey &  Ollagnier-Beldame, Magali 	Language is a complex adaptive system: Explorations and evidence	2022
 335		author	eng		CC-BY  4.0	False		Textbooks in Language Sciences		Vaissière, Jacqueline	Phonetic sciences: A short introduction	Forthcoming
 336	10.5281/zenodo.6973523	editor	eng		CC-BY  4.0	False		Empirically Oriented Theoretical Morphology and Syntax	11	Freywald, Ulrike & Simon, Horst J. & Müller, Stefan 	Headedness and/or grammatical anarchy?	2022
-339	10.5281/zenodo.5792972	author	eng		CC-BY  4.0	False		Open Slavic Linguistics	7	Kolaković, Zrinka & Jurkiewicz-Rohrbacher, Edyta & Hansen, Björn & Filipović Đurđević, Dušica & Fritz, Nataša	Clitics in the wild : Empirical studies on the microvariation of the pronominal, reflexive and verbal clitics in Bosnian, Croatian and Serbian.	2022
+339	10.5281/zenodo.5792972	author	eng		CC-BY  4.0	False		Open Slavic Linguistics	7	Kolaković, Zrinka & Jurkiewicz-Rohrbacher, Edyta & Hansen, Björn & Filipović Đurđević, Dušica & Fritz, Nataša	Clitics in the wild: Empirical studies on the microvariation of the pronominal, reflexive and verbal clitics in Bosnian, Croatian and Serbian.	2022
 340	10.5281/zenodo.5902971	author	deu		CC-BY  4.0	False		Translation and Multilingual Natural Language Processing	17	Hoberg, Felix	Informationsintegration in mehrsprachigen Textchats: Der Skype Translator im Sprachenpaar Katalanisch-Deutsch	2022
 341	10.5281/zenodo.6207627	author	eng		CC-BY  4.0	False		Language Variation	7	Paulsen, Ingrid	The  emergence of American English as a discursive variety : Tracing enregisterment processes in nineteenth-century U.S. newspapers	2022
-342	10.5281/zenodo.6653406	author	eng		CC-BY  4.0	False		Translation and Multilingual Natural Language Processing	18	Kenny, Dorothy	Machine translation for everyone: Empowering users in the age of artificial intelligence	2022
+342	10.5281/zenodo.6653406	editor	eng		CC-BY  4.0	False		Translation and Multilingual Natural Language Processing	18	Kenny, Dorothy 	Machine translation for everyone: Empowering users in the age of artificial intelligence	2022
 343	10.5281/zenodo.6976930	editor	eng		CC-BY  4.0	False		Translation and Multilingual Natural Language Processing	19	Kajzer-Wietrzny, Marta & Ferraresi, Adriano & Ivaska, Ilmari & Bernardini, Silvia 	Mediated discourse at the European Parliament: Empirical investigations	2022
 344	10.5281/zenodo.6499927	author	eng	kara1499	CC-BY  4.0	False		Comprehensive Grammar Library	4	Visser, Eline	A grammar of Kalamang	2022
-345		editor	eng		CC-BY  4.0	False		Contact and Multilingualism		Pfadenhauer, Katrin & Rüdiger, Sofia & Serreli, Valentina 	Global and local perspectives on language contact	Forthcoming
+345	10.5281/zenodo.10438503	editor	eng		CC-BY  4.0	False		Contact and Multilingualism	7	Pfadenhauer, Katrin & Rüdiger, Sofia & Serreli, Valentina 	Global and local perspectives on language contact	2024
 346	10.5281/zenodo.6560337	author	eng	stan1293	CC-BY  4.0	False		Textbooks in Language Sciences	9	Hejná, Míša & Walkden, George	A history of English	2022
-347		editor	eng		CC-BY  4.0	False		Open Generative Syntax		Shen, Zheng & Laszakovits, Sabine 	The size of things II: Movement, features, and interpretation	Forthcoming
+347	10.5281/zenodo.6458306	editor	eng		CC-BY  4.0	False		Open Generative Syntax	13	Shen, Zheng & Laszakovits, Sabine 	The size of things II: Movement, features, and interpretation	2023
 348	10.5281/zenodo.7143055.	author	eng		CC-BY  4.0	False		Translation and Multilingual Natural Language Processing	22	Prandi, Bianca	Computer-assisted simultaneous interpreting: A cognitive-experimental study on terminology	2023
 349	10.5281/zenodo.7915801	author	eng		CC-BY  4.0	False		Empirically Oriented Theoretical Morphology and Syntax	12	Kawaletz, Lea	The semantics of English -ment nominalizations	2023
 350	10.5281/zenodo.6907848	author	eng		CC-BY  4.0	True		Open Romance Linguistics	1	Kocher, Anna	Complementizers on edge: On the boundaries between syntax and pragmatics in Ibero-Romance	2022
@@ -220,13 +220,13 @@ ID	DOI	edited	metalanguage	objectlanguage	license	superseded	pages	series	series
 358	10.5281/zenodo.7197134	editor	por		CC-BY  4.0	True		Textbooks in Language Sciences	11	Freitas, Maria João & Lousada, Marisa & Alves, Dina Caetano 	Linguística clínica: Modelos, avaliação e intervenção	2022
 359	10.5281/zenodo.6855854	author	eng		CC-BY-SA 4.0	False		Textbooks in Language Sciences	5	Kroeger, Paul	Analyzing meaning: An introduction to semantics and pragmatics. Third edition	2022
 360	10.5281/zenodo.6811427	editor	eng		CC-BY  4.0	False		EuroSLA Studies	6	McManus, Kevin & Schmid, Monika S. 	How special are early birds?: Foreign language teaching and learning	2022
-361	10.5281/zenodo.7092391	author	eng		CC-BY  4.0	False		History and Philosophy of the Language Sciences	6	McElvenny, James	Interviews in the history of linguistics: Volume I	2022
-362		author	eng		CC-BY  4.0	False		Empirically Oriented Theoretical Morphology and Syntax		Winckel, Elodie	French subject islands: Empirical and formal approaches	Forthcoming
-363		author	eng		CC-BY  4.0	False		Open Germanic Linguistics		Nickel, Grit	Nominale Flexionsmorphologie in den ostoberdeutschen Dialekten Bayerns	Forthcoming
+361	10.5281/zenodo.7092391	editor	eng		CC-BY  4.0	False		History and Philosophy of the Language Sciences	6	McElvenny, James 	Interviews in the history of linguistics: Volume I	2022
+362	10.5281/zenodo.11635096	author	eng		CC-BY  4.0	False		Empirically Oriented Theoretical Morphology and Syntax	14	Winckel, Elodie	French subject islands: Empirical and formal approaches	2024
+363	10.5281/zenodo.8094348	author	deu		CC-BY  4.0	False		Open Germanic Linguistics	6	Nickel, Grit	Nominale Flexionsmorphologie in den ostoberdeutschen Dialekten Bayerns	2023
 365	10.5281/zenodo.7267830	author	eng		CC-BY  4.0	False		Studies in Laboratory Phonology	11	Schmitz, Dominic	Production, perception, and comprehension of subphonemic detail: Word-Final /s/ in English	2022
 366	10.5281/zenodo.7376351	author	eng		CC-BY  4.0	False		Translation and Multilingual Natural Language Processing	21	Frittella, Francesca Maria	Usability research for interpreter-centred technology: The case study of SmarTerp	2023
 369	10.5281/zenodo.7525084	editor	eng		CC-BY  4.0	False		Open Romance Linguistics	2	Bullock, Barbara E. & Russi, Cinzia & Toribio, Almeida Jacqueline 	A half century of Romance linguistics: Selected proceedings of the 50th Linguistic Symposium on Romance Languages	2023
-370	10.5281/zenodo.8375010	author	eng		CC-BY  4.0	False		Language Variation		Schützler, Ole	Concessive constructions in varieties of English	Forthcoming
+370	10.5281/zenodo.8375010	author	eng		CC-BY  4.0	False		Language Variation	9	Schützler, Ole	Concessive constructions in varieties of English	2023
 371	10.5281/zenodo.7031898	author	deu		CC-BY  4.0	False		Translation and Multilingual Natural Language Processing	20	Marzouk, Shaimaa	Sprachkontrolle im Spiegel der Maschinellen Übersetzung: Untersuchung zur Wechselwirkung ausgewählter Regeln der Kontrollierten Sprache mit verschiedenen Ansätzen der Maschinellen Übersetzung	2022
 372	10.5281/zenodo.8094859	author	eng	yaul1241	CC-BY  4.0	False		Comprehensive Grammar Library	6	Barlow, Russell	A grammar of Ulwa (Papua New Guinea)	2023
 373	10.5281/zenodo.7560553	editor	eng		CC-BY  4.0	False		Niger-Congo Comparative Studies	4	Bostoen, Koen & de Schryver, Gilles-Maurice & Guérois, Rozenn & Pacchiarotti, Sara 	On reconstructing Proto-Bantu grammar	2022
@@ -235,32 +235,45 @@ ID	DOI	edited	metalanguage	objectlanguage	license	superseded	pages	series	series
 379	10.5281/zenodo.7777469	editor	eng		CC-BY  4.0	False		Studies in Laboratory Phonology	12	Schubö, Fabian & Zerbian, Sabine & Hanne, Sandra & Wartenburger, Isabell 	Prosodic boundary phenomena	2023
 380	10.5281/zenodo.7376662	author	eng		CC-BY  4.0	False		Textbooks in Language Sciences	1	Müller, Stefan	Grammatical theory: From transformational grammar to constraint-based approaches	2023
 381	10.5281/zenodo.7837176	author	eng		CC-BY  4.0	False		Studies in Laboratory Phonology	13	Albert, Aviad	A model of sonority based on pitch intelligibility	2023
-383		editor	eng		CC-BY  4.0	False		Contemporary African Linguistics		Gibson, Hannah & Guérois, Rozenn & Mapunda, Gastor & Marten, Lutz 	Morphosyntactic variation in East African Bantu languages: Descriptive and comparative approaches	Forthcoming
+382	10.5281/zenodo.10259474	author	eng	ital1282	CC-BY  4.0	False		Open Romance Linguistics	6	Favaro, Marco	Modal particles in Italian: Adverbs of illocutionary modification and sociolinguistic variation	2023
+383	10.5281/zenodo.10453704	editor	eng		CC-BY  4.0	False		Contemporary African Linguistics	8	Gibson, Hannah & Guérois, Rozenn & Mapunda, Gastor & Marten, Lutz 	Morphosyntactic variation in East African Bantu languages: Descriptive and comparative approaches	2024
 384	10.5281/zenodo.8153997	author	eng		CC-BY  4.0	False		Open Romance Linguistics	5	Pešková, Andrea	L2 Spanish and Italian intonation: Accounting for the different patterns displayed by L1 Czech and German learners	2023
+385	10.5281/zenodo.14008766	author	eng	arme1241	CC-BY  4.0	False		Languages of the Caucasus	4	Dolatian, Hossep & Balabanian, George & Vaux, Bert & Adjarian, Hratchia	Adjarian’s Armenian dialectology (1911): Translation and commentary	Forthcoming
 387	10.5281/zenodo.7929375	author	eng		CC-BY  4.0	True		Open Romance Linguistics	3	Fliessbach, Jan	The intonation of expectations: On marked declaratives, exclamatives, and discourse particles in Castilian Spanish	2023
-389		editor	eng		CC-BY  4.0	False		Current Issues in Bilingualism		Polinsky, Maria & Putnam, Michael T. 	Formal approaches to complexity in heritage language grammars	Forthcoming
+389	10.5281/zenodo.12073160	editor	eng		CC-BY  4.0	False		Current Issues in Bilingualism	3	Polinsky, Maria & Putnam, Michael T. 	Formal approaches to complexity in heritage language grammars	2024
 391	10.5281/zenodo.8205597	author	eng		CC-BY  4.0	False		Open Germanic Linguistics	5	Bacskai-Atkari, Julia	The syntax of functional left peripheries: Clause typing in West Germanic and beyond	2023
 392		editor	eng		CC-BY  4.0	False		Contact and Multilingualism		Lamberti, Luana & Agostinho, Ana Lívia 	Afro-Iberian languages: Contact and sociohistory	Forthcoming
 393		editor	eng		CC-BY  4.0	False		Contact and Multilingualism		Alexiadou, Artemis & Scarvaglieri, Claudio & Schroeder, Christoph & Wiese, Heike 	The Construction of multilinguals as others: Do we practice what we preach?	Forthcoming
 395		editor	eng		CC-BY  4.0	False		Contact and Multilingualism		Haig, Geoffrey & Rasekh-Mahand, Mohammad & Stilo, Donald & Schreiber, Laurentia & Schiborr, Nils 	Post-predicate elements in the Western Asian Transition Zone: A corpus-based approach to areal typology	Forthcoming
 397		editor	eng		CC-BY  4.0	False		Advances in Historical Linguistics		Auer, Anita & Gordon, Moragh S. & Oudesluijs, Tino 	Exploring supralocalisation processes: Linguistic variation in Early Modern urban and regional spaces	Forthcoming
-398		author	eng		CC-BY  4.0	False		Estudios de Lingüística Amerindia / Estudos de Linguística Ameríndia / Studies of Amerindian Linguistics / Études de Linguistique Amérindienne	1	Dyck, Carrie & Froman, Frances & Keye, Alfred & Keye, Lottie	A grammar and dictionary of Gayogo̱hó:nǫˀ (Cayuga)	Forthcoming
-399		author	eng		CC-BY  4.0	False		History and Philosophy of the Language Sciences		Maxwell, Alexander & Van Rooy, Raf & Herkel, Ján	Elementa universalis linguae Slavicae : Translated with commentary and introductory essays by Raf Van Rooy and Alexander Maxwell	Forthcoming
-400		author	eng		CC-BY  4.0	False		Comprehensive Grammar Library		Terhart, Lena	A grammar of Paunaka	Forthcoming
-401		editor	eng		CC-BY  4.0	False		Language Variation		N. Andreassen, Helene & Pustka, Elissa 	French schwa: Phonological analysis in light of quantitative data	Forthcoming
-403		author	eng		CC-BY  4.0	False		African Language Grammars and Dictionaries		Childs, G. Tucker	A grammar of Sherbro	Forthcoming
-404	10.5281/zenodo.10069004	author	eng		CC-BY  4.0	False		Studies in Laboratory Phonology		Wehrle, Simon	Conversation and intonation in autism:  A multi-dimensional analysis	Forthcoming
-406		author	eng		CC-BY  4.0	False		Open Germanic Linguistics		Schmitt, Eleonore	Frequenz. Prototyp. Schema.: Ein gebrauchsbasierter Ansatz zur Entstehung grammatischer Varianten	Forthcoming
-407	10.5281/zenodo.10052722	author	eng		CC-BY  4.0	False		Studies in Caribbean Languages		Forrester, Clive	Intersections of language rights and social justice in the Caribbean context	Forthcoming
-408		editor	eng		CC-BY  4.0	False		Contemporary African Linguistics		Diercks, Michael & Essegbey, James & Henderson, Brent & McLaughlin, Fiona 	Pushing the boundaries: Selected papers from the 51-52 Annual Conference on African Linguistics	Forthcoming
-409		editor	eng		CC-BY  4.0	False		EuroSLA Studies		Granget,  Cyrille & Repiso, Isabel & Fon Sing, Guillaume 	Language, creoles, varieties: From emergence to transmission	Forthcoming
-410		author	eng		CC-BY  4.0	False		Conceptual Foundations of Language Science	4	Morley , Rebecca L. 	Sound structure and sound change: A modeling approach (Second revised edition)	Forthcoming
-411		editor	eng		CC-BY  4.0	False		Open Slavic Linguistics		Biskup, Petr & Börner, Marcel & Mueller-Reichau, Olav & Shcherbina, Iuliia 	Advances in formal Slavic linguistics 2021	Forthcoming
-413		author	eng		CC-BY  4.0	False		Topics in Phonological Diversity		Nikulin, Andrey & Carol, Javier	Historical phonology of Mataguayan	Forthcoming
-414		author	eng		CC-BY  4.0	False		Topics in Phonological Diversity		Bracks, Christoph	Compound Intonation Units in Totoli: Postlexical prosody  and the prosody-syntax interface	Forthcoming
+398	10.5281/zenodo.10473483	author	eng	cayu1261	CC-BY  4.0	False		Estudios de Lingüística Amerindia / Estudos de Linguística Ameríndia / Studies of Amerindian Linguistics / Études de Linguistique Amérindienne	1	Dyck, Carrie & Froman, Frances & Keye, Alfred & Keye, Lottie	A grammar and dictionary of Gayogo̱hó:nǫˀ (Cayuga)	2024
+399	10.5281/zenodo.13773949	author	eng		CC-BY  4.0	False		History and Philosophy of the Language Sciences	7	Maxwell, Alexander & Van Rooy, Raf & Herkel, Jan	Elementa universalis linguae Slavicae: Annotated translation with introductory essays by Raf Van Rooy and Alexander Maxwell	2024
+400	10.5281/zenodo.10517532	author	eng	paun1241	CC-BY  4.0	False		Comprehensive Grammar Library	7	Terhart, Lena	A grammar of Paunaka	2024
+401		editor	eng	stan1290	CC-BY  4.0	False		Language Variation		N. Andreassen, Helene & Pustka, Elissa 	French schwa: Phonological analysis in light of quantitative data	Forthcoming
+403		author	eng	sher1258	CC-BY  4.0	False		African Language Grammars and Dictionaries		Childs, G. Tucker	A grammar of Sherbro	Forthcoming
+404	10.5281/zenodo.10069004	author	eng		CC-BY  4.0	False		Studies in Laboratory Phonology	14	Wehrle, Simon	Conversation and intonation in autism:  A multi-dimensional analysis	2023
+406	10.5281/zenodo.8434909	author	deu		CC-BY  4.0	False		Open Germanic Linguistics	7	Schmitt, Eleonore	Frequenz. Prototyp. Schema.: Ein gebrauchsbasierter Ansatz zur Entstehung grammatischer Varianten	2023
+407	10.5281/zenodo.10052722	editor	eng		CC-BY  4.0	False		Studies in Caribbean Languages	5	Forrester, Clive 	Intersections of language rights and social justice in the Caribbean context	2023
+408	10.5281/zenodo.14017793	editor	eng		CC-BY  4.0	False		Contemporary African Linguistics		Essegbey, James & Henderson, Brent & McLaughlin, Fiona & Diercks, Michael 	Pushing the boundaries: Selected papers from the 51-52 Annual Conference on African Linguistics	Forthcoming
+409	10.5281/zenodo.10280493	editor	eng		CC-BY  4.0	False		EuroSLA Studies	7	Granget,  Cyrille & Repiso, Isabel & Fon Sing, Guillaume 	Language, creoles, varieties: From emergence to transmission	2023
+410	10.5281/zenodo.8123702	author	eng		CC-BY  4.0	False		Conceptual Foundations of Language Science	4	Morley, Rebecca L. 	Sound structure and sound change: A modeling approach (Second revised edition)	2023
+411	10.5281/zenodo.10078020	editor	eng		CC-BY  4.0	False		Open Slavic Linguistics	8	Biskup, Petr & Börner, Marcel & Mueller-Reichau, Olav & Shcherbina, Iuliia 	Advances in formal Slavic linguistics 2021	2023
+413	10.5281/zenodo.13907413	author	eng	mata1289	CC-BY  4.0	False		Topics in Phonological Diversity		Nikulin, Andrey & Carol, Javier	Historical phonology of Mataguayan	Forthcoming
+414	10.5281/zenodo.10559070	author	eng	toto1304	CC-BY  4.0	False		Topics in Phonological Diversity	2	Bracks, Christoph	Compound Intonation Units in Totoli: Postlexical prosody  and the prosody-syntax interface	2024
 415		editor	eng		CC-BY  4.0	False		Topics in Phonological Diversity		Kuznetsova, Natalia & Anderson, Cormac & Easterday, Shelece 	Rarities in phonetics and phonology: Structural, typological, evolutionary, and social dimensions	Forthcoming
-420		author	eng		CC-BY  4.0	False		Textbooks in Language Sciences		Neacșu, Vlad A.  	Linguistics Olympiad: Training guide	Forthcoming
-423		author	eng		CC-BY  4.0	False		Conceptual Foundations of Language Science		Wiese, Heike	Grammatical systems without language borders: Lessons from free-range language	Forthcoming
-427		editor	eng		CC-BY  4.0	False		Contemporary African Linguistics		Green, Christopher R. & Lotven,  Samson 	The Ghanaian linguistics nexus	Forthcoming
-430		editor	eng		CC-BY  4.0	False		Studies in Caribbean Languages		Bartens, Angela & Slomanson, Peter 	New research on Circum-Caribbean Creoles and language contact	Forthcoming
-431		author	eng		CC-BY  4.0	False		Advances in Historical Linguistics	1	Becker, Carsten	Gender Resolution bei mittelhochdeutsch beide: Eine Analyse im Rahmen der Lexical Functional Grammar	Forthcoming
+420	10.5281/zenodo.10947862	author	eng		CC-BY  4.0	False		Textbooks in Language Sciences	13	Neacșu, Vlad A.  	Linguistics Olympiad: Training guide	2024
+423	10.5281/zenodo.10276182	author	eng		CC-BY  4.0	False		Conceptual Foundations of Language Science	9	Wiese, Heike	Grammatical systems without language borders: Lessons from free-range language	2023
+427	10.5281/zenodo.10949012	editor	eng		CC-BY  4.0	False		Contemporary African Linguistics	9	Green, Christopher R. & Lotven,  Samson 	The Ghanaian linguistics nexus	2024
+430		editor	eng		CC-BY  4.0	False		Studies in Caribbean Languages		Bartens, Angela & Slomanson, Peter 	New research on circum-Caribbean creoles and language contact	Forthcoming
+431	10.5281/zenodo.10451456	author	deu	midd1343	CC-BY  4.0	False		Advances in Historical Linguistics	1	Becker, Carsten	Genusresolution bei mittelhochdeutsch beide: Eine Analyse im Rahmen der Lexical Functional Grammar	2024
+434	10.5281/zenodo.11351540	editor	eng		CC-BY  4.0	False		Empirically Oriented Theoretical Morphology and Syntax	15	Gibson, Edward & Poliak, Moshe 	From fieldwork to linguistic theory: A tribute to Dan Everett	2024
+435		editor	eng		CC-BY  4.0	False		Empirically Oriented Theoretical Morphology and Syntax		Benz, Anton & Frey, Werner & Gärtner, Hans-Martin & Krifka, Manfred & Schenner, Mathias & Żygis, Marzena 	Handbook of clausal embedding	Forthcoming
+436	10.5281/zenodo.10590737	editor	eng		CC-BY  4.0	False		Open Germanic Linguistics	8	Bech, Kristin & Pfaff, Alexander 	Noun phrases in early Germanic languages	2024
+438	10.5281/zenodo.11189852	editor	eng		CC-BY  4.0	False		Contemporary African Linguistics	11	Huang, Yaqian & Kaldhol, Nina Hagen & Lim, Jun Jie & Rose, Sharon & Struthers-Young, Anthony 	ACAL in SoCAL: Selected papers from the 53rd Annual Conference on African Linguistics	2024
+439	10.5281/zenodo.11381664	author	eng		CC-BY  4.0	False		Research on Comparative Grammar	4	Persohn, Bastian	The polyfunctionality of 'still' expressions: A cross-linguistic exploration	2024
+440	10.5281/zenodo.10949960	editor	eng		CC-BY  4.0	False		Phraseology and Multiword Expressions	6	Giouli, Voula & Barbu Mititelu, Verginica 	Multiword expressions in lexical resources: Linguistic, lexicographic, and computational perspectives	2024
+443	10.5281/zenodo.12755278	author	eng	kaga1256	CC-BY  4.0	False		Comprehensive Grammar Library	8	Pebley, Carol J. & Payne, Thomas E.	A grammar of Kagayanen	2024
+445	10.5281/zenodo.12606066	author	eng	vama1243	CC-BY  4.0	False		Comprehensive Grammar Library		Rohleder, Jean	A grammar of Vamale	Forthcoming
+446		author	eng	mand1446	CC-BY  4.0	False		Comprehensive Grammar Library		Kasak, Ryan	A grammar of Mandan	Forthcoming
+447		editor	eng		CC-BY  4.0	False		Language Variation		Wagner, Susanne & Stange-Hundsdörfer, Ulrike 	(Dia)Lects in the 21st Century: Selected Papers from Methods in Dialectology XVII	Forthcoming
+449	10.5281/zenodo.13644806	editor	eng		CC-BY  4.0	False		Open Romance Linguistics		Kellert, Olga  & Lauschus, Sebastian  & Rosemeyer, Malte 	Indefinites in Romance and beyond	Forthcoming
